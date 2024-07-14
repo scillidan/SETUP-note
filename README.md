@@ -2,7 +2,9 @@
 
 I generally use `Windows 10`, but I've been using `Arch`, `Ubuntu 22.04 ARM` recently. So I tried to write some `SETUP` scripts to configure some software on them.
 
-Before using, you can read `README.md` and `SETUP` scripts. I keep some comments in them, and `_` folder, which are useful `.log` content for me. Them are just still simple `.bat` or `.sh`. Your can write your own scripts.
+Before using, please read `README.md` and `SETUP` scripts. I keep some comments in them, and `_` folder, which are useful `.log` content for me. Them are just still simple `.bat` or `.sh`. Your can write your own scripts.
+
+And before you test the scripts, please back up your data!!
 
 ## For Me
 
