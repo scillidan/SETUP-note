@@ -1,0 +1,54 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Sat Nov 18 19:02:38 2023"
+  rime_version: 1.8.5
+patch:
+  menu:
+    page_size: 5
+  style:
+    color_scheme: tufte # dark_temple
+    # horizontal: true
+    display_tray_icon: true
+    font_face: "MonaspiceXe NFP + Sarasa Gothic SC + WFM Sans SC" # "Fusion Kai G"
+    font_point: 10
+    fullscreen: false
+    inline_preedit: false
+    # preedit_type: composition
+    # label_font_point: 10
+    # comment_font_point: 10
+    mouse_hover_ms: 0
+    paging_on_scroll: false
+    shadow_offset_x: 0
+    shadow_offset_y: 0
+    shadow_radius: 0
+    layout:
+      min_width: 70
+      border: 0
+      border_width: 0
+      candidate_spacing: 0
+      hilite_padding: 0
+      hilite_spacing: 0
+      margin_x: 0
+      margin_y: 0
+      round_corner: 0
+      spacing: 0
+      round_corner: 0
+      corner_radius: 0
+  preset_color_schemes:
+    tufte:
+      name: tufte
+      author: scillidan
+      text_color: 0x111111
+      back_color: 0xfffff8
+      hilited_text_color: 0x111111
+      hilited_back_color: 0xfffff8
+      hilited_candidate_text_color: 0xfffff8
+      hilited_candidate_back_color: 0x111111
+      candidate_text_color: 0x111111
+  # easy_en:
+  #   use_wordninja_rs_lua_module: true
+  #   wordninja_rs_lua_module_path: "D:/lib/wordninja-rs-lua/wordninja.dll"
+  engine:
+    filters: [uniquifier, "lua_filter@long_phrase_first"]

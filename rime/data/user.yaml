@@ -1,0 +1,12 @@
+var:
+  last_build_time: 1720955894
+  option:
+    ascii_punct: true
+    full_shape: false
+    simplification: true
+  previously_selected_schema: rime_ice
+  schema_access_time:
+    easy_en: 1700308446
+    english: 1711112517
+    luna_pinyin: 1700323462
+    rime_ice: 1713620293
