@@ -1,0 +1,9 @@
+# Cache
+
+**/watch_later/
+**/memo-history.log
+
+# Systemlink
+
+_config_dir*
+*.ink
