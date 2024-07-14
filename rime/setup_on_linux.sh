@@ -1,3 +1,5 @@
+# Need to be tested
+
 #!/bin/bash
 
 RIME_DATA=/usr/share/rime-data
