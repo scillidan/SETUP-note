@@ -7,6 +7,10 @@
 ## Setup on Ubuntu
 
 ```sh
+sudo cp "/etc/hosts" "/etc/hosts_bak"
+```
+
+```sh
 chmod +x setup_on_ubuntu.sh
 ./setup_on_ubuntu.sh
 ```
