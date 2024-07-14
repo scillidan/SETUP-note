@@ -2,22 +2,22 @@
 
 rem set HOME=C:\Users\User
 
-set GD_HOME=%HOME%\Opt\GoldenDict
-set GD_DATA=%APPDATA%\GoldenDict
-set GD_SETUP_NOTE=%HOME%\Github\SETUP-note\goldendict
-set GD_SRC=%HOME%\Source\goldendict_sources
-set GD_DL=%HOME%\Source\goldendict_downloads
+set GOLDENDICT_ROOT=%HOME%\Opt\GoldenDict
+set GOLDENDICT_DATA=%APPDATA%\GoldenDict
+set GOLDENDICT_SETUP_NOTE=%HOME%\Github\SETUP-note\goldendict
+set GOLDENDICT_DL=%HOME%\Source\goldendict_downloads
+set GOLDENDICT_SRC=%HOME%\Source\goldendict_sources
 
-rmdir "%GD_HOME%\extras"
-rmdir "%GD_HOME%\icons"
-rmdir "%GD_DATA%\fonts"
-rmdir /S /Q "%GD_DATA%\styles"
+rmdir "%GOLDENDICT_ROOT%\extras"
+rmdir "%GOLDENDICT_ROOT%\icons"
+rmdir "%GOLDENDICT_DATA%\fonts"
+rmdir /S /Q "%GOLDENDICT_DATA%\styles"
 
-mklink /J "%GD_HOME%\extras" "%GD_SRC%\GoldenDict-Full-Dark-Theme\GoldenDict\extras"
-mklink /J "%GD_HOME%\icons" "%GD_SRC%\GoldenDict-Full-Dark-Theme\GoldenDict\icons"
-mklink /J "%GD_DATA%\fonts" "%GD_SRC%\GoldenDict-Full-Dark-Theme\GoldenDict\fonts"
-mkdir "%GD_DATA%\styles\Dark"
-type "%GD_SRC%\GoldenDict-Full-Dark-Theme\GoldenDict\styles\Dark\article-style.css" "%GD_SETUP_NOTE%\article-style_user.css" > "%GD_DATA%\styles\Dark\article-style.css"
-mklink "%GD_DATA%\styles\Dark\qt-style.css" "%GD_SRC%\GoldenDict-Full-Dark-Theme\GoldenDict\styles\Dark\qt-style.css"
+mklink /J "%GOLDENDICT_ROOT%\extras" "%GOLDENDICT_SRC%\GoldenDict-Full-Dark-Theme\GoldenDict\extras"
+mklink /J "%GOLDENDICT_ROOT%\icons" "%GOLDENDICT_SRC%\GoldenDict-Full-Dark-Theme\GoldenDict\icons"
+mklink /J "%GOLDENDICT_DATA%\fonts" "%GOLDENDICT_SRC%\GoldenDict-Full-Dark-Theme\GoldenDict\fonts"
+mkdir "%GOLDENDICT_DATA%\styles\Dark"
+type "%GOLDENDICT_SRC%\GoldenDict-Full-Dark-Theme\GoldenDict\styles\Dark\article-style.css" "%GOLDENDICT_SETUP_NOTE%\article-style_user.css" > "%GOLDENDICT_DATA%\styles\Dark\article-style.css"
+mklink "%GOLDENDICT_DATA%\styles\Dark\qt-style.css" "%GOLDENDICT_SRC%\GoldenDict-Full-Dark-Theme\GoldenDict\styles\Dark\qt-style.css"
 
 pause

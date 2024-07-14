@@ -1,1 +1,9 @@
-*.lnk
+# Cache
+
+**/watch_later/
+**/memo-history.log
+
+# Systemlink
+
+**/*.lnk
+**/_config_dir_*/
