@@ -8,6 +8,8 @@ And before you test the scripts, please back up your data!!
 
 ## For Me
 
+For some software, I install `Portable Version` on `~/Opt`.
+
 ```sh
 mkdir ~/Github
 cd Github
