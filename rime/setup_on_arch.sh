@@ -1,6 +1,6 @@
-# Need to be tested
-
 #!/bin/bash
+
+HOME="~"
 
 RIME_DATA=/usr/share/rime-data
 RIME_SETUP_NOTE=$HOME/Github/SETUP-note/rime
@@ -31,11 +31,11 @@ ln -s "$RIME_DATA/symbols.yaml" "$RIME_SETUP_NOTE/data/symbols.yaml"
 ln -s "$RIME_DATA/user.yaml" "$RIME_SETUP_NOTE/data/user.yaml"
 ln -s "$RIME_DATA/weasel.custom.yaml" "$RIME_SETUP_NOTE/data/weasel.custom.yaml"
 ln -s "$RIME_DATA/default.yaml" "$RIME_SETUP_NOTE/data/rime-ice/default.yaml"
-ln -s /J "$RIME_DATA/cn_dicts" "$RIME_SRC/rime-ice/cn_dicts"
-ln -s /J "$RIME_DATA/en_dicts" "$RIME_SRC/rime-ice/en_dicts"
-ln -s /J "$RIME_DATA/lua" "$RIME_SRC/rime-ice/lua"
-ln -s /J "$RIME_DATA/opencc" "$RIME_SRC/rime-ice/opencc"
-ln -s /J "$RIME_DATA/others" "$RIME_SRC/rime-ice/others"
+ln -s "$RIME_DATA/cn_dicts" "$RIME_SRC/rime-ice/cn_dicts"
+ln -s "$RIME_DATA/en_dicts" "$RIME_SRC/rime-ice/en_dicts"
+ln -s "$RIME_DATA/lua" "$RIME_SRC/rime-ice/lua"
+ln -s "$RIME_DATA/opencc" "$RIME_SRC/rime-ice/opencc"
+ln -s "$RIME_DATA/others" "$RIME_SRC/rime-ice/others"
 ln -s "$RIME_DATA/custom_phrase.txt" "$RIME_SRC/rime-ice/custom_phrase.txt"
 ln -s "$RIME_DATA/melt_eng.dict.yaml" "$RIME_SRC/rime-ice/melt_eng.dict.yaml"
 ln -s "$RIME_DATA/melt_eng.schema.yaml" "$RIME_SRC/rime-ice/melt_eng.schema.yaml"
@@ -45,4 +45,4 @@ ln -s "$RIME_DATA/rime_ice.schema.yaml" "$RIME_SRC/rime-ice/rime_ice.schema.yaml
 ln -s "$RIME_DATA/symbols_caps_v.yaml" "$RIME_SRC/rime-ice/symbols_caps_v.yaml"
 ln -s "$RIME_DATA/symbols_v.yaml" "$RIME_SRC/rime-ice/symbols_v.yaml"
 
-pause
+read -p "Press Enter to continue..."
