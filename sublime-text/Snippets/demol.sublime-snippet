@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+$5 | [$4](//github.com/$1/$2) | ![](https://img.shields.io/github/license/$1/$2?label=&style=flat-square) | [.md](_readme/$2$3.md) | ![](_media/$2$3.png)
+]]></content>
+  <tabTrigger>demol</tabTrigger>
+  <description>demo line</description>
+</snippet>

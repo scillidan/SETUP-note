@@ -1,0 +1,1 @@
+C:\Users\User\AppData\Roaming\fnm\node-versions\v18.20.0\installation\npm.cmd %*

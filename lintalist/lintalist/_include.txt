@@ -1,0 +1,4 @@
+Settings.ini
+multicaret.ini
+bundles/
+command.txt

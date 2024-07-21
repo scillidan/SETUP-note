@@ -1,0 +1,1 @@
+cd %* && gh browse

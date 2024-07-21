@@ -8,9 +8,9 @@ set GOLDENDICT_SETUP_NOTE=%HOME%\Github\SETUP-note\goldendict
 set GOLDENDICT_DL=%HOME%\Source\goldendict_downloads
 set GOLDENDICT_SRC=%HOME%\Source\goldendict_sources
 
-rmdir "%GOLDENDICT_ROOT%\extras"
-rmdir "%GOLDENDICT_ROOT%\icons"
-rmdir "%GOLDENDICT_DATA%\fonts"
+rmdir /S /Q "%GOLDENDICT_ROOT%\extras"
+rmdir /S /Q "%GOLDENDICT_ROOT%\icons"
+rmdir /S /Q "%GOLDENDICT_DATA%\fonts"
 rmdir /S /Q "%GOLDENDICT_DATA%\styles"
 
 mklink /J "%GOLDENDICT_ROOT%\extras" "%GOLDENDICT_SRC%\GoldenDict-Full-Dark-Theme\GoldenDict\extras"

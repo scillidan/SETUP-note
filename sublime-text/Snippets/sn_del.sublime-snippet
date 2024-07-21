@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+del "%$1_${2:OPT}%\\$4"
+mklink "%$1_${2:OPT}%\\$4" "%$1_${3:SETUP_NOTE}%\\$4"
+]]></content>
+  <tabTrigger>sn_del</tabTrigger>
+  <description>SETUP-note del ...</description>
+</snippet>

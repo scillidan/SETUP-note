@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+rmdir "%$1_${2:OPT}%\\$3"
+mklink /D "%$1_${2:OPT}%\\$3" "%$1_${2:OPT}%\\$3"
+]]></content>
+  <tabTrigger>sn_rmdir</tabTrigger>
+  <description>SETUP-note rmdir ...</description>
+</snippet>

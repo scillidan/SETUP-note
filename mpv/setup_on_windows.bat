@@ -26,7 +26,7 @@ type "%IND%\_global.conf" "%IND%\_test.conf" "%IND%\edit.conf" > "%CONFIG_DIR_ED
 
 rem del "%MPV_CONFIG%\pip-tool.exe"
 rem mklink "%MPV_CONFIG%\pip-tool.exe" "%MPV_DL%\mpv-pip\pip-tool.exe"
-rmdir "%MPV_CONFIG%\real_loudnorm"
+rmdir /S /Q "%MPV_CONFIG%\real_loudnorm"
 
 set "CONFIG_GLOBAL=%CONFIG_DIR_VIDEO% %CONFIG_DIR_STREAM% %CONFIG_DIR_MUSIC% %CONFIG_DIR_EDIT%"
 

@@ -1,0 +1,296 @@
+﻿BundleFormat: 1
+Name: command
+Description: 
+Author: scillidan
+TitleMatch: 
+Patterns:
+- LLPart1: ffmpeg -i ^| -map 0:s:0 _.srt
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: serve -s ^| -p 4321
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: srt-vtt ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: vtt_to_srt ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: bilix --cookie b160c0cf%2C1703397433%2Cbbe2a%2A61nBWgi215_1V8vQvkXPcsOETAiqNR5000sikAEnF-duscev6RSfIV4vxovV7_JtZvYA4YegAAJQA get_series --quality 0 -d . --video-con 1 ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: 
+  LLPart2: <!-- Markdeep: --><meta charset="utf-8"><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: 7z x * -p"^|"
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: png-to-ico ^|  > _.ico
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: tar -czvf ^| .tar.gz
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: tvnviewer 192.168.31.106::5901 -password=hissyisshy
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: cash ^| usd cny
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: rga ^| -g "*.epub"
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: sub-batch rename --subarea ".+"
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: _bash gh-clone-org ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: png2svg -o ^|.svg ^|.png
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: D:\binr\pdf_pdf-to-jpg\pdf-to-jpg-64.bat ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: audiowaveform -i ^| -o _out.png -z auto -w 1920 -h 150 --background-color fffff8 --waveform-color 111111 --axis-label-color fffff8 --border-color fffff8
+  LLPart2: audiowaveform -i %1 -o %1_%2-%3.png -s %2 -e %3
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: py39 D:\binr\sub_lrc2srt\lrc2srt.py
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: tar -xzvf ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: prettier --write --paser json ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: asnmap -d ^| -csv -silent
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: 
+  LLPart2: (?i)dotfile
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: 
+  LLPart2: {sopt}\_\{appname}.{url:ext}
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: 
+  LLPart2: [^\x00-\xff]+
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: 
+  LLPart2: ^(.*)(\r?\n\1)+$
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: config import https://gist.github.com/scillidan/9aebe2d387a1c4e0879bcf93417fa8fd
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: mlp --port 4321 ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: mdict -x ^| --exdb -d ./_db
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: mdict -x ^| -d ./_mdx
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: scrcpy --select-usb
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: scrcpy --tcpip=192.168.31.41:43981
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: quickdash verify --file ./_quickdash.sfv
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: quickdash create ^| --file _quickdash.sfv
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: py D:\binr\pdf_pdfalyzer.py ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: py39 -m treecat
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: replacer -d . -contains ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: handbrakecli --preset-import-file D:\ini\handbrake\1080p.json --input ^| --output _.mp4
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: pdfalyze -txt -out D:/home ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: agg ^| _.gif
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: D:\binr\dl_zonylrctools\ZonyLrcTools.Cli.exe download -d "^|" -l -n 2
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: video-compare -d -m vstack ^| _
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: pdf-crop-margins -gui ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: pdf-crop-margins -v -s -u ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: py D:\binp\stream-translator\translator.py ^| --language English
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: m3u8 -u="^|" -o="_"
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: replacer -d . -contains " " "-"
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: epubtool u ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: epubtool p ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ebookatty ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: py D:\binr\img_pysimplegui-base64-encoder\Base64_Image_Encoder.py
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: somafm ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: py D:\bin\fileinfo\fileinfo\fileinfo ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: markpdf ^| .png _mark --opacity=0.3
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: mnamer -b .
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: paletter -colors ^| -out _pal.png _
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: pymusiclooper -e ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: 
+  LLPart2: webify --no-eot --no-svg ^|___.ttf && cat ^|___.ttf | ttf2woff2 > ^|___.woff2
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: D:\binr\img_gif-compressor\venv\Scripts\python.exe D:\binr\img_gif-compressor\win.py ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 

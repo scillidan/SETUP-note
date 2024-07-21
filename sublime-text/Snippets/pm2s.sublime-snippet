@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+```sh
+serve -s . -p 4321
+```
+
+## PM2
+
+```sh
+pm2 serve . 4321 --name name --spa
+```
+]]></content>
+  <tabTrigger>pm2s</tabTrigger>
+  <description>pm2 `serve .`</description>
+</snippet>
