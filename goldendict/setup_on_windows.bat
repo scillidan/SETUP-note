@@ -1,12 +1,12 @@
 @echo off
 
-rem set HOME=C:\Users\User
+set "HOME=C:\Users\User"
 
-set GOLDENDICT_ROOT=%HOME%\Opt\GoldenDict
-set GOLDENDICT_DATA=%APPDATA%\GoldenDict
-set GOLDENDICT_SETUP_NOTE=%HOME%\Github\SETUP-note\goldendict
-set GOLDENDICT_DL=%HOME%\Source\goldendict_downloads
-set GOLDENDICT_SRC=%HOME%\Source\goldendict_sources
+set "GOLDENDICT_ROOT=%HOME%\Opt\GoldenDict"
+set "GOLDENDICT_DATA=%APPDATA%\GoldenDict"
+set "GOLDENDICT_SETUP_NOTE=%HOME%\Github\SETUP-note\goldendict"
+set "GOLDENDICT_DL=%HOME%\Source\goldendict_downloads"
+set "GOLDENDICT_SRC=%HOME%\Source\goldendict_sources"
 
 rmdir /S /Q "%GOLDENDICT_ROOT%\extras"
 rmdir /S /Q "%GOLDENDICT_ROOT%\icons"

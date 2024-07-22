@@ -1,18 +1,11 @@
 ## Install
 
 ```sh
-git clone https://github.com/iDvel/rime-ice ~/Source/rime_sources
+set "HOME=C:/Users/User"
 ```
 
-## Setup on Windows 10
-
-1. Create shortcut of `setup_on_windows.bat`.
-2. Then set to `Run as Administrator` in `Advanced Properties` the properties menu.
-3. Double-click the shortcut to run.
-
-## Setup on Arch
-
 ```sh
-chmod +x setup_on_arch.sh
-sudo ./setup_on_arch.sh
+mkdir "%HOME%/Source/rime_sources"
+cd "%HOME%/Source/rime_sources"
+git clone --depth=1 https://github.com/iDvel/rime-ice
 ```

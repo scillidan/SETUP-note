@@ -1,0 +1,461 @@
+{
+   ".header" : {
+      "creator" : "Keypirinha v2.26 (e037f62)",
+      "creator_url" : "http://keypirinha.com/",
+      "format" : 102,
+      "modified" : "2024-07-22T08:25:02+0000",
+      "type" : "history"
+   },
+   "history" : [
+      {
+         "action" : null,
+         "item" : 14483187193850775164,
+         "label" : "微信",
+         "time" : "2024-07-19T07:46:06+0000"
+      },
+      {
+         "action" : null,
+         "item" : 13468862530383444777,
+         "label" : "腾讯文档",
+         "time" : "2024-07-19T07:52:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15978299412353499853,
+         "label" : "syncthingtray-qt5-1.5.2-x86_64-w64-mingw32",
+         "time" : "2024-07-19T07:58:30+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14325377271857461387,
+         "label" : "Lock screen",
+         "time" : "2024-07-19T07:59:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14993992743418571839,
+         "label" : "Umi-OCR",
+         "time" : "2024-07-19T07:59:51+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14494539215540979742,
+         "label" : "JPEGView",
+         "time" : "2024-07-19T08:28:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14494539215540979742,
+         "label" : "JPEGView",
+         "time" : "2024-07-19T08:33:52+0000"
+      },
+      {
+         "action" : null,
+         "item" : 4632426201466508336,
+         "label" : "NIIMBOT",
+         "time" : "2024-07-19T08:36:59+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14494539215540979742,
+         "label" : "JPEGView",
+         "time" : "2024-07-19T08:42:26+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14494539215540979742,
+         "label" : "JPEGView",
+         "time" : "2024-07-19T08:44:22+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14494539215540979742,
+         "label" : "JPEGView",
+         "time" : "2024-07-19T08:59:52+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14494539215540979742,
+         "label" : "JPEGView",
+         "time" : "2024-07-19T09:33:57+0000"
+      },
+      {
+         "action" : null,
+         "item" : 4831633888420942412,
+         "label" : "QtScrcpy",
+         "time" : "2024-07-19T10:14:49+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5138225867592801626,
+         "label" : "Sublime Text",
+         "time" : "2024-07-19T11:23:57+0000"
+      },
+      {
+         "action" : null,
+         "item" : 13979858961160021999,
+         "label" : "GitHub Desktop",
+         "time" : "2024-07-19T11:42:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14483187193850775164,
+         "label" : "微信",
+         "time" : "2024-07-22T03:42:49+0000"
+      },
+      {
+         "action" : null,
+         "item" : 13468862530383444777,
+         "label" : "腾讯文档",
+         "time" : "2024-07-22T03:43:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 13979858961160021999,
+         "label" : "GitHub Desktop",
+         "time" : "2024-07-22T03:46:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 4632426201466508336,
+         "label" : "NIIMBOT",
+         "time" : "2024-07-22T04:14:17+0000"
+      },
+      {
+         "action" : null,
+         "item" : 13243695860987907516,
+         "label" : "qalculate-qt",
+         "time" : "2024-07-22T04:33:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5138225867592801626,
+         "label" : "Sublime Text",
+         "time" : "2024-07-22T04:41:32+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3476095980806187809,
+         "label" : "QuiteRSS",
+         "time" : "2024-07-22T04:50:16+0000"
+      },
+      {
+         "action" : null,
+         "item" : 17250069150542195640,
+         "label" : "Thunderbird",
+         "time" : "2024-07-22T04:50:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5138225867592801626,
+         "label" : "Sublime Text",
+         "time" : "2024-07-22T04:54:48+0000"
+      },
+      {
+         "action" : null,
+         "item" : 17865331009635860473,
+         "label" : "Recycle Bin",
+         "time" : "2024-07-22T07:47:21+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2441091720965652288,
+         "label" : "WinMerge",
+         "time" : "2024-07-22T07:47:57+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5138225867592801626,
+         "label" : "Sublime Text",
+         "time" : "2024-07-22T08:17:32+0000"
+      },
+      {
+         "action" : null,
+         "item" : 13979858961160021999,
+         "label" : "GitHub Desktop",
+         "time" : "2024-07-22T08:19:34+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-07-22T08:22:35+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2912397380834358263,
+         "label" : "dnGREP",
+         "time" : "2024-07-22T08:25:02+0000"
+      }
+   ],
+   "sets" : {
+      "actions" : [],
+      "items" : [
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 6437383497087328849,
+            "label" : "Cmder",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\Cmder.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 2912397380834358263,
+            "label" : "dnGREP",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\dnGREP.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 13979858961160021999,
+            "label" : "GitHub Desktop",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\GitHub Desktop.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 14494539215540979742,
+            "label" : "JPEGView",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\JPEGView.lnk"
+         },
+         {
+            "args_hint" : "forbidden",
+            "category" : "keyword",
+            "hit_hint" : "noargs",
+            "id" : 14325377271857461387,
+            "label" : "Lock screen",
+            "loop_on_suggest" : false,
+            "plugin" : "WinSys.WinSys",
+            "short_desc" : "Opens the lock screen personalization panel",
+            "target" : "Lock screen"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 4632426201466508336,
+            "label" : "NIIMBOT",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\Public\\Desktop\\NIIMBOT.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 13243695860987907516,
+            "label" : "qalculate-qt",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\qalculate-qt.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 4831633888420942412,
+            "label" : "QtScrcpy",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\QtScrcpy.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 3476095980806187809,
+            "label" : "QuiteRSS",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\QuiteRSS.lnk"
+         },
+         {
+            "args_hint" : "forbidden",
+            "category" : "keyword",
+            "hit_hint" : "noargs",
+            "id" : 17865331009635860473,
+            "label" : "Recycle Bin",
+            "loop_on_suggest" : false,
+            "plugin" : "WinSys.WinSys",
+            "short_desc" : "Opens the Recycle Bin folder",
+            "target" : "Recycle Bin"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 5138225867592801626,
+            "label" : "Sublime Text",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.StartMenu",
+            "short_desc" : "Start Menu: Programs",
+            "target" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Sublime Text.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 15978299412353499853,
+            "label" : "syncthingtray-qt5-1.5.2-x86_64-w64-mingw32",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\syncthingtray-qt5-1.5.2-x86_64-w64-mingw32.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 17250069150542195640,
+            "label" : "Thunderbird",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.StartMenu",
+            "short_desc" : "Start Menu: Programs",
+            "target" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Thunderbird.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 14993992743418571839,
+            "label" : "Umi-OCR",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\Umi-OCR.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 2441091720965652288,
+            "label" : "WinMerge",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.StartMenu",
+            "short_desc" : "Start Menu: Programs\\WinMerge",
+            "target" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\WinMerge\\WinMerge.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 14483187193850775164,
+            "label" : "微信",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.StartMenu",
+            "short_desc" : "Start Menu: Programs\\微信",
+            "target" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\微信\\微信.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 13468862530383444777,
+            "label" : "腾讯文档",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\Public\\Desktop\\腾讯文档.lnk"
+         }
+      ],
+      "terms" : [
+         {
+            "items" : [ 17865331009635860473 ],
+            "search" : "bin"
+         },
+         {
+            "items" : [ 6437383497087328849 ],
+            "search" : "cmder"
+         },
+         {
+            "items" : [ 13979858961160021999 ],
+            "search" : "gith"
+         },
+         {
+            "items" : [ 13979858961160021999 ],
+            "search" : "github"
+         },
+         {
+            "items" : [ 2912397380834358263 ],
+            "search" : "grep"
+         },
+         {
+            "items" : [ 14494539215540979742 ],
+            "search" : "jp"
+         },
+         {
+            "items" : [ 4632426201466508336 ],
+            "search" : "ni"
+         },
+         {
+            "items" : [ 14993992743418571839 ],
+            "search" : "ocr"
+         },
+         {
+            "items" : [ 14325377271857461387 ],
+            "search" : "osc"
+         },
+         {
+            "items" : [ 4831633888420942412 ],
+            "search" : "qr"
+         },
+         {
+            "items" : [ 13243695860987907516 ],
+            "search" : "qt"
+         },
+         {
+            "items" : [ 3476095980806187809 ],
+            "search" : "quiterss"
+         },
+         {
+            "items" : [ 5138225867592801626 ],
+            "search" : "subl"
+         },
+         {
+            "items" : [ 5138225867592801626 ],
+            "search" : "sublime"
+         },
+         {
+            "items" : [ 15978299412353499853 ],
+            "search" : "sync"
+         },
+         {
+            "items" : [ 17250069150542195640 ],
+            "search" : "thun"
+         },
+         {
+            "items" : [ 2441091720965652288 ],
+            "search" : "winme"
+         },
+         {
+            "items" : [ 14483187193850775164 ],
+            "search" : "微信"
+         },
+         {
+            "items" : [ 13468862530383444777 ],
+            "search" : "文档"
+         }
+      ]
+   }
+}

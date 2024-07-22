@@ -2,16 +2,16 @@
   <content><![CDATA[
 @echo off
 
-rem set HOME=C:\Users\User
+set "HOME=C:\Users\User"
 
-set $1_OPT=%HOME%\Opt\\$1$2
-set $1_DATA=%APPDATA%\\$1$2$4
-set $1_SETUP_NOTE=%HOME%\Github\SETUP-note\\$1$2
-set $1_SRC=%HOME%\Source\\$1$2_sources$3
-set $1_DL=%HOME%\Source\\$1$2_downloads$3
+set "$1_OPT=%HOME%\Opt\\$1$2"
+set "$1_DATA=%APPDATA%\\$1$2$4"
+set "$1_SETUP_NOTE=%HOME%\Github\SETUP-note\\$1$2"
+set "$1_SRC=%HOME%\Source\\$1$2_sources$3"
+set "$1_DL=%HOME%\Source\\$1$2_downloads$3"
 
 pause
 ]]></content>
-  <tabTrigger>sn_bat</tabTrigger>
+  <tabTrigger>snbat</tabTrigger>
   <description>SETUP bat</description>
 </snippet>

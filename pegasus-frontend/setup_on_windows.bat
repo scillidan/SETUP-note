@@ -1,12 +1,12 @@
 @echo off
 
-rem set HOME=C:\Users\User
+set "HOME=C:\Users\User"
 
-set PEGASUS_OPT=%HOME%\Opt\pegasus-fe
-set RETROARCH_OPT=%HOME%\Opt\RetroArch
-set PEGASUS_SETUP_NOTE=%HOME%\Github\SETUP-note\pegasus-frontend
-set PEGASUS_SRC=%HOME%\Source\pegasus_sources
-set PEGASUS_DL=%HOME%\Source\pegasus_downloads
+set "PEGASUS_OPT=%HOME%\Opt\pegasus-fe"
+set "RETROARCH_OPT=%HOME%\Opt\RetroArch"
+set "PEGASUS_SETUP_NOTE=%HOME%\Github\SETUP-note\pegasus-frontend"
+set "PEGASUS_SRC=%HOME%\Source\pegasus_sources"
+set "PEGASUS_DL=%HOME%\Source\pegasus_downloads"
 
 rem rmdir /S /Q "%PEGASUS_OPT%\RetroArch"
 rem mklink /J "%PEGASUS_OPT%\RetroArch" "%RETROARCH_OPT%"

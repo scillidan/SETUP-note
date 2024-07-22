@@ -1,5 +1,11 @@
 ## Install
 
 ```sh
-git clone https://github.com/folke/tokyonight.nvim ~/Source/nvim_sources/tokyonight.nvim
+set "HOME=C:/Users/User"
+```
+
+```sh
+mkdir "%HOME%/Source/nvim_sources"
+cd "%HOME%/Source/nvim_sources"
+git clone --depth=1 https://github.com/folke/tokyonight.nvim
 ```

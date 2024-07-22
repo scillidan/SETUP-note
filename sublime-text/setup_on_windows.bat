@@ -1,6 +1,6 @@
 @echo off
 
-rem set HOME=C:\Users\User
+set "HOME=C:\Users\User"
 
 set "SUBLIMETEXT_DATA=%APPDATA%\Sublime Text"
 set "SUBLIMETEXT_SETUP_NOTE=%HOME%\Github\SETUP-note\sublime-text"
@@ -20,7 +20,7 @@ del "%SUBLIMETEXT_DATA%\Packages\User\Terminal.sublime-settings"
 del "%SUBLIMETEXT_DATA%\Packages\User\Text Marker.sublime-settings"
 rmdir /S /Q "%SUBLIMETEXT_DATA%\Packages\User\Color Highlighter\themes"
 mkdir "%SUBLIMETEXT_DATA%\Packages\User\Color Highlighter"
-rmdir /S /Q "%SUBLIMETEXT_DATA%\Packages\User\Snippet"
+rmdir /S /Q "%SUBLIMETEXT_DATA%\Packages\User\Snippets"
 rmdir /S /Q "%SUBLIMETEXT_DATA%\Packages\User\AlignTab"
 rmdir /S /Q "%SUBLIMETEXT_DATA%\Packages\MyCustomFilterPipes"
 rmdir /S /Q "%SUBLIMETEXT_DATA%\Packages\CsvToMd"
@@ -38,24 +38,10 @@ mklink "%SUBLIMETEXT_DATA%\Packages\User\Minify.sublime-settings" "%SUBLIMETEXT_
 mklink "%SUBLIMETEXT_DATA%\Packages\User\multiAlign.sublime-settings" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\multiAlign.sublime-settings"
 mklink "%SUBLIMETEXT_DATA%\Packages\User\Terminal.sublime-settings" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\Terminal.sublime-settings"
 mklink "%SUBLIMETEXT_DATA%\Packages\User\Text Marker.sublime-settings" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\Text Marker.sublime-settings"
-mklink /D "%SUBLIMETEXT_DATA%\Packages\User\Color Highlighter\themes" "%HOME%\Source\nvim_sources\tokyonight.nvim\extras\sublime"
-mklink /D "%SUBLIMETEXT_DATA%\Packages\User\Snippets" "%SUBLIMETEXT_SETUP_NOTE%\Snippets"
-mklink /D "%SUBLIMETEXT_DATA%\Packages\User\AlignTab" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\\AlignTab"
-mklink /D "%SUBLIMETEXT_DATA%\Packages\MyCustomFilterPipes" "%SUBLIMETEXT_SETUP_NOTE%\Packages\MyCustomFilterPipes"
-mklink /D "%SUBLIMETEXT_DATA%\Packages\CsvToMd" "%SUBLIMETEXT_SETUP_NOTE%\Packages\CsvToMd"
+mklink /J "%SUBLIMETEXT_DATA%\Packages\User\Color Highlighter\themes" "%HOME%\Source\nvim_sources\tokyonight.nvim\extras\sublime"
+mklink /J "%SUBLIMETEXT_DATA%\Packages\User\Snippets" "%SUBLIMETEXT_SETUP_NOTE%\Snippets"
+mklink /J "%SUBLIMETEXT_DATA%\Packages\User\AlignTab" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\\AlignTab"
+mklink /J "%SUBLIMETEXT_DATA%\Packages\MyCustomFilterPipes" "%SUBLIMETEXT_SETUP_NOTE%\Packages\MyCustomFilterPipes"
+mklink /J "%SUBLIMETEXT_DATA%\Packages\CsvToMd" "%SUBLIMETEXT_SETUP_NOTE%\Packages\CsvToMd"
 
 pause
-
-rem Not work
-rem 
-rem for %%F in ("%SUBLIMETEXT_SETUP_NOTE%\Package_User\*") do (
-rem 	set "SOURCE=%%F"
-rem 	set "TARGET=%SUBLIMETEXT_DATA%\\Packages\User\%%~nxF"
-rem 	mklink "%TARGET%" "%SOURCE%"
-rem )
-
-rem for /D %%G in ("%SUBLIMETEXT_SETUP_NOTE%\Package_User\*") do (
-rem 	set "SOURCE=%%G"
-rem 	set "TARGET=%SUBLIMETEXT_DATA%\%%~nxG"
-rem 	mklink /D "%TARGET%" "%SOURCE%"
-rem )

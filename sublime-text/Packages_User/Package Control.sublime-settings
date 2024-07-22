@@ -1,6 +1,31 @@
 {
 	"in_process_packages":
 	[
+		"A File Icon",
+		"AlignTab",
+		"AutoHotkey",
+		"Block Cursor Everywhere",
+		"BracketHighlighter",
+		"Calculate",
+		"ChineseOpenConvert",
+		"Color Convert",
+		"Color Highlight",
+		"ComposerPackageInfo",
+		"ConvertFullHalfWidth",
+		"DashDoc",
+		"Data Wizard",
+		"DeleteBlankLines",
+		"FilterPipes",
+		"FindCursor",
+		"FindKeyConflicts",
+		"HyperClick",
+		"Inline Fold",
+		"Insert Nums",
+		"JsPrettier",
+		"Keymaps",
+		"Log Highlight",
+		"M3U Syntax",
+		"Markdown Extended",
 	],
 	"installed_packages":
 	[

@@ -1,5 +1,0 @@
-// Settings in here override those in "LSP-TexLab/LSP-TexLab.sublime-settings"
-
-{
-	"disable_default_completions": true
-}
