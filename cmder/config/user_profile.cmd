@@ -30,6 +30,8 @@ set "GO111MODULE=on%GO111MODULE%"
 :: set "PYENV_HOME=%HOME%\.pyenv\pyenv-win%PYENV_HOME%"
 :: set "PYENV_ROOT=%HOME%\.pyenv\pyenv-win%PYENV_ROOT%"
 :: set "GH_CONFIG_DIR=C:\Users\User\.config\gh%GH_CONFIG_DIR%"
+:: set "LUA_PATH_5_3=%HOME%\Lib\lua53\x64%LUA_PATH_5_3%"
+:: set "LUA_CPATH_5_3=%HOME%\Lib\lua53\x64%LUA_CPATH_5_3%"
 
 :: AI-demo
 set "HF_MODEL_ROOT=C:\huggingface\model%HF_MODEL_ROOT%"

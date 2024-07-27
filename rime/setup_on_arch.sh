@@ -4,8 +4,8 @@ HOME="~"
 
 RIME_DATA=/usr/share/rime-data
 RIME_SETUP_NOTE=$HOME/Github/SETUP-note/rime
-RIME_SRC=$HOME/Source/rime_sources
-RIME_DL=$HOME/Source/rime_downloads
+RIME_DL=$HOME/Download/rime
+RIME_SRC=$HOME/Source/rime
 
 rm -f "$RIME_DATA/default.custom.yaml"
 rm -f "$RIME_DATA/symbols.yaml"

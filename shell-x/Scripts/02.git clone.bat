@@ -5,7 +5,7 @@ REM Read URL from clipboard
 for /f "usebackq delims=" %%G in (`powershell -command "Get-Clipboard"`) do set "url=%%G"
 
 REM Clone the repository
-git clone %url%
+C:\Users\User\Bin\Git\cmd\git.exe clone %url%
 
 REM Check if the clone operation was successful
 if %errorlevel% equ 0 (
@@ -14,4 +14,4 @@ if %errorlevel% equ 0 (
     echo Clone failed!
 )
 
-pause
+rem pause

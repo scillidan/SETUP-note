@@ -4,8 +4,8 @@ set "HOME=C:\Users\User"
 
 set "CMDER_OPT=%HOME%\Opt\cmder_mini"
 set "CMDER_SETUP_NOTE=%HOME%\Github\SETUP-note\cmder"
-set "CMDER_SRC=%HOME%\Source\cmder_sources"
-set "CMDER_DL=%HOME%\Source\cmder_downloads"
+set "CMDER_DL=%HOME%\Download\cmder"
+set "CMDER_SRC=%HOME%\Source\cmder"
 
 rmdir /S /Q "%CMDER_OPT%\bin"
 rmdir /S /Q "%CMDER_OPT%\config"
@@ -26,9 +26,9 @@ del "%CMDER_OPT%\vendor\fuzzy_history.lua
 del "%CMDER_OPT%\vendor\zoxide.lua
 
 mklink /J "%CMDER_OPT%\bin" "%CMDER_SETUP_NOTE%\bin"
-mklink /J "%CMDER_OPT%\vendor\clink" "%CMDER_SRC%\clink"
-mklink /J "%CMDER_OPT%\vendor\clink-completions" "%CMDER_SRC%\clink-completions"
 mklink /J "%CMDER_OPT%\vendor\conemu-maximus5" "%CMDER_DL%\ConEmu"
+mklink /J "%CMDER_OPT%\vendor\clink" "%CMDER_DL%\clink"
+mklink /J "%CMDER_OPT%\vendor\clink-completions" "%CMDER_SRC%\clink-completions"
 mkdir "%CMDER_OPT%\config"
 mklink "%CMDER_OPT%\config\clink_settings" "%CMDER_SETUP_NOTE%\config\clink_settings"
 mklink "%CMDER_OPT%\config\starship.lua" "%CMDER_SETUP_NOTE%\config\starship.lua"

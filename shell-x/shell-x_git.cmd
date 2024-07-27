@@ -1,1 +1,0 @@
-cd %* && %HOME%\Opt\alacritty\Alacritty.exe --config-file "C:\Users\User\Github\SETUP-note\alacritty\alacritty_cmder.toml" --command "%HOME%\Cmd\shell-x_git.bat"

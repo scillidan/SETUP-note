@@ -1,6 +1,6 @@
 @echo off
 
-call %MPV_SETUP_NOTE%\set_env.bat
+call %~dp0\set_env.bat
 
 setlocal
 

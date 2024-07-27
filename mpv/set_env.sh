@@ -4,8 +4,8 @@ HOME="~"
 
 MPV_CONFIG="$HOME/.config/mpv"
 MPV_SETUP_NOTE="$HOME/Github\SETUP-note\mpv"
-MPV_DL="$HOME/Source/mpv_downloads"
-MPV_SRC="$HOME/Source/mpv_sources"
+MPV_DL="$HOME/Download/mpv"
+MPV_SRC="$HOME/Source/mpv"
 
 IND="input"
 INCLD="include"

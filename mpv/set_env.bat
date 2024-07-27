@@ -3,9 +3,10 @@
 set "HOME=C:\Users\User"
 
 set "MPV_CONFIG=%APPDATA%\mpv"
+set "MPV_OPT=%HOME%\Opt\mpv"
 set "MPV_SETUP_NOTE=%HOME%\Github\SETUP-note\mpv"
-set "MPV_DL=%HOME%\Source\mpv_downloads"
-set "MPV_SRC=%HOME%\Source\mpv_sources"
+set "MPV_DL=%HOME%\Download\mpv"
+set "MPV_SRC=%HOME%\Source\mpv"
 
 set "IND=input"
 set "INCLD=include"

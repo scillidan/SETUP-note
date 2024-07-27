@@ -1,4 +1,4 @@
-# SETUP-note
+# SETUP-note (TBD)
 
 I generally use `Windows 10`, but I've been using `Arch`, `Ubuntu 22.04 ARM` recently. So I tried to write some `SETUP` scripts to configure some software on them.
 
@@ -20,4 +20,4 @@ git clone https://github.com/scillidan/SETUP-note
 mkdir ~/Source
 ```
 
-Then, I put all `SRC(Source)` the cloned repos into `~/Souce/$APP_sources`, and put all `DL(Download)` into `~/Souce/$APP_downloads`.
+Then, I put all `SRC(Source)` the cloned repos into `~/Souce/$APP`, and put all `DL(Download)` into `~/Download/$APP`.

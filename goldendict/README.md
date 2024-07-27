@@ -5,7 +5,7 @@ set "HOME=C:/Users/User"
 ```
 
 ```sh
-mkdir "%HOME%/Source/goldendict_sources"
-cd "%HOME%/Source/goldendict_sources"
+mkdir "%HOME%/Source/goldendict"
+cd "%HOME%/Source/goldendict"
 git clone --depth=1 https://github.com/yozhic/GoldenDict-Full-Dark-Theme
 ```

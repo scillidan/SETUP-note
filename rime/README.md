@@ -5,7 +5,7 @@ set "HOME=C:/Users/User"
 ```
 
 ```sh
-mkdir "%HOME%/Source/rime_sources"
-cd "%HOME%/Source/rime_sources"
+mkdir "%HOME%/Source/rime"
+cd "%HOME%/Source/rime"
 git clone --depth=1 https://github.com/iDvel/rime-ice
 ```

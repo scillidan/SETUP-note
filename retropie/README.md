@@ -12,6 +12,7 @@
 - [Transferring Roms](https://retropie.org.uk/docs/Transferring-Roms/)
 - [Netplay](https://retropie.org.uk/docs/Netplay/)
 - [Smaller RetroArch Screen](https://retropie.org.uk/docs/Smaller-RetroArch-Screen/)
+- [Creating Your Own EmulationStation Theme](https://retropie.org.uk/docs/Creating-Your-Own-EmulationStation-Theme/)
 
 ### Reference
 

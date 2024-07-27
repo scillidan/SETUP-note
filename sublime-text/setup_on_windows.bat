@@ -38,7 +38,7 @@ mklink "%SUBLIMETEXT_DATA%\Packages\User\Minify.sublime-settings" "%SUBLIMETEXT_
 mklink "%SUBLIMETEXT_DATA%\Packages\User\multiAlign.sublime-settings" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\multiAlign.sublime-settings"
 mklink "%SUBLIMETEXT_DATA%\Packages\User\Terminal.sublime-settings" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\Terminal.sublime-settings"
 mklink "%SUBLIMETEXT_DATA%\Packages\User\Text Marker.sublime-settings" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\Text Marker.sublime-settings"
-mklink /J "%SUBLIMETEXT_DATA%\Packages\User\Color Highlighter\themes" "%HOME%\Source\nvim_sources\tokyonight.nvim\extras\sublime"
+mklink /J "%SUBLIMETEXT_DATA%\Packages\User\Color Highlighter\themes" "%HOME%\Source\nvim\tokyonight.nvim\extras\sublime"
 mklink /J "%SUBLIMETEXT_DATA%\Packages\User\Snippets" "%SUBLIMETEXT_SETUP_NOTE%\Snippets"
 mklink /J "%SUBLIMETEXT_DATA%\Packages\User\AlignTab" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\\AlignTab"
 mklink /J "%SUBLIMETEXT_DATA%\Packages\MyCustomFilterPipes" "%SUBLIMETEXT_SETUP_NOTE%\Packages\MyCustomFilterPipes"

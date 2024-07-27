@@ -5,8 +5,8 @@ set "HOME=C:/Users/User"
 ```
 
 ```sh
-mkdir "%HOME%/Source/autohotkey_sources"
-cd "%HOME%/Source/autohotkey_sources"
+mkdir "%HOME%/Source/autohotkey"
+cd "%HOME%/Source/autohotkey"
 ```
 
 ```sh

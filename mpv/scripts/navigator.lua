@@ -31,7 +31,7 @@ local settings = {
   --favorites in format { 'Path to directory, notice trailing /' }
   --on windows use double backslash c:\\my\\directory\\
   favorites = {
-    '~/Music',
+    'C:\\Users\\User\\Data\\mpv',
   },
   --list of paths to ignore. the value is anything that returns true for if-statement.
   --directory ignore entries must end with a trailing slash,

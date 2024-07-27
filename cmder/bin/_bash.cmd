@@ -1,0 +1,1 @@
+%HOME%\Bin\Git\usr\bin\bash.exe %*

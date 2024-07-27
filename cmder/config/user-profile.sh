@@ -1,1 +1,1 @@
-eval "$(lua C:\\Users\\User\\Source\\cmder_sources\\z.lua\\z.lua --init bash enhanced once echo fzf)"
+eval "$(lua C:\\Users\\User\\Source\\cmder\\z.lua\\z.lua --init bash enhanced once echo fzf)"

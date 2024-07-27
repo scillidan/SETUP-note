@@ -1,1 +1,0 @@
-set RENAME_EDITOR=subl -w && sudo C:\Users\User\AppData\Roaming\pnpm\rn.CMD --base %*

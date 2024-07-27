@@ -1,0 +1,17 @@
+C:\Windows\system32
+C:\Windows
+C:\Windows\System32\WindowsPowerShell\v1.0
+C:\Windows\System32\OpenSSH
+C:\Program Files (x86)\ZeroTier\One
+C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+
+%HOME%\AppData\Local\Microsoft\WindowsApps
+C:\ProgramData\chocolatey\bin
+%HOME%\scoop\shims
+%HOME%\AppData\Local\GitHubDesktop\bin
+C:\Program Files\WinMerge
+%HOME%\Bin\fnm
+%HOME%\AppData\Local\Programs\Python\Python39\Scripts
+%HOME%\AppData\Local\Programs\Python\Python39
+%HOME%\AppData\Local\Programs\Python\Python310\Scripts
+%HOME%\AppData\Local\Programs\Python\Python310

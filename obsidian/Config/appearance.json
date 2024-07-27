@@ -4,7 +4,8 @@
   "cssTheme": "Things",
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
-    "theme"
+    "theme",
+    "themes"
   ],
   "theme": "obsidian",
   "interfaceFontFamily": "Sarasa Nerd",

@@ -4,8 +4,8 @@ set "HOME=C:\Users\User"
 
 set "RIME_DATA=%APPDATA%\Rime"
 set "RIME_SETUP_NOTE=%HOME%\Github\SETUP-note\rime"
-set "RIME_SRC=%HOME%\Source\rime_sources"
-set "RIME_DL=%HOME%\Source\rime_downloads"
+set "RIME_DL=%HOME%\Download\rime"
+set "RIME_SRC=%HOME%\Source\rime"
 
 del "%RIME_DATA%\default.custom.yaml"
 del "%RIME_DATA%\symbols.yaml"
