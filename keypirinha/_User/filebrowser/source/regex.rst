@@ -11,4 +11,4 @@ Regex
 
 .. option:: Miniflux Block Rules
 
-	``(?i)dotfile|config``
+	``(?i)dotfile|zotero|copilot|clojure|vscode``

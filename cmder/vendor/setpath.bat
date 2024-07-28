@@ -3,7 +3,6 @@ SET PATH=^
 %    =%%HOME%\Opt\cmder_mini\bin;^
 %    =%%HOME%\Opt\cmder_mini\vendor;^
 %    =%%HOME%\Bin\starship;^
-%    =%%HOME%\Bin\Git\bin;^
 %    =%%HOME%\Bin\gsudo\x64;^
 %    =%%HOME%\Bin\trashy;^
 %    =%%HOME%\Bin\fzf;^
@@ -23,30 +22,52 @@ SET PATH=^
 %    =%%HOME%\Bin\tidy-viewer;^
 %    =%%HOME%\Bin\xsv;^
 %    =%%HOME%\Bin\postgresql\pgsql\bin;^
-%    =%%HOME%\Bin\yt-dlp;^
 %    =%%HOME%\Bin\paletter;^
 %    =%%HOME%\Bin\pastel;^
-%    =%%HOME%\.local\bin;^
-%    =%%HOME%\.cargo\bin;^
 %    =%%HOME%\Lib\lua53\x64\bin;^
 %    =%%HOME%\Lib\lua53\x64\lib;^
 %    =%%HOME%\Lib\make-bin\bin;^
 %    =%%HOME%\Lib\make-dep\bin;^
-%    =%%HOME%\Lib\ffmpeg\bin;^
-%    =%%HOME%\Lib\ImageMagick;^
-%    =%%HOME%\Opt\mpv;^
-%    =%%HOME%\Github\SETUP-note\mpv;^
-%    =%%HOME%\Bin\fnm;^
-%    =%%HOME%\AppData\Roaming\fnm\node-versions\v20.14.0\installation;^
-%    =%%HOME%\AppData\Roaming\pnpm;^
-%    =%%HOME%\AppData\Local\Yarn\bin;^
 %    =%%HOME%\Lib\go\bin;^
+%    =%%APPDATA%\fnm\node-versions\v20.14.0\installation;^
+%    =%%APPDATA%\pnpm;^
+%    =%%HOME%\AppData\Local\Yarn\bin;^
+%    =%%HOME%\.local\bin;^
+%    =%%HOME%\.cargo\bin;^
 %    =%%HOME%\go\bin;^
+%    =%%HOME%\Github\My_Script;^
+%    =%%HOME%\Github\SETUP-note\mpv;^
 %    =%%PATH%
-rem %    =%%HOME%\Lib\lua53\x64\include;^
-rem %    =Git\cmd;^
-rem %    =%lua53\bin;^
+
+rem Cache
+rem %    =%%HOME%\Bin\Git\bin;^
 rem %    =%love-11.5;^
 rem %    =%LuaJIT\src;^
 rem %    =%CUDNN\v8.6.0\bin;^
 rem %    =%MiKTeX\miktex\bin\x64;^
+
+rem Windows User variables
+rem %HOME%\Bin\Git\cmd
+rem %HOME%\Bin\yt-dlp;^
+rem %HOME%\Lib\ffmpeg\bin;^
+rem %HOME%\Lib\ImageMagick;^
+rem %HOME%\Opt\mpv;^
+rem %APPDATA%\pnpm\nodejs\20.9.0
+rem %HOME%\AppData\Local\Programs\Python\Python39\Scripts
+rem %HOME%\AppData\Local\Programs\Python\Python39
+rem %HOME%\AppData\Local\Programs\Python\Python310\Scripts
+rem %HOME%\AppData\Local\Programs\Python\Python310
+rem %HOME%\scoop\shims
+
+rem Windows System variables
+rem C:\Windows\system32
+rem C:\Windows
+rem C:\Windows\System32\WindowsPowerShell\v1.0
+rem C:\Windows\System32\OpenSSH
+rem C:\Program Files (x86)\ZeroTier\One
+rem C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+
+rem Installed
+rem C:\Program Files\WinMerge
+rem C:\Program Files\Sublime Text
+rem %HOME%\AppData\Local\GitHubDesktop\bin

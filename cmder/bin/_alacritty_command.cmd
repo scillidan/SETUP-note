@@ -1,1 +1,0 @@
-"C:\Users\User\Opt\alacritty\Alacritty.exe" --config-file "C:\Users\User\Github\SETUP-note\alacritty\alacritty_cmder.toml"

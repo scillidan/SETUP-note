@@ -97,7 +97,7 @@ for %%d in (%CONFIG_MUSIC%) do (
     rem mklink "%%d\%SD%\average_volume.lua" "%MPV_SRC%mpv-scripts@stax76\average_volume.lua"
     mklink "%%d\%SD%\average_volume.lua" "%MPV_SRC%\mpv-scripts_stax76\average_volume.lua"
     mklink "%%d\%SD%\dualsubtitles.lua" "%MPV_SRC%\mpv-dualsubtitles\dualsubtitles.lua"
-    mklink "%%d\%SD%\dualsubtitles.conf" "%SSOD%\dualsubtitles.conf"
+    mklink "%%d\%SOD%\dualsubtitles.conf" "%SSOD%\dualsubtitles.conf"
 )
 
 set "CONFIG_MANGA=%CONFIG_DIR_MANGA%"

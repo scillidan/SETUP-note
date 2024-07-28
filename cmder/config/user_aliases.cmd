@@ -4,8 +4,16 @@
 ;= rem In batch mode, jump to the end of the file
 ;= goto:eof
 ;= Add aliases below here
-;= gl=git log --oneline --all --graph --decorate  $*
-;= ls=ls --show-control-chars -F --color $*
+e.=explorer .
+gl=git log --oneline --all --graph --decorate  $*
+l=ls --show-control-chars -CFGNhp --color --ignore={"NTUSER.DAT*","ntuser.dat*"} $*
+ls=ls --show-control-chars -F --color $*
+pwd=cd
+clear=cls
+unalias=alias /d $1
+vi=vim $*
+cmderr=cd /d "%CMDER_ROOT%"
+pwsh=%SystemRoot%/System32/WindowsPowerShell/v1.0/powershell.exe -ExecutionPolicy Bypass -NoLogo -NoProfile -NoExit -Command "Invoke-Expression '. ''%CMDER_ROOT%/vendor/profile.ps1'''"
 
 ;= ss=scoop search $*
 ;= sss=scoop-search $*
@@ -35,7 +43,7 @@
 ;= vcs=vcpkg search $*
 ;= vci=vcpkg install $*
 ;= vcu=vcpkg remove $*
-;= vcup=C: && C:\dev\vcpkg\ && git pull
+;= vcup=%SystemRoot%/dev/vcpkg && git pull
 ;= dsi=datasette install $*
 ;= dsu=datasette uninstall $*
 
@@ -46,8 +54,8 @@ pwd=cd
 rfe=refreshenv
 ipi=ipconfig | findstr /i "ipv4"
 ls=lsd --icon never
-e=explorer %CD%\$*
-d="C:\Program Files\GPSoftware\Directory Opus\dopus.exe" "%CD%\$*"
+e=explorer $CD$\$*
+d="%SystemRoot%/Program Files/GPSoftware/Directory Opus\dopus.exe" "$CD$\$*"
 open=open-cli $*
 
 gc=git clone $*
@@ -68,7 +76,7 @@ pu310=py310 -m pip uninstall $*
 xpi=pipx install $*
 xpu=pipx uninstall $*
 pcp=pip cache purge
-pva=venv\Scripts\activate.bat
+pva=./venv/Scripts/activate.bat
 ni=npm18 install $* -g
 nu=npm18 uninstall $* -g
 ns=npms search $*
@@ -88,5 +96,6 @@ gs2=gopicker $*
 ds=gsudo docker search $*
 dcu=gsudo docker compose up -d
 
+alas=%HOME%\Bin\alass\alass.bat" "$1.$2" "$1.$3" "$1.alass.$3"
 er=erd --disk-usage line --sort name --dir-order first --layout inverted $*
 jqp=jq ".scripts" package.json

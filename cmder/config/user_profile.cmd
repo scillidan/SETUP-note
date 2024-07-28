@@ -21,7 +21,7 @@ set "PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python%PROTOCOL_BUFFERS_PYTHON_IMPLE
 :: set "RUST_BACKTRACE=full%RUST_BACKTRACE%"
 :: set "RUSTFLAGS=--cfg tracing_unstable%RUSTFLAGS%"
 set "CARGO_HTTP_CHECK_REVOKE=false%CARGO_HTTP_CHECK_REVOKE%"
-set "CARGO_TARGET_DIR=%HOME%\Usr\cargo%CARGO_TARGET_DIR%"
+set "CARGO_TARGET_DIR=%HOME%\.local\share\cargo%CARGO_TARGET_DIR%"
 set "GO111MODULE=on%GO111MODULE%"
 :: set "GOPROXY='https://goproxy.cn,direct'%GOPROXY%"
 :: set "GOROOT=%GOROOT%"
@@ -44,8 +44,8 @@ set "_use_new_zipfile_serialization=False%_use_new_zipfile_serialization%"
 
 set "FZF_DEFAULT_OPTS=--layout=reverse --info=inline --multi --bind 'ctrl-a:select-all' --bind 'ctrl-e:execute(echo {+} | xargs -o subl)'%FZF_DEFAULT_OPTS%"
 set "TESSDATA_PREFIX=%HOME%\Opt\tesseract\tessdata%TESSDATA_PREFIX%"
-set "ALASS_FFMPEG_PATH=%HOME%\Opt\ffmpeg\bin\ffmpeg.exe%ALASS_FFMPEG_PATH%"
-set "ALASS_FFPROBE_PATH=%HOME%\Opt\ffmpeg\bin\ffprobe.exe%ALASS_FFPROBE_PATH%"
+:: set "ALASS_FFMPEG_PATH=%HOME%\Opt\ffmpeg\bin\ffmpeg.exe%ALASS_FFMPEG_PATH%"
+:: set "ALASS_FFPROBE_PATH=%HOME%\Opt\ffmpeg\bin\ffprobe.exe%ALASS_FFPROBE_PATH%"
 
 :: API
 :: set "TENCENT_SECRET_ID=%TENCENT_SECRET_ID%"
