@@ -4,7 +4,7 @@ extensions: 7z, zip
 ignore-files: 
   mslug3.zip
   mslug5.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbneo_libretro.dll" "{file.path}"
 
 game: 合金弹头1加强版
 file: mslug.zip

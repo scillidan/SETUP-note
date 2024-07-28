@@ -2,7 +2,7 @@ collection:动作街机
 sort-by:001
 extensions: 7z, zip
 ignore-files: 
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbneo_libretro.dll" "{file.path}"
 
 game: 必杀无赖拳
 file: avengers.zip

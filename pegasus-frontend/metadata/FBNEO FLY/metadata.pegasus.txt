@@ -5,7 +5,7 @@ ignore-files:
   tengai.zip
   vulcan.zip
   1944.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbneo_libretro.dll" "{file.path}"
 
 game: 1944 循环的征服者
 file: 1944j.zip

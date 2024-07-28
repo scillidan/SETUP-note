@@ -5,7 +5,7 @@ ignore-files:
   ddp3.zip
   ddpdojp.zip
   terracre.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbneo_libretro.dll" "{file.path}"
 
 game: 1941 反击战
 file: 1941.zip

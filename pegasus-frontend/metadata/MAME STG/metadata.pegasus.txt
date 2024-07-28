@@ -10,7 +10,7 @@ ignore-files:
   m68705p5.zip
   qsound_hle.7z
   segabill.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mame_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mame_libretro.dll" "{file.path}"
 
 game: 花小路大作战
 file: prikura.zip

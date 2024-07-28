@@ -10,7 +10,7 @@ ignore-files:
   stvbios.zip
   qsound_hle.7z
   coh1002v.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mame_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mame_libretro.dll" "{file.path}"
 
 game: 19XX 命运否决战 汉化版
 file: 19xxjr2.zip

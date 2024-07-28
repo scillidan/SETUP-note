@@ -3,7 +3,7 @@ sort-by:001
 extensions: 7z, zip
 ignore-files: 
   lightbr.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbneo_libretro.dll" "{file.path}"
 
 game: 名将
 file: captcomm.zip
@@ -214,7 +214,7 @@ game: 美丽新世界
 file: asterix.zip
 sort-by: 088
 developer: 美丽新世界
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Platform
 x-id: FBNEO ACT

@@ -1,7 +1,7 @@
 collection: FC
 sort-by: 022
 extensions: nes, 7z, zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\nestopia_libretro.dll" "{file.path}"
 
 game: 重装机兵
 file: 重装机兵.zip
@@ -55,7 +55,7 @@ game: 月风魔传
 file: 月风魔传.zip
 sort-by: 009
 developer: 月风魔传
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《月风魔传》是FC上一款经典的动作角色扮演游戏，这款游戏有着非常不错的创意，比如那神奇的3D迷宫、横版过关+大地图行走的模式等，游戏的难度还是挺大的。主人公月风魔夺回三把波动剑，消灭狂鬼岛的龙骨鬼的故事。游戏分为地图画面，地上画面，和地下画面三个部分，地上画面是传统的2D横卷轴ACT，地下画面是当时很少见的3D迷宫，是整个游戏难度所在。地图画面：俯视视角，如迷宫一样，玩家需要选择正确的路线，达到相应的区域。令人印象深刻的是，地图画面的BGM（背景音乐）非常动听，有一种催人前进的感觉，相信玩过的小伙伴都印象深刻。
 
 game: 圣铃传说
@@ -200,7 +200,7 @@ game: 勇者斗恶龙1
 file: 勇者斗恶龙1.zip
 sort-by: 033
 developer: 勇者斗恶龙1
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《勇者斗恶龙1》于1986年5月27日诞生。《勇者斗恶龙》系列其后与SQUARE公司制作的最终幻想系列并称为日本游戏界两大RPG游戏瑰宝。DQ的每一作基本上都是由不同的制作小组来制作的，但唯一不变的是由最初创作者堀井雄二、椙山浩一以及鸟山明三人组成的铁三角。DQ游戏主要以简单为主，没有十分华丽的画面，也没有复杂难明的系统，有的只是通俗易懂的童话故事。令玩家能尽情的享受游戏其中，这些就是DQ的独有特点。《勇者斗恶龙1》游戏中，玩家将扮演传说中的勇者“洛特”的血脉继承人，打倒妄图控制世界的龙王，顺道救出被掳走的公主。要完成游戏，就必须不断打倒在大地四处出没的各种魔物，从而赚取经验值和金钱；经验值能提升等级，金钱可购买更强力的武器，令主角的能力增强，推展探索范围，使其到达不同的村镇收集情报，由玩者自己综合情报去取得重要道具，才可令故事推进。这些设定成为日后所有RPG电子游戏的既定模式。勇者斗恶龙是系列第1作，日式RPG始祖的开山作，同时还是壮大的罗特3部曲的开始。第一代中出现怪物共39种（其中有非常著名的史莱姆(スラィム)），魔法10种，地点13处。打怪可得到经验值和钱，当经验值到达一定的数量后可LVUP、用钱可以买道具跟装备来强化自己。至于战斗是纯粹的回合制，这些就是构成DQI的系统，同时也是RPG游戏的基本要素，虽然非常的简单，但却一直沿用至今。
 
 game: 勇者斗恶龙2
@@ -231,7 +231,7 @@ game: 最终幻想3
 file: 最终幻想3.zip
 sort-by: 038
 developer: 最终幻想3
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《最终幻想Ⅲ》是最终幻想系列中第一款销量突破百万的作品，有着非常重大的纪念意义，作为《最终幻想》系列在FC平台的最后一个篇章，很好的完成了承上启下的作用，虽然设定和系列第一作基本没什么区别，但系统和设定的完美表现也标志了系列游戏从幼儿期步入成长的青年阶段，也为FC主机时代画上了完美的句号。世界被黑暗所笼罩，光明正在逐渐消失。被水晶所选中的4名少年少女即将踏上冒险的旅程。该作第一次启用了复数大地图的设计，游戏故事发生在三层重叠的空间之中，漂浮大陆、外侧大陆、海底，部分区域地图中包含多个城市、迷宫。玩家进入游戏后可以通过步行前往，乘坐陆行鸟、飞空艇等。游戏中玩家将带领队员们在不同的大陆中冒险，体验角色的成长过程。游戏中大部分时间用来和城镇居民对话，并通过对话搜集信息来获取更多的地点、事件与秘密。在系统上的最大贡献就是加入了""最终幻想""的另一招牌特色“召唤兽系统”。另外职业系统也在该作中得以强化，水晶与转职系统的结合使得游戏型直线上升，得到的水晶越多，所能转的职业也就越多，总共22种不同的职业可供选择。此外，陆行鸟之外的又一宠物“莫古力”也在该作中首次登场。
 
 game: 伊苏3
@@ -250,7 +250,7 @@ game: 恶魔城2
 file: 恶魔城2.zip
 sort-by: 041
 developer: 恶魔城2
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/quicknes_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\quicknes_libretro.dll" "{file.path}"
 description: 《恶魔城2》是横向卷轴的2D跳跃动作游戏。与前作FC恶魔城Dracula不同，不是纯粹的过关型ACT，本作加入RPG要素，成为ARPG游戏。剧情是前作直接的续编，发生在前作结局7年后，约1698年，主人公Simon Belmondo为解除自己身上的诅咒，永久消灭Dracula，去各地鬼馆收集Dracula肉体的5部分遗骸，最后在Dracula城烧光，并将其封印。
 
 game: 恶魔城3
@@ -293,7 +293,7 @@ game: 柯纳米世界1
 file: 柯纳米世界1.zip
 sort-by: 048
 developer: 柯纳米世界1
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《柯纳米世界1》是KONAMI挑选其发行过的多个著名游戏中的角色编制成的游戏，本作于1988年1月14日发售。该系列内容复杂曲折，可选择主角众多,难度很大、流程很长，游戏中的强化道具也比较多，更有密道、宝物、传送门等隐藏要素。一代入选的作品有《大盗伍佑卫门》《七宝奇谋》《恶魔城》《月风魔传》《大金刚》《摩艾君》《沙罗曼蛇》《兵蜂》《魂斗罗》。游戏的剧情：在某年的某一天，一个能改变历史的大魔王因为看不惯柯纳米各个游戏的主角英雄般的作为，于是呢，他改变了游戏历史，把原来美好的结局全部改变。每天过着劫富济贫日子的大盗伍右卫门居然被抓到而且被囚禁在京城的牢房里，永久不得出狱；在德古拉城保中，西蒙（恶魔城的主角），居然被关在棺材里，在棺材里的应该是德古拉呀；在洞窟中呢，七宝奇谋主角被警察抓到并关在牢房；在机械工厂，大金刚被驯兽师遗弃；在鬼门关中，月风魔却被龙骨鬼用封魔结界打入自己身上；而金字塔里面，摩艾君却被人当成是神像打入石头内祭拜了。天呀，这世界简直是一团乱呀，这些原来都是大魔头搞的鬼，于是柯纳米博士只好叫柯纳米男超人去把这些英雄救出来，最后再靠大家的力量将这个改变历史的大魔王给消灭。而这个任务博士认为很艰难，于是又用电脑做出了一个很可爱但能力超强的女战士一起去完成这个任务～我们叫她柯纳米女超人，任务就这样开始了。简单的说，这个游戏就是要救出上述的6位人物，最后一起去将大魔头打倒，每一位角色都会配有个人专用的远距离武器，都藏在各角色本人的舞台中，不过并不是看到就拿的到，有时候必须依靠别的主角帮忙才可获得该角色的武器或特殊道具，也就是说，每个主角都具有不同的能力，要靠大家同心协力才能打倒最终的大魔王。
 
 game: 柯纳米世界2
@@ -528,7 +528,7 @@ game: 忍者神龟3
 file: 忍者神龟3.zip
 sort-by: 087
 developer: 忍者神龟3
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mesen_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mesen_libretro.dll" "{file.path}"
 description: 《忍者神龟3》的画面和音乐极佳，达到了FC极限水平，BOSS数量从前作的9个增至12个，阵容豪华为历代之最，流程也长。从前代的基础上全部角色增加各自的必杀技，并且杀伤力大幅提高。游戏中可利用死角攻击，可以抓住地面或船的边缘来避开攻击，游戏较前作有更高游戏性。这是一款无限欢乐的游戏，音乐轻松，背景鲜活，节奏明快，其乐无穷，特别适合和基友一起双打。游戏充满了各种幽默要素，例如人物停在那里就会转过来眨眼卖萌；掉到洞里也是人先下去，然后龟壳；还有各种大球和铁锤，经常被砸成“二次元”。总的来说3代只是对2代的各种完善，正是这些完善让3代成为了FC《忍者神龟》最有趣的一作。3代发售时，SFC已经登场，FC显露疲态，KONAMI却没有敷衍8位机市场，拿出了一款值得称道的原创续作，给FC末期的玩家留下美好回忆。
 
 game: 忍者神龟4 激龟快打
@@ -607,21 +607,21 @@ game: 吞食天地2 曹魏的野望
 file: 吞食天地2 曹魏的野望.zip
 sort-by: 100
 developer: 吞食天地2 曹魏的野望
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《吞食天地2 曹魏的野望》以三国时代作为游戏的剧本，描绘了一个如梦如幻的三国历史篇章，主要讲述曹操灭袁绍、蜀、吴… 后期曹丕继位，结局司马家族灭五胡的兴衰存亡故事。游戏基于吞食天地2诸葛孔明传修改，剧情人物地图全改，新增招将所，可以收集很多历史原著猛将，游戏十分出色，可以跟《吞食天地2诸葛孔明传》、《吞食天地2秋风五丈原》相媲美，游戏画风清新自然，系统简单明了，剧情以史实为主，可谓跌宕起伏、波澜壮阔，总的来说，是一个非常好玩的改版。游戏开始有两条路线，延津和乌巢两种不同的剧情，给玩家提供两种不同的游戏体验。
 
 game: 吞食天地2 秋风五丈原
 file: 吞食天地2 秋风五丈原.zip
 sort-by: 101
 developer: 吞食天地2 秋风五丈原
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《吞食天地2 秋风五丈原》是日本三国粉丝制作的吞食天地mod，可谓改版游戏的至高境界！其吸取了原版《吞食天地》两作中的经典要素，集合了众多日本吞改研究者的智慧与力量，在基本脱离原版游戏流程框架的基础上，修改、添加了诸多新内容，让纵使是对原版游戏烂熟于胸的老玩家也能在本作中得到全新的游戏体验。本改版最大的创举在于对游戏系统的革新。首先，游戏引入了初代中的兵粮系统并加以强化：兵粮不仅在行军时会消减，在战斗中亦会消耗，一旦被火、水系的计策命中后更是会锐减，当兵粮减少到0时，给与对方的伤害将下降为原本的1/2。这一设定很好的体现了兵粮对于古代战争的重要性，且由此引入的两个全新道具“木牛”、“流马”再现了诸葛亮发明方面才华的同时，也对减少兵粮消耗起到了至关重要的作用。其次，猛将系统的引入也让武力超群的将领与一般武将产生了质的差别：能力查看界面下武器种类边上带有☆号的即为猛将，他们在普通状态下每回和即可进行2次攻击，在装备了特殊道具“兵书24篇”的状态下，甚至能进行4回攻击，配合倍击计、会心丹，能让物理伤害成为我方攻城拔寨的重要手段。军师可参战且只决定我方能使用计谋的种类，队伍的SP值与智复丹恢复的SP量均由我方全队智力的总合所决定，这一设定让武、智均衡的将领相较有勇无谋的武将有了更多的出场机会。策略方面，游戏引入了原版初代中的击柔、倍击、归还三种计策，并极大地强调了阵型的作用：不列阵的情况下，我方的攻、防仅为普通状态下的1/4、1/2。另外，敌将的攻、防、SP、使用的策略以及部分战斗时的兵力都会随着我方队伍等级的提高而有所增加。这个被作者戏称为“BLEACH System”的设定，让游戏的难度不会因为玩家过度的练级而下降得太多，与此相关的降级系统也让人有耳目一新之感。而仿造游戏《女神转生》系列而来的合体系统更是让人拍案叫绝：利用已收服的武将合体出一些强力武将，甚至还能得到流程中无法降服的特殊人物，让人对作者的改版创意和功力都佩服不已。所有隐藏物品的位置都经过了调整，并且在游戏中通过NPC的名称、对话来进行适当的提示，让喜欢探索的玩家能从中得到不少乐趣。大量的隐藏事件以及隐藏的Boss战更让这款改版上升到了一个全新的高度，如果把五本剑、除海贼事件以及天界、魔界组隐藏Boss战看作改版者对于初代游戏和原作漫画的致敬的话，八王之乱、冀州、邪马台等追加事件则是作者无穷创意的最佳体现。
 
 game: 吞食天地2 诸葛孔明传
 file: 吞食天地2 诸葛孔明传.zip
 sort-by: 102
 developer: 吞食天地2 诸葛孔明传
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《吞食天地2 诸葛孔明传》是Capcom于1991年4月5日发售的FC游戏软件，以『本宫ひろ志(Hiroshi Motomiya)』的漫画『天地を喰らう』（1983年 - 1984年）为题材制作的RPG游戏。游戏讲述刘关张三人从桃园结义起，平黄巾，灭董卓，讨袁术，定荆州，请孔明，烧博望，援赤壁，入西川，定三分，逐中原，得天下。Capcom于1992年11月还发售了街机版《吞食天地II 赤壁之战》，是一个经典的清版过关型ACT，这两个作品虽然名称相似，厂商相同，人设相同，但内容区别是很大的。游戏以刘备、诸葛亮等人为中心，一直发展到成功入蜀，这部分内容符合大家认可的史实，其后刘备实现了统一天下，显然这是游戏制作人的独创内容。剧情流程与前作FC版『天地を喰らう』（1989年）相似，只是本作剧情从刘备参加董承暗杀曹操计划开始，没有了对决黄巾军、对决董卓的描写。前作的最高兵力可以到 40000 以上（例如司马懿的兵力为40972），本作则限制在9999。废止了前作的兵粮系统。攻击系策略（火计、水计、落石）可自由选择对单人或全体施放。在对敌人全体施放的过程中，随敌人人数的多寡，而决定敌人平均将会受到多少的损伤。在策略中新增了“阵形”与“特殊”两个类别，攻击系与恢复系以外的策略，都被集中归类于这两个类别中。武将的敏捷度也如同武力、智力一起用长条图量化表示。强化地形对战斗的影响。如攻击系策略的限制（水边不能使用火计；落石必须在丘陵或山脉附近才可使用），此外武将还有各自的得意地形，在得意的地形上进行战斗时，攻击力将会提升。敌武将也被赋予了SP的概念（在前作中的敌武将SP为无限）。武器与防具与一般的道具已有各自的字段，消耗性道具追加堆栈上限至9。新增了可恢复SP的“智复丹”，以及在野外休憩恢复用的“野营道具”；但废止了可于特定都市间瞬间移动用的道具“神行符”。于前作的基本移动速度为此作基本移动速度的两倍，于此作必须装备赤兔马，才能恢复与前作相同的移动速度。打败敌武将时，有低机率获得无法于商店购买的强力武器、防具。从游戏内容上来说，单纯的打怪升级已不再是吞食天地2里主流的过关模式。武将的队序排列、军师任用、武将装备、武将带兵量、谋士计策的合理运用等众多元素揉合而成的决胜要素才是这款游戏的真正内涵之所在。
 
 game: 吞食天地2 诸葛孔明传复刻版
@@ -682,7 +682,7 @@ game: 合金装备1
 file: 合金装备1.zip
 sort-by: 112
 developer: 合金装备1
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《合金装备1》，又名： 燃烧战车 潜龙谍影。为破坏敌方的秘密武器而潜入敌军总部进行作战的动作游戏。间谍游戏的开山鼻祖。该作移植于MGS版《METAL GEAR》，MG是KONAMI《合金装备》系列的始祖作品，在当时FC出现后便将这部作品移植到FC，日本方面于1987年发售，北美和欧洲于1988年发售。比较令人遗憾的是，由于FC机能有限，很多地方做的有些做水甚至有一些BUG，令整体素质不如原版的MG，不过在FC平台依然算是有着不错的表现。
 
 game: 合金装备2
@@ -785,7 +785,7 @@ game: 龙珠Z1 赛亚人灭绝计划
 file: 龙珠Z1 赛亚人灭绝计划.zip
 sort-by: 129
 developer: 龙珠Z1 赛亚人灭绝计划
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《龙珠Z1 赛亚人灭绝计划》是FC上龙珠Z外传系列初代。“拳拳体爆光，拳拳光气气，气气体体爆，气瞬爆，爆爆光光光……” 如果你看得懂这些不明觉厉的文字，那你一定玩过这款红白机上最著名的《龙珠》改编游戏。早在九十年代，《龙珠》就是男生之间讨论最热烈的话题之一，而卡牌RPG游戏《龙珠Z 外传 赛亚人灭绝计划》就是随着那股热潮进入玩家视野的。该作堪称是FC平台上演出最华丽的游戏之一，甚至不逊于一些十六位机大作。
 
 game: 龙珠Z2 激神弗利萨
@@ -804,7 +804,7 @@ game: 龙珠 神龙之谜
 file: 龙珠 神龙之谜.zip
 sort-by: 132
 developer: 龙珠 神龙之谜
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《龙珠 神龙之谜》（日语：ドラゴンボール 神龍の謎，英语：Dragon Power）是一款由万代公司制作的动作的游戏。本游戏是七龙珠系列在FC的首作，于1986年11月27日在FC游戏机发行。故事世界中有七颗名为龙珠的物件，每颗龙珠各自有一至七颗星的标记散布于世界各地。集齐七颗龙珠便可以呼唤出神龙，向神龙许愿便可以达成任何愿望，而龙珠在一年内则变成普通石头，一年后才会恢复成龙珠。该做销量不俗，也促进了后续作品的诞生。
 
 game: 龙珠 超武斗传2
@@ -817,7 +817,7 @@ game: 马戏团
 file: 马戏团.zip
 sort-by: 134
 developer: 马戏团
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《马戏团》的英文标题《Circus charlie》使用的是主人公的本名，也就是小丑查理。这个长相可爱又身手矫健的查理堪称是全能型选手：驯兽、钢丝、骑马、跳球这样的难度的操作，在他眼里可都是小菜一碟！但是如果我们看过真正的马戏表演我们就会知道，这个设定是有一定问题的，因为在马戏团当中，小丑这个角色是一个绿叶的存在。变变小戏法、发发小礼物、哄哄孩子，调节气氛这些不怎么“体面”的活儿一般都是小丑干的。而像踩钢丝，驯兽跳火圈，踩大球跳跃这样的重头可都得是整个戏团头牌明星干的事情，精通一样就很不错，可小丑查理却样样精通完全不含糊，这是不是很不符合逻辑。况且，整个马戏团这么多高难度项目就让人一个人表演，是不是忒狠了点儿？说到这里有人就会说了，早期这么小容量的FC游戏，好玩就可以了，游戏设定之类的细节完全不用在意。《马戏团》有着早期FC游戏都有的槽点，那就是流程重复。看上去能一关一关一直这么玩下去，但是实际上就那么五关，过完之后再继续轮回一次，难度稍微升高一些。每一关都有不同的BGM，其洗脑到了什么程度呢？看看上面这张图闭着眼睛再假装自己握着手柄，耳畔不一会儿就会环绕起那个经典的旋律。而那个经典的旋律倒也不是游戏的开发商自己谱写的，而是改编自美国作曲家在1885年创作的著名曲目《美国巡逻兵进行曲》，简洁明快的曲目用来表现美国巡逻兵欢快的步伐。呃！说实话这也确实欢快过头了，听得我满脑子都是巡逻兵手拉手在跳踢踏舞的画面......要说日本这些给游戏配乐的制作人可真的够鸡贼，专门喜欢选择一些经典但是不需要任何版权的古典乐，明显嘛，如果你用别人的就会闹官司，自己原创又累又难，用古典音乐又好听又免版权，简直一举两得！马戏团只是其中之一，当然还不止于此，比如南极大冒险的主题曲是著名的《溜冰进行曲》。如果你技术好能打到这款游戏的第五关的话，那你还能听到又一世界名曲——《蓝色多瑙河》，原来，我们的音乐素养早在FC时代就已经开始了培养了，游戏机简直功不可没。那么这款游戏有没有故事背景呢？答案是：有的。说是有个地方名叫“梦想马戏团”，里面有个屌丝名叫小丑查理。因为身份比较卑微，毫不起眼的他只能扮丑，逗人发笑。不曾想，这个屌丝却默默的爱上了团长的千金：美丽的杰妮。团长说，他的女儿要嫁给最棒的男人。查理似乎看到了希望，或许只要自己好好努力，终有一天自己能够成为名角，或许那时候才有资格追求杰妮。“女士们，先生们，今晚最大的娱乐节目……”主持人的声音在会场回响，马戏团的大幕就要拉开。“啊，神呐，无论如何请帮帮我！”查理虽然经过刻苦训练，但是他并不能完全掌握这些技能，只能默默祈祷，希望自己能一战功成。他不怕狮子、也不怕高台，甚至死都不怕。但他只害怕演出一旦失败，就失去了扬名立万的好机会，再也没有机会追求杰妮。查理再次祈祷，用一生只有一次的绝技，将空中秋千变成最美的时刻！如果对电影有些研究的话，这很明显的就能看出来游戏是在致敬喜剧大师查理.卓别林的经典喜剧《马戏团》。这样一来，游戏的元素也罢、主角的名称也好、一切都有了答案，难怪游戏的名称叫做《小丑查理》。结局不同的是，在影片的最后查理爆发了小宇宙用自己最精彩的表演征服了观众们，拯救了剧团的生意..........但遗憾的，在查理拼命练习的时候女神杰妮早已和另一个高富帅走到了一起！虽说是一部喜剧，但是结局的扎心程度完全可以让它成为一部悲剧。而在游戏中，有情人终成眷属，查理终于获得了杰妮的放心，通关的时候在高台上迎接胜利而归的查理。话说在FC的版本当中，我们并没有见到所谓的女神“杰妮”，那她去哪儿了？其实这也因为是FC移植版本的原因，在街机版的《马戏团》中，杰尼就坐在最后的平台高点等着查理，表演结束之后会用一个大大的香吻来嘉奖查理，然后两人就幸福的生活在一起......在电影中未能达成的完美结局，在游戏中终于是实现了。
 
 game: 敲冰块
@@ -842,7 +842,7 @@ game: 1943
 file: 1943.zip
 sort-by: 138
 developer: 1943
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《1943 中途岛海战》（日语：1943 ミッドウェイ海戦，英语：1943 The Battle of Midway）是CAPCOM在1987年6月推出的纵向卷轴射击游戏，平台是街机，也有移植到红白机的版本，除了日文版也有英文版，以下简称为《1943》。1943是CAPCOM“1942系列”的第2作，这次游戏的背景以太平洋战争的中途岛海战为主，玩家与1942一样操作美军的P-38闪电式战斗机，在中途岛与日本海军展开决战。前作1942最大的特色“空中回旋”、“子机”系统都有保留下来，1943更新加入了许多新武装，与最具特色的“能源系统”，打破了过去射击游戏的自机只能承受一次攻击的概念，加上受到了同年推出的究极虎的影响，加入了类似“炸弹系统”的“Mega Crash”。1943与1942最大的不同点就是1942并没有名确的指出游戏中的敌军是日本海军，只有暧昧的将游戏中出现的敌机以日本风格命名，但是1943除了部分的虚构武装，游戏中出现的所有战舰都是用史实存在的日本战舰去命名的。1943使用8方向摇杆来移动，两个按钮分别控制普通攻击与Mega Crash，游戏总共有16关。
 
 game: 1944
@@ -879,7 +879,7 @@ game: 帝国战机
 file: 帝国战机.zip
 sort-by: 144
 developer: 帝国战机
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《帝国战机》官方名为“危机军队”或“危机武力”日文名为クライシスフォース 英文名为CRISIS FORCE，是FC游戏历史上STG射击作品的招牌作品，和《沙罗曼蛇》《宇宙巡航机2》《加纳战机》《1943》《究级虎》并称FC射击作品的“六大天王”。游戏诞生于1991年08月27，KONAMI出品，是FC末期的大作之一，游戏的基本操作方式和其他飞机射击游戏相似，有射击和必杀两个按键。
 
 game: 加纳战机
@@ -898,7 +898,7 @@ game: 宇宙巡航机2
 file: 宇宙巡航机2.zip
 sort-by: 147
 developer: 宇宙巡航机2
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《宇宙巡航机2》FC版，于1988年12月16日发售，武器升级系统与FC版《沙罗曼蛇》相同（Double和Laser可升至2级），本版在基于街机版的基础上同样有大量原创要素存在，音乐也有大量原创曲出现。大概是因为原创要素过多，FC版没有副标题即“GOFERの野望”，也没有Option Hunter。技术上的进步使得本作终于可以与街机版同样装备4个Option，当激活第5次Option后装备着的4个Option会围绕战机旋转一段时间，之后恢复原来的位置。Tetran旋转的触手也变成了真正的触手而不是之前版本的球体，BOSS体积巨大魄力十足，在现在这些都让人不以为然，但别忘了FC主机的性能！不过真正让人震惊的不是这个而是游戏中竟然有语音存在，装备各种武器时都会有语音发出，甚至连最终BOSS GOFER都有语音，最可怕的是本作音乐部分调用硬件全部是FC内部音源没有搭载扩展音源，（就是多加了64KB内存为高速运动区域做缓冲。）Konami的技术实力真是让人难以置信。另外本版可以用KONAMI经典秘籍调出30命。
 
 game: 超级间谍猎人
@@ -1067,7 +1067,7 @@ game: 半熟英雄
 file: 半熟英雄.zip
 sort-by: 175
 developer: 半熟英雄
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/quicknes_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\quicknes_libretro.dll" "{file.path}"
 description: 《半熟英雄》是一款经营类型的社交游戏，玩家将从一个普通的小角色白手起家，通过拜访名师，习得厨艺，继而开设经营自己的饭店，通过自己厨艺和饭店的成长，最后成为一代食神大亨！FC上极其少见的即时战略游戏，人物诙谐幽默，气氛轻松有趣。可以类比PC上的红色警戒。后来被外星科技汉化，居然叫做“龙珠英雄”，狂汗……
 
 game: 宝石方块
@@ -1146,7 +1146,7 @@ game: 超级宝宝
 file: 超级宝宝.zip
 sort-by: 188
 developer: 超级宝宝
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《超级宝宝》是Konami制作发行的一款动作游戏，玩家操作一个小宝宝来展开冒险，游戏的关卡类型类似超级马里奥，但是每关都有一个BOSS。
 
 game: 超级中国人2
@@ -1255,7 +1255,7 @@ game: 大盗伍佑卫门2
 file: 大盗伍佑卫门2.zip
 sort-by: 206
 developer: 大盗伍佑卫门2
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《大盗伍佑卫门2》是相隔前作足足两年半的时间才推出的经典动作游戏续集。本作中伍佑卫门的冒险范围扩大到了全国，流程非常充实。而冒险的历程也不再是一个人，同伴惠比寿丸将会是一个得力的助手，这个看上去傻乎乎的家伙也成为了系列后续作品中必定登场的角色。游戏基本进行方式与前作相同，各色的赌场依然在等待玩家，而画面的显示方式包括了横向、纵向、3D以及伪3D等多种卷轴模式，无论画面还是音效都是FC的上品，加上可以支持双人同时进行，相当的受欢迎。
 
 game: 大混战
@@ -1310,7 +1310,7 @@ game: 大眼蛙冒险2
 file: 大眼蛙冒险2.zip
 sort-by: 215
 developer: 大眼蛙冒险2
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《大眼蛙冒险2》是Shimada Kikaku开发由Character Soft于1993年发行的动作过关类游戏。玩家将控制大眼蛙开始冒险，大眼蛙开始时的攻击范围非常有限，但是通过不断拾取草莓，可以扩大攻击范围。当然，玩家也可以像超级马里奥那样通过跳起落下来杀死敌人。如果玩家上一个关卡以最强形态顺利过关，在下一关卡时将继承四个草莓的次最强形态继续冒险，这样的话过程相比变得比较简单。本作的玩法、甚至连音乐都高度类似于Hudson在同平台于1992年制作发行的《菲力克斯猫》，不过谁抄袭谁就不得而知了！
 
 game: 弹珠台
@@ -1407,7 +1407,7 @@ game: 俄罗斯方块1
 file: 俄罗斯方块1.zip
 sort-by: 231
 developer: 俄罗斯方块1
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《俄罗斯方块1》（Tetris: The Soviet Mind Game）是一款由俄罗斯人阿列克谢·帕基特诺夫于1984年6月发明的休闲游戏。该游戏曾经被多家公司代理过，经过多轮诉讼后，该游戏的代理权最终被任天堂获得。该作为发行于1987年的FC主机版本。《俄罗斯方块》的基本规则是移动、旋转和摆放游戏自动输出的各种方块，使之排列成完整的一行或多行并且消除得分。由小方块组成的不同形状的板块陆续从屏幕上方落下来，玩家通过调整板块的位置和方向，使它们在屏幕底部拼出完整的一条或几条。这些完整的横条会随即消失，给新落下来的板块腾出空间，与此同时，玩家得到分数奖励。没有被消除掉的方块不断堆积起来，一旦堆到屏幕顶端，玩家便告输，游戏结束。由于上手简单、老少皆宜,从而家喻户晓,风靡世界。
 
 game: 俄罗斯方块2
@@ -1918,7 +1918,7 @@ game: 拉格朗日点
 file: 拉格朗日点.zip
 sort-by: 316
 developer: 拉格朗日点
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《拉格朗日点》是KONAMI公司于1991年出品在FC上的一款RPG游戏。在当时已值末期的FC上实现了非常成熟的显示效果以及音效表现。游戏的整体画面已经有SFC初期作品的水准，而实体卡带专门为处理音源所搭载的VRC VII特殊芯片也让其音乐效果明显高于其他RPG。在此之上，本作还有着精密的系统设置，是名副其实的FC末期旗舰大作。本作在画面上用色非常丰富，开头的序幕动画就足以让当年同平台的其他作品相形见绌。巨大的航天飞机，雄伟的卫星，精密的空间站内部等设备，以及剧情的整体世界观，在五分钟左右的开场动画里毫无保留地展现给玩家，一股科幻电影的味道扑面而来。而序章过后，主角所属的调查队下了航天飞机立刻就遭到袭击而全灭的套路也是欧美大片的开场风格。由于故事舞台基本在空间站内展开，游戏中的城镇都很具有机械感。其中第一空间站以绿洲地形为主，第二空间站以沙漠地形为主，剩余的就是荒凉破败的荒野。不管是什么地形，构图都能很迅速的让玩家把握住本区域最基本特色。RPG必须的设备也很醒目，门口有明确的图片标志，一目了然。本游戏野外的移动方式和其他RPG有很大的不同，只要出门就必须要用到载具载具有汽车、坦克、船和飞机。而移动到宇宙场景的时候地图上的角色小人还会穿上宇航服，操作也变成会朝按键方向一直飘的惯性模式，细节非常周到。总的来说，游戏的画面风格营造出了很清晰的科幻冒险风，在地图上驾驶坦克飞机冒险有MetalMax系列的末世流浪感，城镇和迷宫造型也有梦幻之星系列的硬派金属感，可谓集两家之长。战斗行动分为手动和自动，自动的话要选择一位领队负责下战斗方针然后全体执行。每个人的方针都有各自的命名和效果，有点像DQ4的模式。不过自动的AI并不很高。杂兵战尚可省点事，boss战还是手动比较保险。战斗界面也非常的具有未来感，上边的计量表是敌人的HP比例，可以在一定程度上把握战况。攻击时是类似DQ的主视角模式，看不到我方人员的动作，但是可以看到不同武器的攻击效果。配合对话框里类似实时播报的讯息滚动，特别是击破全部敌人后主角会说一句“敌人生命反应消失”，临场感大大增强。感谢KONAMI在那个年代推出一部如此高水准的作品，其中的不少设定都具有划时代的意义，成了日后JRPG的标配。
 
 game: 蓝色计划
@@ -2249,7 +2249,7 @@ game: 能源战士1
 file: 能源战士1.zip
 sort-by: 371
 developer: 能源战士1
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《能源战士1》由 TAITO于1991年发售的动作过关游戏，实际制作商是 Natsume，虽然不能说 Natsume 出品的游戏必然就是精品，但一般不会差。这款力量之刃知名度虽然不算高，但实际玩起来素质还是不含糊的。游戏的剧情是人类用一个超级电脑系统来管理社会，但是这个系统失控了，于是主角的任务是寻找6个高级官员得到6张ID卡，然后潜入核心区域破坏守卫，最终打败系统。按照这个剧情，玩家需要在6个大关中自选一关攻略，在关卡中寻找到官员，得到ID卡后再找到大门击败守卫BOSS，所以游戏是需要找路的。另外这个长得像施瓦辛格的主角的能力也是可以提升，并可以在换关后被保存下来的，他的武器是回旋镖，初始状态下只能扔很近，但力量提升后就会变远，而且能一次性扔好几个，所以感觉很BT，但也非常爽，尤其是碰到BOSS时一波镖扔过去，配合一点闪避操作，真能当对方韭菜割。除了回旋镖，主角也可以得到铠甲，变成拥有发穿墙月牙波的新形态（只能承受3次攻击），道具方面可以获得全屏炸弹和满血粮食，上限4个随时取用。个人感觉这些强化全部算下来，相对来说敌人还是有点弱了的，但是要注意的是主角掉坑里就是被秒哦，这是游戏里最强大的“敌人”了。力量之刃的规格素质在FC属于中规中矩，缺点是画面普通了点，还有主角的跑步姿势太逗比。本游戏在日本没有发售，也是有点意外的。选关密码：第二关，B2712209；第三关，9BJG57KB；第四关，74F3D93J；第五关，D4JGGB8K；第六关，F0GKGF2K；第七关，77KD10GJ；音乐测试，标题画面时，按住P2的左上，A，B键，再按START键即可进入音乐测试；真接消灭首脑法：在进入首脑房间的瞬间使用手雷，首脑即被消灭，此法仅第1，2，4，5关有效。
 
 game: 能源战士2
@@ -2502,7 +2502,7 @@ game: 少年印第安纳琼斯
 file: 少年印第安纳琼斯.zip
 sort-by: 413
 developer: 少年印第安纳琼斯
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《少年印第安纳琼斯历代记》英文名The Young Indiana Jones Chronicles，香港译作《少年夺宝奇兵》是Jaleco开发的一款动作游戏，并于1993年1月在FC上发售，游戏改编自1990年代同名电视剧。FC上有三个印第安纳琼斯的游戏，这是发售时间最晚的一部，游戏品质最高最耐玩。在游戏中，主角讲述自己年轻时候的各种英勇事迹，比如在墨西哥打恶霸救美女，帮博物馆找回宝物，参军帮忙送信，摧毁德军毒气计划等等，玩家会跟着回忆攻略那些相应的游戏关卡。游戏手感很好，简单明快，关卡设计其实也不错，但缺点是玩法不吸引人，主角开过飞机、开过坦克、攀过悬崖、会耍鞭子、会扔手榴弹、能使刀子、擅长扔石头、也会开枪。虽然看起来要素不少，但有点走马观花的感觉，不能让人达到高潮。游戏对操作是有要求的，但并不是很高，相比之下背版反而更重要。这个游戏的敌人是比较厉害的，不同于同时代的很多游戏，敌人不会满屏幕吓跑，而是待在原地狙击你，一旦你接近，就会开枪扔手榴弹，如果敌人和你在同一个平台上，你移动后让他进入屏幕了，他们采取攻击的速度会很快，如果还没心眼地凑过去，那就只能被打了，更别说有几个场景有从天而降的弹头和飞机了。由于敌我都不耐打，所以这是个容错率较低的游戏，这和流畅的手感有点格格不入。玩这个游戏多多少少要背一点版，不然很容易吃亏。游戏整体评价并不高，知名媒体大都认为画面和过场动画值得一提，但配乐和音效很一般，当然也有媒体批评了该游戏的难度偏高。
 
 game: 射击方块
@@ -2617,7 +2617,7 @@ game: 双月传说
 file: 双月传说.zip
 sort-by: 432
 developer: 双月传说
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《双月传说》是一款带有《勇者斗恶龙》风格，设有弱点系统的RPG游戏。主角在游戏中可以选择3种职业，与同伴组成4人队伍展开冒险。
 
 game: 斯坦利 寻找利文斯敦博士
@@ -2792,7 +2792,7 @@ game: 兔宝宝1
 file: 兔宝宝1.zip
 sort-by: 461
 developer: 兔宝宝1
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《兔宝宝》是一款休闲搞笑动作闯关游戏，Konami于1991年制作的一款动作冒险游戏，题材采用的是华纳兄弟的兔八哥相关动画角色。有着三种角色可选，再加上原有的兔宝宝，4个可爱的角色都有着各自的属性特色。除了兔宝宝这个原始角色外，游戏提供了三个特色角色。游戏开始的时候选择，然后在游戏中通过五角星皮球变身，变身后就拥有了特色属性。兔宝宝：初始角色，特长为跳跃能力超强。鸭子：特长为可以滑翔。大狗：特长为可以变身为一道旋风，旋风期间无敌并攻击敌人。狐狸：特长为可以攀墙。《兔宝宝大冒险》可爱的卡通形象，当我们还小的时候，就特别喜欢这种形式的游戏。当然，现在看来依然那样呆萌可爱。游戏操作虽然简单，但提供了角色特性，是游戏整体趣味性都提高了一个档次。
 
 game: 兔宝宝2
@@ -2853,7 +2853,7 @@ game: 魍魉战记
 file: 魍魉战记.zip
 sort-by: 471
 developer: 魍魉战记
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 description: 《魍魉战记》是由Konami公司开发的，原版为日文版的，FC上译作《鬼魅战记》的则是由外星科技翻译的中文版，在这里不得不说，虽然外星科技经常山寨，但是我一点不讨厌它，毕竟让我们小时候玩到了许多优秀的中文版的FC大作。这款游戏已经是FC末期时的作品了，没有赶上好的时间让它并没有像其他FC大作一样让玩家记住。但是这确实是一部神作。游戏的风格和勇者斗恶龙有点类似，游戏的剧情背景等则是根据当时的同名热血漫画改编而来的，是一款正统RPG游戏。游戏的剧情简单来说，大概就是需要击杀8个魍鬼将军，最后击败魍鬼女王，最后主角牺牲了自己杀了女王（其实最后又醒了，没死，当时应该是为后续埋伏笔），总体的游戏流程很长，可以把玩家带入角色之中尽情的体验。游戏的画面和音乐非常出色达到顶级FC游戏的水准，非常大的世界地图，配上好听的BGM，在一个下着小雨阴天下午玩这个游戏，可谓快哉啊。游戏的怪设计的也是相当用心，很有代入感。不得不说的是游戏的战斗系统，这也是我对这个游戏最喜欢的一点。游戏的战斗模式不同于一般的经典RPG回合制，而是做了一些改变。游戏进入战斗界面时，先是展示一下怪物，然后会切到另外一个画面，类似战旗的作战方式。作战方式是按照预先设置的来的，包括角色怎么站位，当然战斗中也可以改变行动，有点类似魔神英雄传的半即时战斗方式。游戏中也有中毒，麻痹等异常状态，相应的也有对着这些的黑魔法。游戏中队伍的队员除了男女主角外，其他都是可以自由搭配的，可以去旅店更换队友，让队友离队的时候记得把装备扒下来，离队后队员装备会刷新为普通装备。
 
 game: 威洛之旅

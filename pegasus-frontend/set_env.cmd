@@ -1,1 +1,0 @@
-setx RETROARCH_HOME "C:\Users\User\Opt\RetroArch"

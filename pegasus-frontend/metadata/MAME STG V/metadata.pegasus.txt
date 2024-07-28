@@ -10,7 +10,7 @@ ignore-files:
   m68705p5.zip
   qsound_hle.7z
   segabill.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mame_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mame_libretro.dll" "{file.path}"
 
 game: 奇奇怪界 汉化版
 file: kikikai.zip

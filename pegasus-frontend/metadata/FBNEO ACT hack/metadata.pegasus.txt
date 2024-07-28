@@ -5,7 +5,7 @@ ignore-files:
   denjinmk.zip
   kov2.zip
   kov2p.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbneo_libretro.dll" "{file.path}"
 
 game: 名将 全屏攻击版
 file: captcommqp/captcomm.zip
@@ -14,7 +14,7 @@ developer: 名将 全屏攻击版
 assets.box_front: media/captcommqp/boxfront.jpg
 assets.logo: media/captcommqp/logo.png
 assets.video: media/captcommqp/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -48,7 +48,7 @@ developer: 龙与地下城1 毁灭之塔 全屏攻击版
 assets.box_front: media/ddtodqp/boxfront.jpg
 assets.logo: media/ddtodqp/logo.png
 assets.video: media/ddtodqp/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -61,7 +61,7 @@ developer: 龙与地下城2 暗黑秘影 全屏攻击版
 assets.box_front: media/ddsomqp/boxfront.jpg
 assets.logo: media/ddsomqp/logo.png
 assets.video: media/ddsomqp/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -152,7 +152,7 @@ developer: 恐龙新世纪 血腥魂斗罗
 assets.box_front: media/dinoab/boxfront.jpg
 assets.logo: media/dinoab/logo.png
 assets.video: media/dinoab/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -165,7 +165,7 @@ developer: 恐龙新世纪 全屏攻击版
 assets.box_front: media/dino2/boxfront.jpg
 assets.logo: media/dino2/logo.png
 assets.video: media/dino2/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -178,7 +178,7 @@ developer: 吞食天地2 多功能加强版
 assets.box_front: media/wofj4/boxfront.jpg
 assets.logo: media/wofj4/logo.png
 assets.video: media/wofj4/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -191,7 +191,7 @@ developer: 吞食天地2 剑气横飞版
 assets.box_front: media/wofj1/boxfront.jpg
 assets.logo: media/wofj1/logo.png
 assets.video: media/wofj1/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -204,7 +204,7 @@ developer: 吞食天地2 马战无双版
 assets.box_front: media/wofj6/boxfront.jpg
 assets.logo: media/wofj6/logo.png
 assets.video: media/wofj6/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -217,7 +217,7 @@ developer: 吞食天地2 无双加强版
 assets.box_front: media/wofj9/boxfront.jpg
 assets.logo: media/wofj9/logo.png
 assets.video: media/wofj9/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -287,7 +287,7 @@ developer: 吞食天地2 飞刀版
 assets.box_front: media/wofj13/boxfront.jpg
 assets.logo: media/wofj13/logo.png
 assets.video: media/wofj13/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -300,7 +300,7 @@ developer: 吞食天地2 许褚版
 assets.box_front: media/wofj11/boxfront.jpg
 assets.logo: media/wofj11/logo.png
 assets.video: media/wofj11/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -403,7 +403,7 @@ developer: 吞食天地2 夏侯惇无双版
 assets.box_front: media/wofj10/boxfront.jpg
 assets.logo: media/wofj10/logo.png
 assets.video: media/wofj10/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -428,7 +428,7 @@ developer: 吞食天地2 全屏攻击版
 assets.box_front: media/wof/boxfront.jpg
 assets.logo: media/wof/logo.png
 assets.video: media/wof/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -465,7 +465,7 @@ developer: 圆桌骑士 全屏攻击版
 assets.box_front: media/knightsqp/boxfront.jpg
 assets.logo: media/knightsqp/logo.png
 assets.video: media/knightsqp/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -490,7 +490,7 @@ developer: 惩罚者 全屏攻击版
 assets.box_front: media/punisherqp/boxfront.jpg
 assets.logo: media/punisherqp/logo.png
 assets.video: media/punisherqp/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: Capcom
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack
@@ -839,7 +839,7 @@ developer: 西游释厄传1 群魔乱舞 加强版
 assets.box_front: media/oldsplusqmlw/boxfront.jpg
 assets.logo: media/oldsplusqmlw/logo.png
 assets.video: media/oldsplusqmlw/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: IGS
 genre: Beat-'Em-Up
 x-id: FBNEO ACT hack

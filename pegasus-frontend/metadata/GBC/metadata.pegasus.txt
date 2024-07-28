@@ -1,7 +1,7 @@
 collection: GBC
 sort-by: 017
 extensions: gb, gbc, 7z, zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/gambatte_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\gambatte_libretro.dll" "{file.path}"
 
 game: 口袋妖怪 金
 file: 口袋妖怪 金.gbc

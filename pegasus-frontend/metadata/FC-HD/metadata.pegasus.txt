@@ -1,7 +1,7 @@
 collection: FC-HD
 sort-by: 024
 extensions: nes,zip
-launch:"C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mesen_libretro.dll" "{file.path}"
+launch:"C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mesen_libretro.dll" "{file.path}"
 
 game: 超级马里奥兄弟1 3D版
 file: Super Mario Bros. 3d.zip

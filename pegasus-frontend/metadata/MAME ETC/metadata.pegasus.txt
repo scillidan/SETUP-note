@@ -16,7 +16,7 @@ ignore-files:
   aleck64.zip
   stvbios.zip
   m68705p5.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mame_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mame_libretro.dll" "{file.path}"
 
 game: 麻将砖块
 file: jongbou.zip
@@ -165,7 +165,7 @@ developer: 埃及艳后宝石方块 汉化版
 assets.box_front: media/cleopatr/boxFront.jpg
 assets.logo: media/cleopatr/logo.png
 assets.video: media/cleopatr/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mame2003_plus_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mame2003_plus_libretro.dll" "{file.path}"
 release: Puzzle-Game
 x-id: MAME ECT
 description: 盛大汉化版

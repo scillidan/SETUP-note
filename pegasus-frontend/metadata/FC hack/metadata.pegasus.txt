@@ -1,7 +1,7 @@
 collection: FC hack
 sort-by: 023
 extensions: nes, 7z, zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fceumm_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
 
 game: 重装机兵 超级加强版
 file: 重装机兵 超级加强版.zip
@@ -1123,7 +1123,7 @@ game: 成龙踢馆2
 file: 成龙踢馆2.zip
 sort-by: 187
 developer: 成龙踢馆2
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\nestopia_libretro.dll" "{file.path}"
 description: HP不减
 
 game: 成龙之龙
@@ -1988,7 +1988,7 @@ game: 天使之翼2汉化版
 file: 天使之翼2汉化版.zip
 sort-by: 331
 developer: 天使之翼2汉化版
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\nestopia_libretro.dll" "{file.path}"
 description: 体力不减、经验共享，修改器已经完美，无需再修改，一人升级全队有效。
 
 game: 挑战巨龙

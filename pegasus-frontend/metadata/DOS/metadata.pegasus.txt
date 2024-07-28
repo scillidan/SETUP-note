@@ -1,7 +1,7 @@
 collection: DOS
 sort-by: 069
 extensions: bat, com, cue, dosz, exe, ima, img, ins, iso, m3u, m3u8, vhd, zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/dosbox_pure_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\dosbox_pure_libretro.dll" "{file.path}"
 
 game: 仙剑奇侠传
 file: 仙剑奇侠传.zip

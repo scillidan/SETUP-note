@@ -1,7 +1,7 @@
 collection: SFC hack
 sort-by: 027
 extensions: sfc, smc, 7z, zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/snes9x_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\snes9x_libretro.dll" "{file.path}"
 
 game: RPG中文 超时空之轮
 file: 超时空之轮.zip

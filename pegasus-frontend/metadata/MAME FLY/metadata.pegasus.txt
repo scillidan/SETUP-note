@@ -14,7 +14,7 @@ ignore-files:
   model1io2.zip
   namcoc67.zip
   namcoc68.7z
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mame_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mame_libretro.dll" "{file.path}"
 
 game: 兵蜂3
 file: tbyahhoo.zip
@@ -173,7 +173,7 @@ game: 中东战争 汉化版
 file: silkworm.zip
 sort-by: 277
 developer: 中东战争 汉化版
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mame2003_plus_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mame2003_plus_libretro.dll" "{file.path}"
 publisher: Tecmo
 genre: 3
 x-id: MAME FLY

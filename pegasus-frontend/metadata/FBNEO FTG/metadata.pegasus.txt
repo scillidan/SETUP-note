@@ -4,7 +4,7 @@ extensions: 7z, zip
 ignore-files: 
   shogwarr.zip
   bloodwar.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbneo_libretro.dll" "{file.path}"
 
 game: 拳皇94
 file: kof94.zip

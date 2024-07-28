@@ -1,6 +1,6 @@
 collection: NGPC
 sort-by: 058
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mednafen_ngp_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mednafen_ngp_libretro.dll" "{file.path}"
 
 game: SNK vs Capcom 千禧之战 汉化版
 file: SNK vs Capcom 千禧之战 汉化版.zip

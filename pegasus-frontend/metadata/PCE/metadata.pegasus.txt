@@ -1,7 +1,7 @@
 collection: PCE
 sort-by: 054
 extensions: pce,chd,cue,zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mednafen_pce_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mednafen_pce_libretro.dll" "{file.path}"
 
 game: [SuperGrafx]1941 反击战
 file: 1941 - Counter Attack (Japan).pce

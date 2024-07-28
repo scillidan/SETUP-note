@@ -1,7 +1,7 @@
 collection: WS
 sort-by: 060
 extensions: ws, zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mednafen_wswan_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mednafen_wswan_libretro.dll" "{file.path}"
 
 game: DJ快手
 file: DJ快手.zip

@@ -32,7 +32,7 @@ rem mklink "%CMDER_OPT%\config\user-profile.sh" "%CMDER_SETUP_NOTE%\config\user-
 rem mklink "%CMDER_OPT%\config\user_profile.ps1" "%CMDER_SETUP_NOTE%\config\user_profile.ps1"
 mklink "%CMDER_OPT%\config\user_profile.cmd" "%CMDER_SETUP_NOTE%\config\user_profile.cmd"
 mklink "%CMDER_OPT%\vendor\setpath.bat" "%CMDER_SETUP_NOTE%\vendor\setpath.bat"
-rem mklink "%CMDER_OPT%\config\user_aliases.cmd" "%CMDER_SETUP_NOTE%\config\user_aliases.cmd"
+mklink "%CMDER_OPT%\config\user_aliases.cmd" "%CMDER_SETUP_NOTE%\config\user_aliases.cmd"
 mklink "%CMDER_OPT%\vendor\tere.bat" "%CMDER_SETUP_NOTE%\vendor\tere.bat"
 mklink "%CMDER_OPT%\vendor\fzf.lua" %CMDER_SETUP_NOTE%\vendor\_clink-fzf_fzf.lua"
 mklink "%CMDER_OPT%\vendor\fuzzy_history.lua" %CMDER_SRC%\clink-gizmos\fuzzy_history.lua"

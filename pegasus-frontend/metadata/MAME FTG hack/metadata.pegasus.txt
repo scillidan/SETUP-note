@@ -3,7 +3,7 @@ sort-by:002
 extensions: 7z, zip
 ignore-files: 
   neogeo.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mame_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mame_libretro.dll" "{file.path}"
 
 game: 拳皇2002 魔法终极加强简化版
 file: kof2002.zip

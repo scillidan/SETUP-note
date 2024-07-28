@@ -1,10 +1,10 @@
 [Ditto]
 DBPath3=C:\Users\User\Opt\Ditto\Ditto.db
-MainhWnd=66374
+MainhWnd=66340
 (2560x1440)_QuickPasteCX=267
 (2560x1440)_QuickPasteCY=722
-(2560x1440)_QuickPasteX=560
-(2560x1440)_QuickPasteY=353
+(2560x1440)_QuickPasteX=1802
+(2560x1440)_QuickPasteY=2
 CheckForMaxEntries=1
 CheckForExpiredEntries=0
 MaxEntries=20000
@@ -98,9 +98,9 @@ ListToPutOnClipboard=
 NetworkExtraPassword=
 RequestFilesUsingIP=0
 TripDate=1702493595
-TripCopies=52089
+TripCopies=52168
 TotalDate=1702493595
-TotalCopies=52089
+TotalCopies=52168
 TripPastes=1629
 TotalPastes=1629
 ShowStartupMessage=0

@@ -1,7 +1,7 @@
 collection: GBA
 sort-by: 018
 extensions: gba, 7z, zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/vbam_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\vbam_libretro.dll" "{file.path}"
 
 game: 黄金太阳1 开启的封印
 file: 黄金太阳1 开启的封印.zip

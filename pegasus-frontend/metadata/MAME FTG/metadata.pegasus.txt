@@ -13,7 +13,7 @@ ignore-files:
   sys246.zip
   namcoc76.zip
   stvbios.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mame_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mame_libretro.dll" "{file.path}"
 
 game: 拳皇98 终极之战英雄
 file: kof98umh.zip

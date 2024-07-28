@@ -10,7 +10,7 @@ ignore-files:
   qsound_hle.7z
   kov2nl.zip
   orleg2.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mame_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mame_libretro.dll" "{file.path}"
 
 game: 龙与地下城2 暗黑秘影 汉化版
 file: ddsomj.zip

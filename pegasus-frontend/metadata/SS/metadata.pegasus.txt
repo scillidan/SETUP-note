@@ -1,7 +1,7 @@
 collection: SS
 sort-by: 041
 extensions: chd
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mednafen_saturn_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mednafen_saturn_libretro.dll" "{file.path}"
 
 game: 恶魔城X月下夜想曲
 file: 001.chd
@@ -19,7 +19,7 @@ game: 恶魔城X月下夜想曲 玛利亚无敌版
 file: 003.chd
 sort-by: 003
 developer: 恶魔城X月下夜想曲 玛利亚无敌版
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/yabause_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\yabause_libretro.dll" "{file.path}"
 description: 《恶魔城X月下夜想曲 玛利亚无敌版》中的玛丽亚可以穿过敌人，不受伤害。
 
 game: 守护英雄 汉化版

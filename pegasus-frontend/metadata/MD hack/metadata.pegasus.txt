@@ -1,7 +1,7 @@
 collection: MD hack
 sort-by: 038
 extensions: smd, bin, 7z, zip, gen
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/genesis_plus_gx_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\genesis_plus_gx_libretro.dll" "{file.path}"
 
 game: 怒之铁拳2 23角色版
 file: 怒之铁拳2 23角色版.zip

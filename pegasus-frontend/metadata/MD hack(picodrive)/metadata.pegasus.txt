@@ -1,7 +1,7 @@
 collection: MD hack
 sort-by: 038
 extensions: smd, bin, 7z, zip, gen, md
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/picodrive_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\picodrive_libretro.dll" "{file.path}"
 
 game: 怒之铁拳1
 file: 怒之铁拳1.zip

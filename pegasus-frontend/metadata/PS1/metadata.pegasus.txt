@@ -1,7 +1,7 @@
 collection: PS1
 sort-by: 045
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/swanstation_libretro.dll" "{file.path}"
-// launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/pcsx_rearmed_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\swanstation_libretro.dll" "{file.path}"
+// launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\pcsx_rearmed_libretro.dll" "{file.path}"
 
 game: 恶魔城X月下夜想曲 汉化版
 file: 恶魔城X月下夜想曲 汉化版.chd

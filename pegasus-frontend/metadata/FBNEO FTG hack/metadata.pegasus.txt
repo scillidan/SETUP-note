@@ -15,7 +15,7 @@ ignore-files:
   kof2001.zip
   ssf2.zip
   mvscuj/mvsc.zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbneo_libretro.dll" "{file.path}"
 
 game: 拳皇94 简化版
 file: kof94.zip
@@ -47,7 +47,7 @@ developer: 拳皇94 PLUS 简化版
 assets.box_front: media/kof94pem/boxfront.jpg
 assets.logo: media/kof94pem/logo.png
 assets.video: media/kof94pem/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: SNK
 genre: n/a
 release: n/a
@@ -170,7 +170,7 @@ developer: 拳皇97 BC
 assets.box_front: media/kof97/boxfront.jpg
 assets.logo: media/kof97/logo.png
 assets.video: media/kof97/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: SNK
 genre: n/a
 release: n/a
@@ -616,7 +616,7 @@ developer: 拳皇2002 Remix Ultra 3.5
 assets.box_front: media/2002ru/boxfront.jpg
 assets.logo: media/2002ru/logo.png
 assets.video: media/2002ru/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: SNK
 genre: n/a
 release: n/a
@@ -630,7 +630,7 @@ developer: 拳皇2002 Remix Ultra 3.5 简化版
 assets.box_front: media/2002ru/boxfront.jpg
 assets.logo: media/2002ru/logo.png
 assets.video: media/2002ru/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: SNK
 genre: n/a
 release: n/a
@@ -644,7 +644,7 @@ developer: 拳皇2002 Super
 assets.box_front: media/kof2002s/boxfront.jpg
 assets.logo: media/kof2002s/logo.png
 assets.video: media/kof2002s/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: SNK
 genre: n/a
 release: n/a
@@ -658,7 +658,7 @@ developer: 拳皇2002 Super 简化版
 assets.box_front: media/kof2002s/boxfront.jpg
 assets.logo: media/kof2002s/logo.png
 assets.video: media/kof2002s/video.mp4
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\fbalpha_libretro.dll" "{file.path}"
 publisher: SNK
 genre: n/a
 release: n/a

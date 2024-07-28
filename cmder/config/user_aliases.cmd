@@ -43,7 +43,7 @@ pwsh=%SystemRoot%/System32/WindowsPowerShell/v1.0/powershell.exe -ExecutionPolic
 ;= vcs=vcpkg search $*
 ;= vci=vcpkg install $*
 ;= vcu=vcpkg remove $*
-;= vcup=%SystemRoot%/dev/vcpkg && git pull
+;= vcup=C:\dev\vcpkg && git pull
 ;= dsi=datasette install $*
 ;= dsu=datasette uninstall $*
 
@@ -55,7 +55,7 @@ rfe=refreshenv
 ipi=ipconfig | findstr /i "ipv4"
 ls=lsd --icon never
 e=explorer $CD$\$*
-d="%SystemRoot%/Program Files/GPSoftware/Directory Opus\dopus.exe" "$CD$\$*"
+d="C:\Program Files\GPSoftware\Directory Opus\dopus.exe" "%CD%\$*"
 open=open-cli $*
 
 gc=git clone $*
@@ -96,6 +96,6 @@ gs2=gopicker $*
 ds=gsudo docker search $*
 dcu=gsudo docker compose up -d
 
-alas=%HOME%\Bin\alass\alass.bat" "$1.$2" "$1.$3" "$1.alass.$3"
+alas="C:\Users\User\Bin\alass\alass.bat" "$1.$2" "$1.$3" "$1.alass.$3"
 er=erd --disk-usage line --sort name --dir-order first --layout inverted $*
 jqp=jq ".scripts" package.json

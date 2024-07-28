@@ -1,6 +1,6 @@
 collection: NAOMI
 sort-by: 008
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/flycast_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\flycast_libretro.dll" "{file.path}"
 
 game: 斑鸠
 file: ikaruga.zip

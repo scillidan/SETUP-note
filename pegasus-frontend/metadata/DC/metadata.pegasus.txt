@@ -1,6 +1,6 @@
 collection: DC
 sort-by: 042
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/flycast_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\flycast_libretro.dll" "{file.path}"
 
 game: 蓝海豚
 file: 蓝海豚.cdi

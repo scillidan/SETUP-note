@@ -3,529 +3,89 @@
       "creator" : "Keypirinha v2.26 (e037f62)",
       "creator_url" : "http://keypirinha.com/",
       "format" : 102,
-      "modified" : "2024-07-28T13:00:14+0000",
+      "modified" : "2024-07-28T15:52:11+0000",
       "type" : "history"
    },
    "history" : [
       {
          "action" : null,
-         "item" : 496685123341756346,
-         "label" : "mpv",
-         "time" : "2024-07-28T05:19:22+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T05:22:05+0000"
-      },
-      {
-         "action" : null,
-         "item" : 2912397380834358263,
-         "label" : "dnGREP",
-         "time" : "2024-07-28T05:42:25+0000"
-      },
-      {
-         "action" : null,
-         "item" : 496685123341756346,
-         "label" : "mpv",
-         "time" : "2024-07-28T05:48:11+0000"
-      },
-      {
-         "action" : null,
-         "item" : 7368932023125412882,
-         "label" : "rapidee",
-         "time" : "2024-07-28T06:06:37+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6919389390567151296,
-         "label" : "微信",
-         "time" : "2024-07-28T06:24:16+0000"
-      },
-      {
-         "action" : null,
-         "item" : 18116127969574596728,
-         "label" : "qBittorrent",
-         "time" : "2024-07-28T06:26:15+0000"
-      },
-      {
-         "action" : null,
-         "item" : 3476095980806187809,
-         "label" : "QuiteRSS",
-         "time" : "2024-07-28T06:26:29+0000"
-      },
-      {
-         "action" : null,
-         "item" : 16689485404022444142,
-         "label" : "JackettTray",
-         "time" : "2024-07-28T06:33:39+0000"
-      },
-      {
-         "action" : null,
-         "item" : 262490813395881641,
-         "label" : "GitHub Desktop",
-         "time" : "2024-07-28T07:23:30+0000"
-      },
-      {
-         "action" : 11933390219418939760,
-         "item" : 3777781391436540824,
-         "label" : "AHKExpansionsList_user.ahk -> Edit",
-         "time" : "2024-07-28T07:50:49+0000"
-      },
-      {
-         "action" : 11933390219418939760,
-         "item" : 9091435483717832570,
-         "label" : "user_aliases.cmd -> Edit",
-         "time" : "2024-07-28T07:54:59+0000"
-      },
-      {
-         "action" : null,
-         "item" : 7368932023125412882,
-         "label" : "rapidee",
-         "time" : "2024-07-28T08:15:51+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T08:18:26+0000"
-      },
-      {
-         "action" : null,
-         "item" : 7368932023125412882,
-         "label" : "rapidee",
-         "time" : "2024-07-28T08:19:47+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T08:28:01+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T08:30:05+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T08:31:39+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T08:34:27+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T08:35:17+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T08:36:15+0000"
-      },
-      {
-         "action" : null,
-         "item" : 17865331009635860473,
-         "label" : "Recycle Bin",
-         "time" : "2024-07-28T08:36:41+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T08:38:02+0000"
-      },
-      {
-         "action" : null,
-         "item" : 3812361562387200703,
-         "label" : "Kill:",
-         "time" : "2024-07-28T08:41:53+0000"
-      },
-      {
-         "action" : null,
-         "item" : 3812361562387200703,
-         "label" : "Kill:",
-         "time" : "2024-07-28T08:43:25+0000"
-      },
-      {
-         "action" : null,
          "item" : 6232269710298456502,
          "label" : "Desktop",
-         "time" : "2024-07-28T08:44:22+0000"
+         "time" : "2024-07-28T14:38:02+0000"
       },
       {
          "action" : null,
-         "item" : 18116127969574596728,
-         "label" : "qBittorrent",
-         "time" : "2024-07-28T08:55:39+0000"
+         "item" : 5563355620880197588,
+         "label" : "ControllerDisplay.exe",
+         "time" : "2024-07-28T14:38:32+0000"
       },
       {
          "action" : null,
-         "item" : 5138225867592801626,
-         "label" : "Sublime Text",
-         "time" : "2024-07-28T08:59:16+0000"
+         "item" : 10178287834777497586,
+         "label" : "Display",
+         "time" : "2024-07-28T14:40:30+0000"
       },
       {
          "action" : null,
-         "item" : 16689485404022444142,
-         "label" : "JackettTray",
-         "time" : "2024-07-28T09:27:18+0000"
+         "item" : 5563355620880197588,
+         "label" : "ControllerDisplay.exe",
+         "time" : "2024-07-28T14:40:38+0000"
       },
       {
          "action" : null,
-         "item" : 5654720801643068762,
-         "label" : "http://osub Yoake.no.S",
-         "time" : "2024-07-28T09:29:07+0000"
+         "item" : 5563355620880197588,
+         "label" : "ControllerDisplay.exe",
+         "time" : "2024-07-28T14:53:24+0000"
       },
       {
          "action" : null,
-         "item" : 5623930834024372037,
-         "label" : "Tern-Subtitle File Translator.exe",
-         "time" : "2024-07-28T09:30:54+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:37:19+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:38:21+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:40:49+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:41:26+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:43:58+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:45:20+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:45:30+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:46:23+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:47:29+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:47:41+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:48:15+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:48:59+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:50:37+0000"
-      },
-      {
-         "action" : null,
-         "item" : 7368932023125412882,
-         "label" : "rapidee",
-         "time" : "2024-07-28T09:50:49+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:52:07+0000"
-      },
-      {
-         "action" : null,
-         "item" : 262490813395881641,
-         "label" : "GitHub Desktop",
-         "time" : "2024-07-28T09:52:31+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:54:28+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:54:51+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:55:11+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:55:49+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:58:18+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:58:26+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:59:02+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:59:19+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T09:59:48+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T10:00:03+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T10:00:18+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T10:01:04+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T10:01:47+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T10:02:54+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T10:03:08+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T10:04:05+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T10:04:11+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T10:04:21+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T10:05:10+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T10:07:57+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6437383497087328849,
-         "label" : "Cmder",
-         "time" : "2024-07-28T10:08:12+0000"
-      },
-      {
-         "action" : null,
-         "item" : 18116127969574596728,
-         "label" : "qBittorrent",
-         "time" : "2024-07-28T10:20:07+0000"
-      },
-      {
-         "action" : null,
-         "item" : 17865331009635860473,
-         "label" : "Recycle Bin",
-         "time" : "2024-07-28T10:38:39+0000"
-      },
-      {
-         "action" : null,
-         "item" : 18116127969574596728,
-         "label" : "qBittorrent",
-         "time" : "2024-07-28T10:52:30+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6919389390567151296,
-         "label" : "微信",
-         "time" : "2024-07-28T10:55:56+0000"
-      },
-      {
-         "action" : null,
-         "item" : 6919389390567151296,
-         "label" : "微信",
-         "time" : "2024-07-28T10:58:14+0000"
-      },
-      {
-         "action" : null,
-         "item" : 17964616082456939227,
-         "label" : "Empty Recycle Bin",
-         "time" : "2024-07-28T11:23:24+0000"
-      },
-      {
-         "action" : null,
-         "item" : 12339913164104482558,
-         "label" : "obs64.exe",
-         "time" : "2024-07-28T11:48:27+0000"
-      },
-      {
-         "action" : null,
-         "item" : 12339913164104482558,
-         "label" : "obs64.exe",
-         "time" : "2024-07-28T11:48:36+0000"
-      },
-      {
-         "action" : null,
-         "item" : 2912397380834358263,
-         "label" : "dnGREP",
-         "time" : "2024-07-28T12:01:51+0000"
+         "item" : 17024316667797214574,
+         "label" : "Carnac",
+         "time" : "2024-07-28T14:56:55+0000"
       },
       {
          "action" : null,
          "item" : 15684529855309864928,
          "label" : "LosslessCut",
-         "time" : "2024-07-28T12:21:07+0000"
+         "time" : "2024-07-28T15:04:23+0000"
       },
       {
          "action" : null,
-         "item" : 15684529855309864928,
-         "label" : "LosslessCut",
-         "time" : "2024-07-28T12:41:41+0000"
-      },
-      {
-         "action" : null,
-         "item" : 2912397380834358263,
-         "label" : "dnGREP",
-         "time" : "2024-07-28T12:51:26+0000"
+         "item" : 6564064055209981373,
+         "label" : "GoldenDict",
+         "time" : "2024-07-28T15:18:37+0000"
       },
       {
          "action" : null,
          "item" : 262490813395881641,
          "label" : "GitHub Desktop",
-         "time" : "2024-07-28T13:00:14+0000"
+         "time" : "2024-07-28T15:52:11+0000"
       }
    ],
    "sets" : {
-      "actions" : [
-         {
-            "id" : 11933390219418939760,
-            "label" : "Edit",
-            "name" : "edit",
-            "plugin" : "App",
-            "short_desc" : "Edit file using the editor setting or system's default"
-         }
-      ],
+      "actions" : [],
       "items" : [
          {
             "args_hint" : "accepted",
             "category" : "file",
             "hit_hint" : "keepall",
-            "id" : 3777781391436540824,
-            "label" : "AHKExpansionsList_user.ahk",
+            "id" : 17024316667797214574,
+            "label" : "Carnac",
             "loop_on_suggest" : false,
-            "plugin" : "FileBrowser.FileBrowser",
-            "short_desc" : "",
-            "target" : "C:\\Users\\User\\Github\\SETUP-note\\keypirinha\\_User\\filebrowser\\AHKExpansionsList_user.ahk"
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\Carnac.lnk"
          },
          {
             "args_hint" : "accepted",
             "category" : "file",
             "hit_hint" : "keepall",
-            "id" : 6437383497087328849,
-            "label" : "Cmder",
+            "id" : 5563355620880197588,
+            "label" : "ControllerDisplay.exe",
             "loop_on_suggest" : false,
             "plugin" : "Apps.Desktop",
             "short_desc" : "Desktop: Desktop",
-            "target" : "C:\\Users\\User\\Desktop\\Cmder.lnk"
+            "target" : "C:\\Users\\User\\Desktop\\ControllerDisplay.exe.lnk"
          },
          {
             "args_hint" : "forbidden",
@@ -539,26 +99,15 @@
             "target" : "Desktop"
          },
          {
-            "args_hint" : "accepted",
-            "category" : "file",
-            "hit_hint" : "keepall",
-            "id" : 2912397380834358263,
-            "label" : "dnGREP",
-            "loop_on_suggest" : false,
-            "plugin" : "Apps.Desktop",
-            "short_desc" : "Desktop: Desktop",
-            "target" : "C:\\Users\\User\\Desktop\\dnGREP.lnk"
-         },
-         {
             "args_hint" : "forbidden",
             "category" : "keyword",
             "hit_hint" : "noargs",
-            "id" : 17964616082456939227,
-            "label" : "Empty Recycle Bin",
+            "id" : 10178287834777497586,
+            "label" : "Display",
             "loop_on_suggest" : false,
             "plugin" : "WinSys.WinSys",
-            "short_desc" : "Empty the Recycle Bin",
-            "target" : "Empty Recycle Bin"
+            "short_desc" : "Opens the display settings panel",
+            "target" : "Display"
          },
          {
             "args_hint" : "accepted",
@@ -572,37 +121,15 @@
             "target" : "C:\\Users\\User\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\GitHub, Inc\\GitHub Desktop.lnk"
          },
          {
-            "args_hint" : "forbidden",
-            "category" : "url",
-            "hit_hint" : "noargs",
-            "id" : 5654720801643068762,
-            "label" : "http://osub Yoake.no.S",
-            "loop_on_suggest" : false,
-            "plugin" : "URL.URL",
-            "short_desc" : "Launch URL: http://osub Yoake.no.S",
-            "target" : "http://osub Yoake.no.S"
-         },
-         {
             "args_hint" : "accepted",
             "category" : "file",
             "hit_hint" : "keepall",
-            "id" : 16689485404022444142,
-            "label" : "JackettTray",
+            "id" : 6564064055209981373,
+            "label" : "GoldenDict",
             "loop_on_suggest" : false,
             "plugin" : "Apps.Desktop",
             "short_desc" : "Desktop: Desktop",
-            "target" : "C:\\Users\\User\\Desktop\\JackettTray.lnk"
-         },
-         {
-            "args_hint" : "required",
-            "category" : "keyword",
-            "hit_hint" : "keepall",
-            "id" : 3812361562387200703,
-            "label" : "Kill:",
-            "loop_on_suggest" : false,
-            "plugin" : "Kill.Kill",
-            "short_desc" : "Kills running processes",
-            "target" : "kill"
+            "target" : "C:\\Users\\User\\Desktop\\GoldenDict.lnk"
          },
          {
             "args_hint" : "accepted",
@@ -614,202 +141,36 @@
             "plugin" : "Apps.Desktop",
             "short_desc" : "Desktop: Desktop",
             "target" : "C:\\Users\\User\\Desktop\\LosslessCut.lnk"
-         },
-         {
-            "args_hint" : "accepted",
-            "category" : "#1001",
-            "hit_hint" : "noargs",
-            "id" : 496685123341756346,
-            "label" : "mpv",
-            "loop_on_suggest" : false,
-            "plugin" : "Apps.CustomCmds",
-            "short_desc" : "Custom command: cmd /c \"C:\\Users\\User\\Github\\SETUP-note\\mpv\\m.bat\" {{*}}",
-            "target" : "mpv"
-         },
-         {
-            "args_hint" : "accepted",
-            "category" : "file",
-            "hit_hint" : "keepall",
-            "id" : 12339913164104482558,
-            "label" : "obs64.exe",
-            "loop_on_suggest" : false,
-            "plugin" : "Apps.Desktop",
-            "short_desc" : "Desktop: Desktop",
-            "target" : "C:\\Users\\User\\Desktop\\obs64.exe.lnk"
-         },
-         {
-            "args_hint" : "accepted",
-            "category" : "file",
-            "hit_hint" : "keepall",
-            "id" : 18116127969574596728,
-            "label" : "qBittorrent",
-            "loop_on_suggest" : false,
-            "plugin" : "Apps.StartMenu",
-            "short_desc" : "Start Menu: Programs\\qBittorrent",
-            "target" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\qBittorrent\\qBittorrent.lnk"
-         },
-         {
-            "args_hint" : "accepted",
-            "category" : "file",
-            "hit_hint" : "keepall",
-            "id" : 3476095980806187809,
-            "label" : "QuiteRSS",
-            "loop_on_suggest" : false,
-            "plugin" : "Apps.Desktop",
-            "short_desc" : "Desktop: Desktop",
-            "target" : "C:\\Users\\User\\Desktop\\QuiteRSS.lnk"
-         },
-         {
-            "args_hint" : "accepted",
-            "category" : "file",
-            "hit_hint" : "keepall",
-            "id" : 7368932023125412882,
-            "label" : "rapidee",
-            "loop_on_suggest" : false,
-            "plugin" : "Apps.Desktop",
-            "short_desc" : "Desktop: Desktop",
-            "target" : "C:\\Users\\User\\Desktop\\rapidee.lnk"
-         },
-         {
-            "args_hint" : "forbidden",
-            "category" : "keyword",
-            "hit_hint" : "noargs",
-            "id" : 17865331009635860473,
-            "label" : "Recycle Bin",
-            "loop_on_suggest" : false,
-            "plugin" : "WinSys.WinSys",
-            "short_desc" : "Opens the Recycle Bin folder",
-            "target" : "Recycle Bin"
-         },
-         {
-            "args_hint" : "accepted",
-            "category" : "file",
-            "hit_hint" : "keepall",
-            "id" : 5138225867592801626,
-            "label" : "Sublime Text",
-            "loop_on_suggest" : false,
-            "plugin" : "Apps.StartMenu",
-            "short_desc" : "Start Menu: Programs",
-            "target" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Sublime Text.lnk"
-         },
-         {
-            "args_hint" : "accepted",
-            "category" : "file",
-            "hit_hint" : "keepall",
-            "id" : 5623930834024372037,
-            "label" : "Tern-Subtitle File Translator.exe",
-            "loop_on_suggest" : false,
-            "plugin" : "Apps.Desktop",
-            "short_desc" : "Desktop: Desktop",
-            "target" : "C:\\Users\\User\\Desktop\\Tern-Subtitle File Translator.exe.lnk"
-         },
-         {
-            "args_hint" : "accepted",
-            "category" : "file",
-            "hit_hint" : "keepall",
-            "id" : 9091435483717832570,
-            "label" : "user_aliases.cmd",
-            "loop_on_suggest" : false,
-            "plugin" : "FileBrowser.FileBrowser",
-            "short_desc" : "",
-            "target" : "C:\\Users\\User\\Github\\SETUP-note\\keypirinha\\_User\\filebrowser\\user_aliases.cmd"
-         },
-         {
-            "args_hint" : "accepted",
-            "category" : "file",
-            "hit_hint" : "keepall",
-            "id" : 6919389390567151296,
-            "label" : "微信",
-            "loop_on_suggest" : false,
-            "plugin" : "Apps.Desktop",
-            "short_desc" : "Desktop: Desktop",
-            "target" : "C:\\Users\\Public\\Desktop\\微信.lnk"
          }
       ],
       "terms" : [
          {
-            "items" : [ 9091435483717832570, 3777781391436540824 ],
-            "search" : "~"
-         },
-         {
-            "items" : [ 17865331009635860473 ],
-            "search" : "bin"
-         },
-         {
-            "items" : [ 6437383497087328849 ],
-            "search" : "cmder"
+            "items" : [ 17024316667797214574 ],
+            "search" : "ca"
          },
          {
             "items" : [ 6232269710298456502 ],
-            "search" : "dek"
+            "search" : "desk"
          },
          {
-            "items" : [ 7368932023125412882 ],
-            "search" : "ee"
+            "items" : [ 5563355620880197588, 10178287834777497586 ],
+            "search" : "dis"
          },
          {
-            "items" : [ 17964616082456939227 ],
-            "search" : "emp"
+            "items" : [ 5563355620880197588 ],
+            "search" : "display"
          },
          {
             "items" : [ 262490813395881641 ],
             "search" : "github"
          },
          {
-            "items" : [ 2912397380834358263 ],
-            "search" : "grep"
-         },
-         {
-            "items" : [ 16689485404022444142 ],
-            "search" : "jack"
-         },
-         {
-            "items" : [ 16689485404022444142 ],
-            "search" : "jackett"
-         },
-         {
-            "items" : [ 3812361562387200703 ],
-            "search" : "kill"
+            "items" : [ 6564064055209981373 ],
+            "search" : "gold"
          },
          {
             "items" : [ 15684529855309864928 ],
             "search" : "loss"
-         },
-         {
-            "items" : [ 496685123341756346 ],
-            "search" : "mpv"
-         },
-         {
-            "items" : [ 12339913164104482558 ],
-            "search" : "obs"
-         },
-         {
-            "items" : [ 5654720801643068762 ],
-            "search" : "osub Yoake.no.S"
-         },
-         {
-            "items" : [ 3476095980806187809 ],
-            "search" : "q"
-         },
-         {
-            "items" : [ 18116127969574596728 ],
-            "search" : "qb"
-         },
-         {
-            "items" : [ 18116127969574596728 ],
-            "search" : "qbt"
-         },
-         {
-            "items" : [ 5138225867592801626 ],
-            "search" : "subl"
-         },
-         {
-            "items" : [ 5623930834024372037 ],
-            "search" : "tern"
-         },
-         {
-            "items" : [ 6919389390567151296 ],
-            "search" : "微信"
          }
       ]
    }

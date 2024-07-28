@@ -1,7 +1,7 @@
 collection: WSC
 sort-by: 061
 extensions: ws, wsc, zip
-launch: "C:\Users\User\Opt\RetroArch/retroarch.exe" -L "C:\Users\User\Opt\RetroArch/cores/mednafen_wswan_libretro.dll" "{file.path}"
+launch: "C:\Users\User\Opt\RetroArch\retroarch.exe" -L "C:\Users\User\Opt\RetroArch\cores\mednafen_wswan_libretro.dll" "{file.path}"
 
 game: FLASH恋人
 file: FLASH恋人.zip
