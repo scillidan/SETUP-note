@@ -96,6 +96,8 @@ gs2=gopicker $*
 ds=gsudo docker search $*
 dcu=gsudo docker compose up -d
 
+dga=doggo A $* @1.1.1.1
+dgg=doggo A $* @8.8.8.8
 alas="C:\Users\User\Bin\alass\alass.bat" "$1.$2" "$1.$3" "$1.alass.$3"
 er=erd --disk-usage line --sort name --dir-order first --layout inverted $*
 jqp=jq ".scripts" package.json
