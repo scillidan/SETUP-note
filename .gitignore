@@ -3,11 +3,10 @@
 **/watch_later/
 **/memo-history.log
 **/_config_dir_*/
-rime/data/user.yaml
-keypirinha/Profile/User/currency.ini
-keypirinha/Profile/User/github.ini
-ditto/Ditto.Settings
-keypirinha/Profile/User/Keypirinha.history
 cmder/config/user-ConEmu.xml
 ditto/Ditto.Settings
+keypirinha/Profile/User/currency.ini
+keypirinha/Profile/User/github.ini
 keypirinha/Profile/User/Keypirinha.history
+keypirinha/_User/filebrowser/
+rime/data/user.yaml
