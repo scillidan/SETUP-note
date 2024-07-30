@@ -24,13 +24,13 @@ mklink "%GOLDENDICT_DATA%\styles\Dark\qt-style.css" "%GOLDENDICT_SRC%\GoldenDict
 
 rem Enable Start-Config
 
-rem del %GOLDENDICT_DATA%\config
-rem mklink %GOLDENDICT_DATA%\config %GOLDENDICT_SETUP_NOTE%\config_start
+del %GOLDENDICT_DATA%\config
+mklink %GOLDENDICT_DATA%\config %GOLDENDICT_SETUP_NOTE%\config_start
 
 rem Ebable Final-Config
 
-del %GOLDENDICT_DATA%\config
-mklink %GOLDENDICT_DATA%\config %GOLDENDICT_SETUP_NOTE%\config
+rem del %GOLDENDICT_DATA%\config
+rem mklink %GOLDENDICT_DATA%\config %GOLDENDICT_SETUP_NOTE%\config
 
 rem Enable GoldenDictOCR
 

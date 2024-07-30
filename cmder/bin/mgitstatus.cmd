@@ -1,1 +1,1 @@
-C:\\Users\\User\\Bin\Git\usr\bin\bash.exe C:\Users\User\\Bin\multi-git-status\mgitstatus %*
+%HOME%\Bin\Git\bin\bash.exe %HOME%\Bin\multi-git-status\mgitstatus %*

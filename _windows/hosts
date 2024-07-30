@@ -1,46 +1,23 @@
 127.0.0.1 localhost
 # 127.0.0.1 0.0.0.0
-
-# Get IP address from `https://www.ipaddress.com`.
-
-# git
-
-140.82.113.3 github.com
+140.82.116.3 github.com                # git
 185.199.108.133 githubusercontent.com
 13.32.208.55 huggingface.co
-
-# registry
-
-104.16.0.35 npmjs.org
+104.16.0.35 npmjs.org                  # registry
 104.16.24.34 npmjs.org
 151.101.0.223 python.org
 151.101.0.223 pypi.org
 108.138.64.48 crates.io
 # 142.251.32.17 proxy.golang.org
 13.32.151.28 download.docker.com
-
-# mirror
-
-202.120.2.119 sjtu.edu.cn
+202.120.2.119 sjtu.edu.cn              # mirror
 151.101.1.229 cdn.jsdelivr.net
-
-# api
-
-0.0.0.1 tencentcloudapi.com
+0.0.0.1 tencentcloudapi.com            # api
 184.31.138.32 api.steampowered.com
-
-# steam
-
-23.0.18.123 steamcommunity.com
+23.0.18.123 steamcommunity.com         # steam
 23.1.198.56 steampowered.com
-
-# other
-
-# 142.44.245.229 getcomposer.org
-
-# block
-
-# 127.0.0.1	lm.licenses.adobe.com
+# 142.44.245.229 getcomposer.org       # other
+# 127.0.0.1	lm.licenses.adobe.com      # block
 # 127.0.0.1	na1r.services.adobe.com
 # 127.0.0.1	hlrcv.stage.adobe.com
 # 127.0.0.1	practivate.adobe.com

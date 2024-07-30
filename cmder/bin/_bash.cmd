@@ -1,1 +1,1 @@
-C:\\Users\\User\\Bin\Git\usr\bin\bash.exe %*
+%HOME%\Bin\Git\usr\bin\bash.exe %*
