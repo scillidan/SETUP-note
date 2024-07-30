@@ -1,1 +1,1 @@
-../../../cmder/config/user_profile.cmd
+C:/Users/User/Github/SETUP-note/cmder/config/user_profile.cmd

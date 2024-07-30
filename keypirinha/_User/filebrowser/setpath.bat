@@ -1,1 +1,1 @@
-../../../cmder/vendor/setpath.bat
+C:/Users/User/Github/SETUP-note/cmder/vendor/setpath.bat

@@ -3,122 +3,197 @@
       "creator" : "Keypirinha v2.26 (e037f62)",
       "creator_url" : "http://keypirinha.com/",
       "format" : 102,
-      "modified" : "2024-07-28T15:52:11+0000",
+      "modified" : "2024-07-30T11:00:42+0000",
       "type" : "history"
    },
    "history" : [
       {
          "action" : null,
-         "item" : 6232269710298456502,
-         "label" : "Desktop",
-         "time" : "2024-07-28T14:38:02+0000"
+         "item" : 14958891126326981975,
+         "label" : "rapidee.exe",
+         "time" : "2024-07-30T04:50:25+0000"
       },
       {
          "action" : null,
-         "item" : 5563355620880197588,
-         "label" : "ControllerDisplay.exe",
-         "time" : "2024-07-28T14:38:32+0000"
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-07-30T04:52:53+0000"
       },
       {
          "action" : null,
-         "item" : 10178287834777497586,
-         "label" : "Display",
-         "time" : "2024-07-28T14:40:30+0000"
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-07-30T04:54:27+0000"
+      },
+      {
+         "action" : 11933390219418939760,
+         "item" : 1159941371767068714,
+         "label" : "QuickSwitch.ini -> Edit",
+         "time" : "2024-07-30T04:55:29+0000"
+      },
+      {
+         "action" : 11933390219418939760,
+         "item" : 1159941371767068714,
+         "label" : "QuickSwitch.ini -> Edit",
+         "time" : "2024-07-30T04:57:28+0000"
+      },
+      {
+         "action" : 11933390219418939760,
+         "item" : 1159941371767068714,
+         "label" : "QuickSwitch.ini -> Edit",
+         "time" : "2024-07-30T04:58:26+0000"
+      },
+      {
+         "action" : 11933390219418939760,
+         "item" : 1159941371767068714,
+         "label" : "QuickSwitch.ini -> Edit",
+         "time" : "2024-07-30T05:02:17+0000"
       },
       {
          "action" : null,
-         "item" : 5563355620880197588,
-         "label" : "ControllerDisplay.exe",
-         "time" : "2024-07-28T14:40:38+0000"
+         "item" : 8053032876597348559,
+         "label" : "System Settings",
+         "time" : "2024-07-30T05:28:08+0000"
       },
       {
          "action" : null,
-         "item" : 5563355620880197588,
-         "label" : "ControllerDisplay.exe",
-         "time" : "2024-07-28T14:53:24+0000"
+         "item" : 14483187193850775164,
+         "label" : "微信",
+         "time" : "2024-07-30T05:29:28+0000"
       },
       {
          "action" : null,
-         "item" : 17024316667797214574,
-         "label" : "Carnac",
-         "time" : "2024-07-28T14:56:55+0000"
-      },
-      {
-         "action" : null,
-         "item" : 15684529855309864928,
-         "label" : "LosslessCut",
-         "time" : "2024-07-28T15:04:23+0000"
+         "item" : 4632426201466508336,
+         "label" : "NIIMBOT",
+         "time" : "2024-07-30T05:31:26+0000"
       },
       {
          "action" : null,
          "item" : 6564064055209981373,
          "label" : "GoldenDict",
-         "time" : "2024-07-28T15:18:37+0000"
+         "time" : "2024-07-30T05:37:31+0000"
       },
       {
          "action" : null,
-         "item" : 262490813395881641,
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-07-30T06:03:16+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2441091720965652288,
+         "label" : "WinMerge",
+         "time" : "2024-07-30T06:06:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-07-30T06:17:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6564064055209981373,
+         "label" : "GoldenDict",
+         "time" : "2024-07-30T06:18:51+0000"
+      },
+      {
+         "action" : null,
+         "item" : 13979858961160021999,
          "label" : "GitHub Desktop",
-         "time" : "2024-07-28T15:52:11+0000"
+         "time" : "2024-07-30T06:26:41+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16123799385775681430,
+         "label" : "darktable",
+         "time" : "2024-07-30T06:46:09+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3476095980806187809,
+         "label" : "QuiteRSS",
+         "time" : "2024-07-30T08:22:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 13979858961160021999,
+         "label" : "GitHub Desktop",
+         "time" : "2024-07-30T09:31:32+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3395018019418718368,
+         "label" : "Adobe Photoshop 2024",
+         "time" : "2024-07-30T09:33:35+0000"
+      },
+      {
+         "action" : null,
+         "item" : 10258173702087759917,
+         "label" : "企业微信",
+         "time" : "2024-07-30T10:57:22+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16123799385775681430,
+         "label" : "darktable",
+         "time" : "2024-07-30T11:00:42+0000"
       }
    ],
    "sets" : {
-      "actions" : [],
+      "actions" : [
+         {
+            "id" : 11933390219418939760,
+            "label" : "Edit",
+            "name" : "edit",
+            "plugin" : "App",
+            "short_desc" : "Edit file using the editor setting or system's default"
+         }
+      ],
       "items" : [
          {
             "args_hint" : "accepted",
             "category" : "file",
             "hit_hint" : "keepall",
-            "id" : 17024316667797214574,
-            "label" : "Carnac",
-            "loop_on_suggest" : false,
-            "plugin" : "Apps.Desktop",
-            "short_desc" : "Desktop: Desktop",
-            "target" : "C:\\Users\\User\\Desktop\\Carnac.lnk"
-         },
-         {
-            "args_hint" : "accepted",
-            "category" : "file",
-            "hit_hint" : "keepall",
-            "id" : 5563355620880197588,
-            "label" : "ControllerDisplay.exe",
-            "loop_on_suggest" : false,
-            "plugin" : "Apps.Desktop",
-            "short_desc" : "Desktop: Desktop",
-            "target" : "C:\\Users\\User\\Desktop\\ControllerDisplay.exe.lnk"
-         },
-         {
-            "args_hint" : "forbidden",
-            "category" : "keyword",
-            "hit_hint" : "noargs",
-            "id" : 6232269710298456502,
-            "label" : "Desktop",
-            "loop_on_suggest" : false,
-            "plugin" : "WinSys.WinSys",
-            "short_desc" : "Opens the user's Desktop folder",
-            "target" : "Desktop"
-         },
-         {
-            "args_hint" : "forbidden",
-            "category" : "keyword",
-            "hit_hint" : "noargs",
-            "id" : 10178287834777497586,
-            "label" : "Display",
-            "loop_on_suggest" : false,
-            "plugin" : "WinSys.WinSys",
-            "short_desc" : "Opens the display settings panel",
-            "target" : "Display"
-         },
-         {
-            "args_hint" : "accepted",
-            "category" : "file",
-            "hit_hint" : "keepall",
-            "id" : 262490813395881641,
-            "label" : "GitHub Desktop",
+            "id" : 3395018019418718368,
+            "label" : "Adobe Photoshop 2024",
             "loop_on_suggest" : false,
             "plugin" : "Apps.StartMenu",
-            "short_desc" : "Start Menu: Programs\\GitHub, Inc",
-            "target" : "C:\\Users\\User\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\GitHub, Inc\\GitHub Desktop.lnk"
+            "short_desc" : "Start Menu: Programs",
+            "target" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Adobe Photoshop 2024.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 6437383497087328849,
+            "label" : "Cmder",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\Cmder.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 16123799385775681430,
+            "label" : "darktable",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.StartMenu",
+            "short_desc" : "Start Menu: Programs\\darktable",
+            "target" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\darktable\\darktable.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 13979858961160021999,
+            "label" : "GitHub Desktop",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\GitHub Desktop.lnk"
          },
          {
             "args_hint" : "accepted",
@@ -135,33 +210,110 @@
             "args_hint" : "accepted",
             "category" : "file",
             "hit_hint" : "keepall",
-            "id" : 15684529855309864928,
-            "label" : "LosslessCut",
+            "id" : 4632426201466508336,
+            "label" : "NIIMBOT",
             "loop_on_suggest" : false,
             "plugin" : "Apps.Desktop",
             "short_desc" : "Desktop: Desktop",
-            "target" : "C:\\Users\\User\\Desktop\\LosslessCut.lnk"
+            "target" : "C:\\Users\\Public\\Desktop\\NIIMBOT.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 1159941371767068714,
+            "label" : "QuickSwitch.ini",
+            "loop_on_suggest" : false,
+            "plugin" : "FileBrowser.FileBrowser",
+            "short_desc" : "",
+            "target" : "C:\\Users\\User\\Github\\SETUP-note\\keypirinha\\_User\\filebrowser\\QuickSwitch.ini"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 3476095980806187809,
+            "label" : "QuiteRSS",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\QuiteRSS.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 14958891126326981975,
+            "label" : "rapidee.exe",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.Desktop",
+            "short_desc" : "Desktop: Desktop",
+            "target" : "C:\\Users\\User\\Desktop\\rapidee.exe.lnk"
+         },
+         {
+            "args_hint" : "forbidden",
+            "category" : "keyword",
+            "hit_hint" : "noargs",
+            "id" : 8053032876597348559,
+            "label" : "System Settings",
+            "loop_on_suggest" : false,
+            "plugin" : "WinSys.WinSys",
+            "short_desc" : "Opens the system settings panel",
+            "target" : "System Settings"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 2441091720965652288,
+            "label" : "WinMerge",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.StartMenu",
+            "short_desc" : "Start Menu: Programs\\WinMerge",
+            "target" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\WinMerge\\WinMerge.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 10258173702087759917,
+            "label" : "企业微信",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.StartMenu",
+            "short_desc" : "Start Menu: Programs\\企业微信",
+            "target" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\企业微信\\企业微信.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 14483187193850775164,
+            "label" : "微信",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.StartMenu",
+            "short_desc" : "Start Menu: Programs\\微信",
+            "target" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\微信\\微信.lnk"
          }
       ],
       "terms" : [
          {
-            "items" : [ 17024316667797214574 ],
-            "search" : "ca"
+            "items" : [ 1159941371767068714 ],
+            "search" : "~"
          },
          {
-            "items" : [ 6232269710298456502 ],
-            "search" : "desk"
+            "items" : [ 6437383497087328849 ],
+            "search" : "cmder"
          },
          {
-            "items" : [ 5563355620880197588, 10178287834777497586 ],
-            "search" : "dis"
+            "items" : [ 16123799385775681430 ],
+            "search" : "dark"
          },
          {
-            "items" : [ 5563355620880197588 ],
-            "search" : "display"
+            "items" : [ 14958891126326981975 ],
+            "search" : "ee"
          },
          {
-            "items" : [ 262490813395881641 ],
+            "items" : [ 13979858961160021999 ],
             "search" : "github"
          },
          {
@@ -169,8 +321,32 @@
             "search" : "gold"
          },
          {
-            "items" : [ 15684529855309864928 ],
-            "search" : "loss"
+            "items" : [ 4632426201466508336 ],
+            "search" : "ni"
+         },
+         {
+            "items" : [ 3395018019418718368 ],
+            "search" : "photo"
+         },
+         {
+            "items" : [ 3476095980806187809 ],
+            "search" : "rss"
+         },
+         {
+            "items" : [ 8053032876597348559 ],
+            "search" : "sett"
+         },
+         {
+            "items" : [ 2441091720965652288 ],
+            "search" : "win"
+         },
+         {
+            "items" : [ 10258173702087759917 ],
+            "search" : "企业微信"
+         },
+         {
+            "items" : [ 14483187193850775164 ],
+            "search" : "微信"
          }
       ]
    }

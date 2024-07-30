@@ -4,6 +4,7 @@ SET PATH=^
 %    =%%HOME%\Opt\cmder_mini\vendor;^
 %    =%%HOME%\Bin\starship;^
 %    =%%HOME%\Bin\gsudo\x64;^
+%    =%%HOME%\Bin\fnm;^
 %    =%%HOME%\Bin\trashy;^
 %    =%%HOME%\Bin\fzf;^
 %    =%%HOME%\Bin\zoxide;^
@@ -48,17 +49,8 @@ rem %    =%CUDNN\v8.6.0\bin;^
 rem %    =%MiKTeX\miktex\bin\x64;^
 
 rem Windows User variables
-rem %HOME%\Bin\Git\cmd
-rem %HOME%\Bin\yt-dlp;^
-rem %HOME%\Lib\ffmpeg\bin;^
-rem %HOME%\Lib\ImageMagick;^
-rem %HOME%\Opt\mpv;^
-rem %APPDATA%\pnpm\nodejs\20.9.0
-rem %HOME%\AppData\Local\Programs\Python\Python39\Scripts
-rem %HOME%\AppData\Local\Programs\Python\Python39
-rem %HOME%\AppData\Local\Programs\Python\Python310\Scripts
-rem %HOME%\AppData\Local\Programs\Python\Python310
-rem %HOME%\scoop\shims
+rem %HOME%\Bin\Git\cmd;%HOME%\Bin\yt-dlp;%HOME%\Lib\ffmpeg\bin;%HOME%\Lib\ImageMagick;%HOME%\Opt\mpv;%APPDATA%\pnpm\nodejs\20.9.0;%HOME%\AppData\Local\Programs\Python\Python39\Scripts;%HOME%\AppData\Local\Programs\Python\Python39;%HOME%\AppData\Local\Programs\Python\Python310\Scripts;%HOME%\AppData\Local\Programs\Python\Python310;
+rem %HOME%\scoop\shims;
 
 rem Windows System variables
 rem C:\Windows\system32
@@ -71,4 +63,5 @@ rem C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
 rem Installed
 rem C:\Program Files\WinMerge
 rem C:\Program Files\Sublime Text
+rem C:\Program Files\darktable\bin
 rem %HOME%\AppData\Local\GitHubDesktop\bin
