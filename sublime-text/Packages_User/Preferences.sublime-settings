@@ -31,7 +31,6 @@
     "color_scheme": "Packages/User/Color Highlighter/themes/tokyonight_moon.tmTheme",
     "ignored_packages": [
         "A File Icon",
-        "AlignTab",
         "AutoHotkey",
         "Block Cursor Everywhere",
         "BracketHighlighter",

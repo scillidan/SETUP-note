@@ -2,7 +2,6 @@
 	"in_process_packages":
 	[
 		"A File Icon",
-		"AlignTab",
 		"AutoHotkey",
 		"Block Cursor Everywhere",
 		"BracketHighlighter",
@@ -43,6 +42,7 @@
 		"DashDoc",
 		"Data Wizard",
 		"DeleteBlankLines",
+		"Diffable",
 		"FilterPipes",
 		"FindCursor",
 		"FindKeyConflicts",
