@@ -1,99 +1,70 @@
 # Refer to https://deeplx.owo.network/integration/python.html
 # Write by GPT-4 🧙, scillidan 🤡, See
-# https://sharegpt.com/c/h7BytpU
-# Can't translate English
+# https://sharegpt.com/c/yFdikL1
 
 # How to use
+
 # pip install httpx langid
-# python deeplx_translate.py <Input> <MotherLanguage>
+# python deeplx_translate.py <Input> <LanguageFirst> <LanguageSecond>
 
 import httpx
 import json
-import argparse
 import langid
+import argparse
+import sys
 
-def debug(message):
-    """Print debug messages if debug mode is enabled."""
-    if args.debug:
-        print(f"[DEBUG] {message}")
-
-# Mapping of language codes to their corresponding DeepL API codes
-LANGUAGE_CODES = {
-    "en": "EN",  # English
-    "zh": "ZH",  # Chinese
-    "fr": "FR",  # French
-    "de": "DE",  # German
-    "es": "ES",  # Spanish
-    # Add more languages as needed
-}
-
-def detect_language(text):
-    """Detect the language of the given text using langid."""
-    lang, _ = langid.classify(text)
-    debug(f"Detected language: {lang}")
-    return lang
-
-def validate_language(lang):
-    """Validate and return the language code or raise an error."""
-    if lang in LANGUAGE_CODES:
-        return LANGUAGE_CODES[lang]
-    else:
-        raise ValueError(f"Invalid target language: {lang}. Please use a valid language name.")
-
-def translate(text, target_lang):
-    deeplx_api = "http://172.24.212.63:1188/translate"
+def translate(text, source_lang, target_lang, debug=False):
+    deeplx_api = "http://127.0.0.1:1188/translate"
     
-    # Detect source language
-    source_lang = detect_language(text)
-    debug(f"Source Language: {source_lang}, Target Language: {target_lang}")
-    
-    # Validate and get the target language code
-    try:
-        target_lang_code = validate_language(target_lang)
-    except ValueError as e:
-        return str(e)
-
     data = {
         "text": text,
-        "source_lang": source_lang.upper(),  # Convert to uppercase for API
-        "target_lang": target_lang_code
+        "source_lang": source_lang,
+        "target_lang": target_lang
     }
     
     post_data = json.dumps(data)
-    debug(f"Post Data: {post_data}")
     
     try:
         response = httpx.post(url=deeplx_api, data=post_data)
-        debug(f"Response Status Code: {response.status_code}")
         response.raise_for_status()  # Raise an error for bad responses
-        
-        # Parse the JSON response
         response_data = response.json()
-        return response_data.get("alternatives", ["No alternatives found."])
-    except httpx.HTTPStatusError as e:
-        return f"HTTP error occurred: {e.response.status_code} - {e.response.text}"
+        
+        if debug:
+            print(f"Debug Info:\nRequest Data: {data}\nResponse: {response_data}")
+        
+        return response_data
+    
     except Exception as e:
-        return f"An error occurred: {str(e)}"
+        print(f"Error: {str(e)}")
+        sys.exit(1)
 
 def main():
-    parser = argparse.ArgumentParser(description="Translate text using DeepL API.")
-    parser.add_argument("input_text", type=str, help="Text to be translated")
-    parser.add_argument("target_lang", type=str, help="Target language name (e.g., 'French', 'Chinese')")
-    parser.add_argument("--debug", action="store_true", help="Enable debug output")
-
-    global args
+    parser = argparse.ArgumentParser(description='Translate text between languages.')
+    parser.add_argument('input', type=str, help='Text to translate')
+    parser.add_argument('language_first', type=str, help='Target language for non-English input')
+    parser.add_argument('language_second', type=str, help='Target language for English input')
+    parser.add_argument('--debug', action='store_true', help='Show debug information')
+    
     args = parser.parse_args()
-
-    # Translate the input text
-    translated_text = translate(args.input_text, args.target_lang)
-
-    # Output format
-    print(args.input_text)
-    if isinstance(translated_text, list):
-        for alternative in translated_text:
-            print(alternative)
+    
+    # Determine the language of the input text
+    detected_lang, _ = langid.classify(args.input)
+    
+    if detected_lang == 'en':
+        target_lang = args.language_second
     else:
-        print(translated_text)
+        target_lang = args.language_first
+    
+    # Perform translation
+    response_data = translate(args.input, detected_lang, target_lang, args.debug)
+    
+    # Output the result
+    print(args.input)
+    print(response_data.get("data", "No translation available"))
+    
+    alternatives = response_data.get("alternatives", [])
+    for alt in alternatives:
+        print(f"- {alt}")
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

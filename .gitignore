@@ -4,6 +4,7 @@
 **/memo-history.log
 **/_config_dir_*/
 **/venv/
+deeplx_translate_user.py
 cmder/config/user-ConEmu.xml
 ditto/Ditto.Settings
 keypirinha/Profile/User/currency.ini
