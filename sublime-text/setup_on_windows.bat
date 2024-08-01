@@ -2,7 +2,7 @@
 
 set "HOME=C:\Users\User"
 
-set "SUBLIMETEXT_DATA=%APPDATA%\Sublime Text"
+set "SUBLIMETEXT_DATA=%HOME%\AppData\Roaming\Sublime Text"
 set "SUBLIMETEXT_SETUP_NOTE=%HOME%\Github\SETUP-note\sublime-text"
 
 del "%SUBLIMETEXT_DATA%\Packages\User\Default.sublime-commands"
@@ -27,7 +27,7 @@ rmdir /S /Q "%SUBLIMETEXT_DATA%\Packages\CsvToMd"
 
 mklink "%SUBLIMETEXT_DATA%\Packages\User\Default.sublime-commands" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\Default.sublime-commands"
 mklink "%SUBLIMETEXT_DATA%\Packages\User\Default (Windows).sublime-keymap" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\Default (Windows).sublime-keymap"
-mklink "%SUBLIMETEXT_DATA%\Packages\User\Package Control.sublime-settings" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\Package Control.sublime-settings"
+mklink "%SUBLIMETEXT_DATA%\Packages\User\Package Control.sublime-settings" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\Package Control_installed_packages.sublime-settings"
 mklink "%SUBLIMETEXT_DATA%\Packages\User\Preferences.sublime-settings" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\Preferences.sublime-settings"
 mklink "%SUBLIMETEXT_DATA%\Packages\User\AlignTab.sublime-settings" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\AlignTab.sublime-settings"
 mklink "%SUBLIMETEXT_DATA%\Packages\User\Color Highlight.sublime-settings" "%SUBLIMETEXT_SETUP_NOTE%\Packages_User\Color Highlight.sublime-settings"
