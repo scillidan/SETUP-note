@@ -26,10 +26,11 @@ SET PATH=^
 %    =%%HOME%\Bin\postgresql\pgsql\bin;^
 %    =%%HOME%\Bin\paletter;^
 %    =%%HOME%\Bin\pastel;^
-%    =%%HOME%\Lib\lua53\x64\bin;^
-%    =%%HOME%\Lib\lua53\x64\lib;^
+%    =%%HOME%\Lib\lua53\bin;^
+%    =%%HOME%\Lib\lua53\lib;^
 %    =%%HOME%\Lib\make-bin\bin;^
 %    =%%HOME%\Lib\make-dep\bin;^
+%    =%%HOME%\Lib\cmake\bin;^
 %    =%%HOME%\Lib\go\bin;^
 %    =%%APPDATA%\fnm\node-versions\v20.14.0\installation;^
 %    =%%APPDATA%\pnpm;^
@@ -42,14 +43,17 @@ SET PATH=^
 %    =%%PATH%
 
 rem Cache
+rem %    =%%HOME%\Bin\dictzip;^
 rem %    =%%HOME%\Bin\Git\bin;^
 rem %    =%love-11.5;^
+rem %    =%%HOME%\Lib\lua53\x64\bin;^
+rem %    =%%HOME%\Lib\lua53\x64\lib;^
 rem %    =%LuaJIT\src;^
 rem %    =%CUDNN\v8.6.0\bin;^
 rem %    =%MiKTeX\miktex\bin\x64;^
 
 rem Windows User variables
-rem %HOME%\Bin\Git\cmd;%HOME%\Bin\yt-dlp;%HOME%\Lib\ffmpeg\bin;%HOME%\Lib\ImageMagick;%HOME%\Opt\mpv;%APPDATA%\pnpm\nodejs\20.9.0;%HOME%\AppData\Local\Programs\Python\Python39\Scripts;%HOME%\AppData\Local\Programs\Python\Python39;%HOME%\AppData\Local\Programs\Python\Python310\Scripts;%HOME%\AppData\Local\Programs\Python\Python310;
+rem %HOME%\Bin\Git\cmd;%HOME%\Bin\yt-dlp;%HOME%\Lib\ffmpeg\bin;%HOME%\Lib\ImageMagick;%HOME%\Opt\mpv;%APPDATA%\pnpm\nodejs\20.9.0;%HOME%\AppData\Local\Programs\Python\Python39\Scripts;%HOME%\AppData\Local\Programs\Python\Python39;%HOME%\AppData\Local\Programs\Python\Python310\Scripts;%HOME%\AppData\Local\Programs\Python\Python310;C:\Program Files (x86)\Aspell-0.60\bin;
 rem %HOME%\scoop\shims;
 
 rem Windows System variables

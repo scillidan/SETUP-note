@@ -20,5 +20,6 @@
       {keys: 'l', effect: 'set/clear A-B loop points'},
       {keys: 'L', effect: 'toggle infinite looping'},
       {keys: 'P', effect: 'add to playlist'},
+      {keys: '`', effect: 'show the console'},
     ]
   },

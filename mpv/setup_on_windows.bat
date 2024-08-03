@@ -13,7 +13,7 @@ for %%d in (%CONFIG_DIR_ALL%) do (
 )
 
 type "%INCLD%\_osd.conf" "%INCLOD%\uosc.conf" "%INCLD%\_hdr.conf" "%INCLD%\video.conf" "%INCLD%\_watch-later.conf" "%INCLD%\_subtitle.conf" "%INCLD%\_screenshot.conf" "%INCLOD%\inputevent.conf" > "%CONFIG_DIR_VIDEO%\mpv.conf"
-type "%INCLD%\_osd.conf" "%INCLOD%\uosc.conf" "%INCLD%\_hdr.conf" "%INCLD%\video.conf" "%INCLD%\_watch-later.conf" "%INCLD%\_subtitle.conf" "%INCLD%\_screenshot.conf" "%INCLOD%\inputevent.conf" > "%CONFIG_DIR_STREAM%\mpv.conf"
+type "%INCLD%\_osd.conf" "%INCLD%\_hdr.conf" "%INCLD%\video.conf" "%INCLD%\stream.conf" "%INCLD%\_watch-later.conf" "%INCLD%\_subtitle.conf" "%INCLD%\_screenshot.conf" "%INCLOD%\inputevent.conf" > "%CONFIG_DIR_STREAM%\mpv.conf"
 type "%INCLD%\_osd.conf" "%INCLOD%\uosc.conf" "%INCLD%\_hdr.conf" "%INCLD%\music.conf" "%INCLD%\_lyric.conf" "%INCLOD%\inputevent.conf" > "%CONFIG_DIR_MUSIC%\mpv.conf"
 type "%INCLD%\_osd.conf" "%INCLD%\_hdr.conf" "%INCLD%\manga.conf" "%INCLD%\_watch-later.conf" "%INCLOD%\inputevent.conf" > "%CONFIG_DIR_MANGA%\mpv.conf"
 type "%INCLD%\_osd.conf" "%INCLOD%\uosc.conf" "%INCLD%\_hdr.conf" "%INCLD%\video.conf" "%INCLD%\_watch-later.conf" "%INCLD%\_subtitle.conf" "%INCLD%\_screenshot.conf" "%INCLOD%\inputevent.conf" > "%CONFIG_DIR_EDIT%\mpv.conf"
@@ -24,29 +24,31 @@ type "%IND%\_global.conf" "%IND%\_test.conf" "%IND%\music.conf" > "%CONFIG_DIR_M
 type "%IND%\_global.conf" "%IND%\_test.conf" "%IND%\manga.conf" > "%CONFIG_DIR_MANGA%\input.conf"
 type "%IND%\_global.conf" "%IND%\_test.conf" "%IND%\edit.conf" > "%CONFIG_DIR_EDIT%\input.conf"
 
-del "%MPV_OPT%\pip-tool.exe"
-mklink "%MPV_OPT%\pip-tool.exe" "%MPV_DL%\mpv-pip\pip-tool.exe"
 rmdir /S /Q "%MPV_CONFIG%\real_loudnorm"
 
-set "CONFIG_GLOBAL=%CONFIG_DIR_VIDEO% %CONFIG_DIR_STREAM% %CONFIG_DIR_MUSIC% %CONFIG_DIR_EDIT%"
+set "CONFIG_GLOBAL=%CONFIG_DIR_VIDEO% %CONFIG_DIR_STREAM% %CONFIG_DIR_MUSIC% %CONFIG_DIR_MANGA% %CONFIG_DIR_EDIT%"
 
 for %%d in (%CONFIG_GLOBAL%) do (
     mklink /J "%%d\%INCLD%" "%MPV_SETUP_NOTE%\%INCLD%"
-    mklink /J "%%d\%SD%\uosc" "%MPV_DL%\uosc\scripts\uosc"
-    type "%MPV_DL%\uosc.conf" > "%%d\%SOD%\uosc.conf"
     mklink "%%d\scripts\show-errors.lua" "%MPV_SRC%\mpv-scripts@cogentredtester\show-errors.lua"
 )
 
-set "CONFIG_VIDEO=%CONFIG_DIR_VIDEO% %CONFIG_DIR_STREAM% %CONFIG_DIR_EDIT%"
+set "CONFIG_VIDEO=%CONFIG_DIR_VIDEO% %CONFIG_DIR_EDIT%"
 
 for %%d in (%CONFIG_VIDEO%) do (
+    mklink /J "%%d\%SD%\uosc" "%MPV_DL%\uosc\scripts\uosc"
+    type "%MPV_DL%\uosc.conf" > "%%d\%SOD%\uosc.conf"
     type "%SSD%\mpv-cheatsheet_01.js" "%SSD%\mpv-cheatsheet_02.js" "%SSD%\mpv-cheatsheet_03_video.js" "%SSD%\mpv-cheatsheet_04.js" > "%%d\%SD%\mpv-cheatsheet.js"
     mklink "%%d\%SD%\hdr-toys-helper.lua" "%MPV_SRC%\hdr-toys\scripts\hdr-toys-helper.lua"
     type "%MPV_SRC%\hdr-toys\hdr-toys.conf" >> "%%d\mpv.conf"
     mklink /J "%%d\shaders" "%MPV_SRC%\hdr-toys\shaders"
+    mklink "%%d\%SD%\pip.lua" "%MPV_SRC%\mpv-pip\pip.lua"
+    rem mklink "%%d\%SD%\pip_example.conf" "%MPV_SRC%\mpv-pip\pip.conf"
+    mklink "%%d\%SOD%\pip.conf" "%SSOD%\pip.conf"
     mklink "%%d\%SD%\memo.lua" "%MPV_SRC%\memo\memo.lua"
-    type "%MPV_SRC%\memo\memo.conf" "%INCLOD%\unseen-playlistmaker.conf" > "%%d\%SOD%\memo.conf"
-    mklink "%%d\%SD%\unseen-playlistmaker.lua" "%MPV_SRC%\unseen-playlistmaker\unseen-playlistmaker.lua"
+    type "%MPV_SRC%\memo\memo.conf" "%INCLOD%\memo.conf" > "%%d\%SOD%\memo.conf"
+    rem mklink "%%d\%SD%\unseen-playlistmaker.lua" "%MPV_SRC%\unseen-playlistmaker\unseen-playlistmaker.lua"
+    mklink "%%d\%SD%\unseen-playlistmaker.lua" "%SSD%\unseen-playlistmaker.lua"
     mklink "%%d\%SD%\inputevent.lua" "%MPV_SRC%\input-event\inputevent.lua"
     mklink "%%d\%SD%\evafast.lua" "%MPV_SRC%\evafast\evafast.lua"
     rem mklink "%%d\%SOD%\evafast_example.conf" "%MPV_SRC%\evafast\evafast.conf"
@@ -54,7 +56,7 @@ for %%d in (%CONFIG_VIDEO%) do (
     mklink "%%d\%SD%\thumbfast.lua" "%MPV_SRC%\thumbfast\thumbfast.lua"
     mklink "%%d\%SOD%\thumbfast.conf" "%MPV_SRC%\thumbfast\thumbfast.conf"
     mklink "%%d\%SD%\ontop-playback.lua" "%MPV_SRC%\mpv\TOOLS\lua\ontop-playback.lua"
-    mklink "%%d\%SD%\pip.lua" "%SSD%\pip.lua"
+    rem mklink "%%d\%SD%\pip.lua" "%SSD%\pip.lua"
     mklink "%%d\%SD%\delete_file.lua" "%MPV_SRC%\mpv-scripts@zenyd\delete_file.lua"
     mklink "%%d\%SD%\fuzzydir.lua" "%MPV_SRC%\mpv-scripts@sibwaf\fuzzydir.lua"
     mklink "%%d\%SD%\nextfile.lua" "%MPV_SRC%\mpv-nextfile\nextfile.lua"
@@ -66,12 +68,16 @@ set "CONFIG_STREAM=%CONFIG_DIR_STREAM%"
 
 for %%d in (%CONFIG_STREAM%) do (
     type "%SSD%\mpv-cheatsheet_01.js" "%SSD%\mpv-cheatsheet_02.js" "%SSD%\mpv-cheatsheet_03_stream.js" "%SSD%\mpv-cheatsheet_04.js" > "%%d\%SD%\mpv-cheatsheet.js"
+    mklink "%%d\%SD%\progressbar.lua" "%MPV_DL%\progressbar-2024.06.19.0.lua"
+    rem mklink "%%d\%SOD%\torque-progressbar.conf" "%MPV_SRC%\torque-progressbar.conf"
+    mklink "%%d\%SOD%\torque-progressbar.conf" "%SSOD%\torque-progressbar.conf"
     mklink "%%d\%SD%\quality-menu-osc.lua" "%MPV_SRC%\mpv-quality-menu\quality-menu-osc.lua"
     mklink "%%d\%SOD%\quality-menu.conf" "%MPV_SRC%\mpv-quality-menu\quality-menu.conf"
     mklink "%%d\%SD%\appendURL.lua" "%MPV_SRC%\mpv-scripts@jonniek\appendURL.lua"
     mklink "%%d\%SD%\reload.lua" "%MPV_SRC%\mpv-scripts@sibwaf\reload.lua"
     mklink "%%d\%SD%\webtorrent.js" "%HOME\.local\share\pnpm\webtorrent-mpv-hook\build\webtorrent.js"
     mklink "%%d\%SOD%\webtorrent.conf" "%SSOD%\webtorrent.conf"
+    mklink "%%d\%SD%\navigator.lua" "%SSD%\navigator.lua"
 )
 
 set "CONFIG_MUSIC=%CONFIG_DIR_MUSIC%"
@@ -129,5 +135,12 @@ for %%d in (%CONFIG_EDIT%) do (
     mklink "%%d\%SD%\sub-pause.lua" "%MPV_SRC%\mpv-sub-scripts\sub-pause.lua"
     mklink "%%d\%SD%\sub-skip.lua" "%MPV_SRC%\mpv-sub-scripts\sub-skip.lua"
 )
+
+rmdir /S /Q "%HOME%\Opt\mpv_stream"
+mkdir %HOME%\Opt\mpv_stream
+mklink /H "%HOME%\Opt\mpv_stream\mpv.exe" "%MPV_OPT%\mpv.exe"
+mklink /H "%HOME%\Opt\mpv_stream\mpv.com" "%MPV_OPT%\mpv.com"
+mklink /H "%HOME%\Opt\mpv_stream\d3dcompiler_43.dll" "%MPV_OPT%\d3dcompiler_43.dll"
+mklink /J "%HOME%\Opt\mpv_stream\portable_config" "%MPV_SETUP_NOTE%\_config_dir_stream"
 
 pause

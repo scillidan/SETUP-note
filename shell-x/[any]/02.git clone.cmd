@@ -1,1 +1,1 @@
-cd %* && %HOME%\Opt\alacritty\Alacritty.exe --config-file "%HOME%\Github\SETUP-note\alacritty\alacritty_cmder.toml" --command "%HOME%\Github\SETUP-note\shell-x\Scripts\02.git clone.bat"
+cd %* && C:\Users\User\Opt\alacritty\Alacritty.exe --config-file "C:\Users\User\Github\SETUP-note\alacritty\alacritty_cmder.toml" --command "C:\Users\User\Github\SETUP-note\shell-x\Scripts\02.git clone.bat"

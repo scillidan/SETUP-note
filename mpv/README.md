@@ -18,19 +18,27 @@ cd "%HOME%/Download/mpv"
 ```
 
 - Download `uosc.conf`, `uosc.zip` from [uosc](https://github.com/tomasklaen/uosc)
-- Download release from [mpv handler](https://github.com/akiirui/mpv-handler)
-- Download release from [mpv Picture-in-Picture](https://github.com/verygoodlee/mpv-pip)
+- Download `mpv-handler-windows-amd64.zip` from [mpv handler]()
 
 Decompress to:
 
 ```
 uosc/
 mpv-handler/
-mpv-pip/
 ```
 
 In Install all `fonts` under `uosc/fonts/`.
-In `mpv-handler/`, run `handler-install.bat` as `Administrator`.
+In `mpv-handler/`, Add `mpv = "C:\\Users\\User\\Opt\\mpv_stream\\mpv.exe"` into `config.toml`. Run `handler-install.bat` as `Administrator`. Then install
+
+```
+	"www.bilibili.com": /www.bilibili.com\/video/(av|bv)/gi,
+```
+
+To:
+
+```
+  "www.bilibili.com": /www.bilibili.com\/(video|list)\/(av|bv|ml)/gi,
+```
 
 ```sh
 mkdir "%HOME%/Source/mpv"
@@ -63,6 +71,7 @@ git clone --depth=1 https://github.com/naiveinvestigator/save-playlist
 git clone --depth=1 https://github.com/po5/thumbfast
 git clone --depth=1 https://github.com/jonniek/unseen-playlistmaker
 git clone --depth=1 https://github.com/mrxdst/webtorrent-mpv-hook
+git clone --depth=1 https://github.com/torque/mpv-progressbar
 ```
 
 ## Test

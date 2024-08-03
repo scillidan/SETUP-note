@@ -51,7 +51,7 @@ pwsh=%SystemRoot%/System32/WindowsPowerShell/v1.0/powershell.exe -ExecutionPolic
 ;= esw=es -path . $*
 
 pwd=cd
-rfe=refreshenv
+;= rfe=refreshenv
 ipi=ipconfig | findstr /i "ipv4"
 ls=lsd --icon never
 e=explorer $CD$\$*

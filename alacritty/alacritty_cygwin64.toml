@@ -37,8 +37,8 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 save_to_clipboard = true
 
 [shell]
-program = "cmd"
-args = [ "/k", "C:\\Users\\User\\Opt\\cmder_mini\\vendor\\init.bat" ]
+program = "C:\\cygwin64\\bin\\bash.exe"
+args = [ "--login" ]
 
 [mouse]
 bindings = [

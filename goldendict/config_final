@@ -37,9 +37,12 @@
  <mediawikis/>
  <websites/>
  <dictservers>
-  <server id="49813b0748085b06bd9c972abfc1d677" url="dict://172.24.212.63:8040" name="dictd" strategies="*" databases="*" icon="" enabled="1"/>
+  <server url="dict://172.24.212.63:8040" id="49813b0748085b06bd9c972abfc1d677" name="dictd" icon="" enabled="1" databases="*" strategies="*"/>
  </dictservers>
- <programs/>
+ <programs>
+  <program type="1" id="7329497dbc359408542863c42e1bff74" name="TencentTrans_en22zh" commandLine="C:\Users\User\Source\goldendict\tencent-translate-for-goldendict\venv\Scripts\python.exe C:\Users\User\Source\goldendict\tencent-translate-for-goldendict\TencentTrans_en22zh_user.py &quot;%GDWORD%&quot;" icon="C:\Users\User\Source\goldendict\tencent-translate-for-goldendict\favicon.ico" enabled="1"/>
+  <program type="1" id="13d41287bc81db80d34f25c724c35b75" name="DeepLX" commandLine="C:\Users\User\Github\SETUP-note\goldendict\Script\venv\Scripts\python.exe C:\Users\User\Github\SETUP-note\goldendict\Script\deeplx_translate_user.py &quot;%GDWORD%&quot; en zh" icon="" enabled="1"/>
+ </programs>
  <voiceEngines/>
  <mutedDictionaries/>
  <popupMutedDictionaries/>
@@ -90,7 +93,7 @@
   <historyStoreInterval>0</historyStoreInterval>
   <favoritesStoreInterval>0</favoritesStoreInterval>
   <confirmFavoritesDeletion>1</confirmFavoritesDeletion>
-  <proxyserver useSystemProxy="0" enabled="0">
+  <proxyserver enabled="0" useSystemProxy="0">
    <type>0</type>
    <host></host>
    <port>3128</port>
@@ -134,11 +137,11 @@
  <lastMainGroupId>0</lastMainGroupId>
  <lastPopupGroupId>0</lastPopupGroupId>
  <popupWindowState>AAAA/wAAAAH9AAAAAAAAAi0AAAGTAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAQAAAAEAAAAaAGQAaQBjAHQAaQBvAG4AYQByAHkAQgBhAHICAAAAAP////8AAAAAAAAAAA==</popupWindowState>
- <popupWindowGeometry>AdnQywADAAAAAABDAAADTwAAAm8AAAThAAAAQwAAA08AAAJvAAAE4QAAAAAAAAAACgAAAABDAAADTwAAAm8AAATh</popupWindowGeometry>
+ <popupWindowGeometry>AdnQywADAAAAAAJEAAAApQAABHAAAAI3AAACRAAAAKUAAARwAAACNwAAAAAAAAAACgAAAAJEAAAApQAABHAAAAI3</popupWindowGeometry>
  <pinPopupWindow>0</pinPopupWindow>
  <popupWindowAlwaysOnTop>0</popupWindowAlwaysOnTop>
  <mainWindowState>AAAA/wAAAAH9AAAAAgAAAAAAAADMAAAB/vwCAAAAAfsAAAAUAHMAZQBhAHIAYwBoAFAAYQBuAGUBAAAAHAAAAf4AAACbAP///wAAAAEAAAB9AAAB/vwCAAAAA/sAAAASAGQAaQBjAHQAcwBQAGEAbgBlAQAAABwAAAH+AAAAeQD////7AAAAGgBmAGEAdgBvAHIAaQB0AGUAcwBQAGEAbgBlAAAAAOMAAACZAAAAeQD////7AAAAFgBoAGkAcwB0AG8AcgB5AFAAYQBuAGUAAAABMwAAAOcAAAB5AP///wAAAcUAAAH+AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAUAG4AYQB2AFQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAAAAABoAZABpAGMAdABpAG8AbgBhAHIAeQBCAGEAcgAAAAEQ/////wAAAAAAAAAA</mainWindowState>
- <mainWindowGeometry>AdnQywADAAAAAAUzAAAA1AAACE4AAAMNAAAFNAAAAPMAAAhNAAADDAAAAAAAAAAACgAAAAU0AAAA8wAACE0AAAMM</mainWindowGeometry>
+ <mainWindowGeometry>AdnQywADAAAAAAFrAAACigAABIYAAATDAAABbAAAAqkAAASFAAAEwgAAAAAAAAAACgAAAAFsAAACqQAABIUAAATC</mainWindowGeometry>
  <helpWindowGeometry></helpWindowGeometry>
  <helpSplitterState></helpSplitterState>
  <maximizedMainWindowGeometry>
@@ -148,14 +151,14 @@
   <height>0</height>
  </maximizedMainWindowGeometry>
  <normalMainWindowGeometry>
-  <x>1332</x>
-  <y>243</y>
+  <x>364</x>
+  <y>681</y>
   <width>794</width>
   <height>538</height>
  </normalMainWindowGeometry>
  <dictInfoGeometry></dictInfoGeometry>
  <inspectorGeometry></inspectorGeometry>
- <dictionariesDialogGeometry>AdnQywADAAAAAALNAAAA6AAAB1oAAAL7AAACzQAAAOgAAAdaAAAC+wAAAAAAAAAACgAAAALNAAAA6AAAB1oAAAL7</dictionariesDialogGeometry>
+ <dictionariesDialogGeometry>AdnQywADAAAAAADeAAADAAAABW0AAAWAAAAA3wAAAx8AAAVsAAAFfwAAAAAAAAAACgAAAADfAAADHwAABWwAAAV/</dictionariesDialogGeometry>
  <printPreviewDialogGeometry></printPreviewDialogGeometry>
  <timeForNewReleaseCheck>2024-07-09T17:32:28</timeForNewReleaseCheck>
  <skippedRelease></skippedRelease>

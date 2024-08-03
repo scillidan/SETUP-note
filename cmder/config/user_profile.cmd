@@ -1,6 +1,7 @@
 :: set "PATH=;%PATH%"
 :: %ccall% "/customOption" "command/program"
 
+call "%HOME%\Bin\RefrEnv\refrenv.bat"
 call "%CMDER_ROOT%\vendor\setpath.bat"
 call "%CMDER_ROOT%\bin\fnm_init.cmd"
 set "LC_ALL=en_US.utf8%LC_ALL%"
