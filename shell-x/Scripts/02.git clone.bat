@@ -14,4 +14,4 @@ if %errorlevel% equ 0 (
     echo Clone failed!
 )
 
-rem pause
+pause

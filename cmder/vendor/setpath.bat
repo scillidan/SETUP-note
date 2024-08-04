@@ -8,8 +8,6 @@ SET PATH=^
 %    =%%HOME%\Bin\trashy;^
 %    =%%HOME%\Bin\fzf;^
 %    =%%HOME%\Bin\zoxide;^
-%    =%%HOME%\Bin\curl\bin;^
-%    =%%HOME%\Bin\curl\lib;^
 %    =%%HOME%\Bin\wget\bin;^
 %    =%%HOME%\Bin\pro;^
 %    =%%HOME%\Bin\lsd;^
@@ -53,19 +51,12 @@ rem %    =%CUDNN\v8.6.0\bin;^
 rem %    =%MiKTeX\miktex\bin\x64;^
 
 rem Windows User variables
-rem %HOME%\Bin\Git\cmd;%HOME%\Bin\yt-dlp;%HOME%\Lib\ffmpeg\bin;%HOME%\Lib\ImageMagick;%HOME%\Opt\mpv;%APPDATA%\pnpm\nodejs\20.9.0;%HOME%\AppData\Local\Programs\Python\Python39\Scripts;%HOME%\AppData\Local\Programs\Python\Python39;%HOME%\AppData\Local\Programs\Python\Python310\Scripts;%HOME%\AppData\Local\Programs\Python\Python310;C:\Program Files (x86)\Aspell-0.60\bin;
-rem %HOME%\scoop\shims;
+rem C:\Users\User\.local\bin;C:\Users\User\Bin\Git\cmd;C:\Users\User\Bin\curl\bin;C:\Users\User\Bin\yt-dlp;C:\Users\User\Lib\ffmpeg\bin;C:\Users\User\Lib\ImageMagick;C:\Users\User\Opt\mpv;C:\Users\User\AppData\Roaming\pnpm\nodejs\20.9.0C:\Users\User\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\User\AppData\Local\Programs\Python\Python39;C:\Users\User\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\User\AppData\Local\Programs\Python\Python310
+rem rem C:\Program Files (x86)\ZeroTier\One;C:\Program Files\Sublime Text\;C:\Program Files\WinMerge;C:\Program Files\darktable\bin;C:\Program Files (x86)\Aspell-0.60\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin
 
 rem Windows System variables
 rem C:\Windows\system32
 rem C:\Windows
 rem C:\Windows\System32\WindowsPowerShell\v1.0
 rem C:\Windows\System32\OpenSSH
-rem C:\Program Files (x86)\ZeroTier\One
 rem C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
-
-rem Installed
-rem C:\Program Files\WinMerge
-rem C:\Program Files\Sublime Text
-rem C:\Program Files\darktable\bin
-rem %HOME%\AppData\Local\GitHubDesktop\bin

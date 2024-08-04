@@ -33,15 +33,20 @@ for %%d in (%CONFIG_GLOBAL%) do (
     mklink "%%d\scripts\show-errors.lua" "%MPV_SRC%\mpv-scripts@cogentredtester\show-errors.lua"
 )
 
+set "CONFIG_SHADER=%CONFIG_DIR_VIDEO%"
+
+for %%d in (%CONFIG_SHADER%) do (
+    mklink "%%d\%SD%\hdr-toys-helper.lua" "%MPV_SRC%\hdr-toys\scripts\hdr-toys-helper.lua"
+    type "%MPV_SRC%\hdr-toys\hdr-toys.conf" >> "%%d\mpv.conf"
+    mklink /J "%%d\shaders" "%MPV_SRC%\hdr-toys\shaders"
+)
+
 set "CONFIG_VIDEO=%CONFIG_DIR_VIDEO% %CONFIG_DIR_EDIT%"
 
 for %%d in (%CONFIG_VIDEO%) do (
     mklink /J "%%d\%SD%\uosc" "%MPV_DL%\uosc\scripts\uosc"
     type "%MPV_DL%\uosc.conf" > "%%d\%SOD%\uosc.conf"
     type "%SSD%\mpv-cheatsheet_01.js" "%SSD%\mpv-cheatsheet_02.js" "%SSD%\mpv-cheatsheet_03_video.js" "%SSD%\mpv-cheatsheet_04.js" > "%%d\%SD%\mpv-cheatsheet.js"
-    mklink "%%d\%SD%\hdr-toys-helper.lua" "%MPV_SRC%\hdr-toys\scripts\hdr-toys-helper.lua"
-    type "%MPV_SRC%\hdr-toys\hdr-toys.conf" >> "%%d\mpv.conf"
-    mklink /J "%%d\shaders" "%MPV_SRC%\hdr-toys\shaders"
     mklink "%%d\%SD%\pip.lua" "%MPV_SRC%\mpv-pip\pip.lua"
     rem mklink "%%d\%SD%\pip_example.conf" "%MPV_SRC%\mpv-pip\pip.conf"
     mklink "%%d\%SOD%\pip.conf" "%SSOD%\pip.conf"
@@ -62,6 +67,8 @@ for %%d in (%CONFIG_VIDEO%) do (
     mklink "%%d\%SD%\nextfile.lua" "%MPV_SRC%\mpv-nextfile\nextfile.lua"
     mklink "%%d\%SD%\rememeber-voluma.lua" "%MPV_SRC%\remember-volume.lua\rememeber-voluma.lua"
     mklink /J "%%d\%SD%\real_loudnorm" "%MPV_SRC%\mpv-loudnorm"
+    rem mklink "%%d\%SD%\find_subtitles.lua" "%MPV_SRC%\find_subtitles\find_subtitles.lua"
+    mklink "%%d\%SD%\find_subtitles.lua" "%SSD%\find_subtitles.lua"
 )
 
 set "CONFIG_STREAM=%CONFIG_DIR_STREAM%"
@@ -88,7 +95,8 @@ for %%d in (%CONFIG_MUSIC%) do (
     rem mklink "%%d\%SD%\pip.lua" "%MPV_DL%\mpv-pip\pip.lua"
     rem mklink "%%d\%SD%\pip_example.conf" "%MPV_DL%\mpv-pip\pip.conf"
     rem mklink "%%d\%SOD%\pip.conf" "%SSOD%\pip.conf"
-    mklink "%%d\%SD%\pip.lua" "%SSD%\pip.lua
+    mklink "%%d\%SD%\pip.lua" "%SSD%\pip.lua"
+    mklink "%%d\%SD%\remember_audio_geometry.lua" "%MPV_SRC%\remember_audio_geometry\remember_audio_geometry.lua"
     rem mklink "%%d\%SD%\navigator.lua" "%MPV_SRC%\mpv-filenavigator\navigator.lua"
     rem mklink "%%d\%SD%\navigator_example.conf" "%MPV_SRC%\mpv-filenavigator\navigator.conf"
     rem mklink "%%d\%SOD%\navigator.conf" "%SSOD%\navigator.conf"

@@ -46,6 +46,7 @@ cd "%HOME%/Source/mpv"
 ```
 
 ```sh
+git clone --depth=1 https://gist.github.com/blackarcher21/162dc1bef708e90082c6c4f9500c1997 remember-volume.lua
 git clone --depth=1 https://github.com/po5/evafast
 git clone --depth=1 https://github.com/natural-harmonia-gropius/hdr-toys
 git clone --depth=1 https://github.com/natural-harmonia-gropius/input-event
@@ -53,13 +54,16 @@ git clone --depth=1 https://github.com/po5/memo
 git clone --depth=1 https://github.com/mpv-player/mpv
 git clone --depth=1 https://github.com/zxhzxhz/mpv-chapters
 git clone --depth=1 https://github.com/ento/mpv-cheatsheet
+git clone --depth=1 https://github.com/magnum357i/mpv-dualsubtitles
 git clone --depth=1 https://github.com/jonniek/mpv-filenavigator
 git clone --depth=1 https://github.com/occivink/mpv-gallery-view
 git clone --depth=1 https://github.com/occivink/mpv-image-viewer
 git clone --depth=1 https://github.com/thinkmcflythink/mpv-loudnorm
 git clone --depth=1 https://github.com/dudemanguy/mpv-manga-reader
 git clone --depth=1 https://github.com/jonniek/mpv-nextfile
+git clone --depth=1 https://github.com/verygoodlee/mpv-pip
 git clone --depth=1 https://github.com/jonniek/mpv-playlistmanager
+git clone --depth=1 https://github.com/torque/mpv-progressbar
 git clone --depth=1 https://github.com/christoph-heinrich/mpv-quality-menu
 git clone --depth=1 https://github.com/cogentredtester/mpv-scripts mpv-scripts@cogentredtester
 git clone --depth=1 https://github.com/jonniek/mpv-scripts mpv-scripts@jonniek
@@ -67,11 +71,17 @@ git clone --depth=1 https://github.com/stax76/mpv-scripts mpv-scripts@stax76
 git clone --depth=1 https://github.com/zenyd/mpv-scripts mpv-scripts@zenyd
 git clone --depth=1 https://github.com/ben-kerman/mpv-sub-scripts
 git clone --depth=1 https://github.com/christoph-heinrich/mpv-subtitle-lines
+git clone --depth=1 https://github.com/po5/remember_audio_geometry
 git clone --depth=1 https://github.com/naiveinvestigator/save-playlist
 git clone --depth=1 https://github.com/po5/thumbfast
 git clone --depth=1 https://github.com/jonniek/unseen-playlistmaker
-git clone --depth=1 https://github.com/mrxdst/webtorrent-mpv-hook
-git clone --depth=1 https://github.com/torque/mpv-progressbar
+git clone --depth=1 https://github.com/directorscut82/find_subtitles
+```
+
+Test:
+
+```sh
+
 ```
 
 ## Test

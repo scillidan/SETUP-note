@@ -1,6 +1,6 @@
-export ROOT=/cygdrive/c/cygwin64
-export HOME=/cygdrive/c/cygwin64/home/User
-export WHOME=/cygdrive/c/Users/User
+export ROOT=/c/msys64
+export HOME=/c/msys64/home/User
+export WHOME=/c/Users/User
 
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
@@ -45,3 +45,4 @@ bindkey '^ ' expand-or-complete-prefix
 bindkey '^r' _atuin_search_widget
 
 eval "$(atuin init zsh --disable-up-arrow)"
+

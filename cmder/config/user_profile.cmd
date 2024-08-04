@@ -1,7 +1,8 @@
 :: set "PATH=;%PATH%"
 :: %ccall% "/customOption" "command/program"
 
-call "%HOME%\Bin\RefrEnv\refrenv.bat"
+set "HOME=C:\Users\User"
+call "%HOME%\Github\SETUP-note\cmder\config\refrenv_silence.bat"
 call "%CMDER_ROOT%\vendor\setpath.bat"
 call "%CMDER_ROOT%\bin\fnm_init.cmd"
 set "LC_ALL=en_US.utf8%LC_ALL%"
@@ -22,7 +23,7 @@ set "PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python%PROTOCOL_BUFFERS_PYTHON_IMPLE
 :: set "RUST_BACKTRACE=full%RUST_BACKTRACE%"
 :: set "RUSTFLAGS=--cfg tracing_unstable%RUSTFLAGS%"
 set "CARGO_HTTP_CHECK_REVOKE=false%CARGO_HTTP_CHECK_REVOKE%"
-set "CARGO_TARGET_DIR=%HOME%\.local\share\cargo%CARGO_TARGET_DIR%"
+set "CARGO_TARGET_DIR=%HOME%\.cargo\tmp%CARGO_TARGET_DIR%"
 set "GO111MODULE=on%GO111MODULE%"
 :: set "GOPROXY='https://goproxy.cn,direct'%GOPROXY%"
 :: set "GOROOT=%GOROOT%"

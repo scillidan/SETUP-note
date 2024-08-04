@@ -3,7 +3,7 @@
       "creator" : "Keypirinha v2.26 (e037f62)",
       "creator_url" : "http://keypirinha.com/",
       "format" : 102,
-      "modified" : "2024-08-03T17:50:54+0000",
+      "modified" : "2024-08-04T09:32:43+0000",
       "type" : "history"
    },
    "history" : [
@@ -1194,6 +1194,246 @@
          "item" : 6437383497087328849,
          "label" : "Cmder",
          "time" : "2024-08-03T17:50:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9555149574150043856,
+         "label" : "Obsidian",
+         "time" : "2024-08-03T17:53:11+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15384543166997680460,
+         "label" : "alacritty_cmder",
+         "time" : "2024-08-03T18:01:38+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15384543166997680460,
+         "label" : "alacritty_cmder",
+         "time" : "2024-08-03T18:26:52+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-08-03T18:27:01+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-08-03T18:29:00+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2509440346538637672,
+         "label" : "alacritty_cygwin64",
+         "time" : "2024-08-03T18:30:26+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-08-03T18:33:29+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2509440346538637672,
+         "label" : "alacritty_cygwin64",
+         "time" : "2024-08-03T18:34:46+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7368932023125412882,
+         "label" : "rapidee",
+         "time" : "2024-08-03T18:38:27+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7368932023125412882,
+         "label" : "rapidee",
+         "time" : "2024-08-03T18:45:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2509440346538637672,
+         "label" : "alacritty_cygwin64",
+         "time" : "2024-08-03T19:04:05+0000"
+      },
+      {
+         "action" : null,
+         "item" : 17080347163708515527,
+         "label" : "Thunderbird",
+         "time" : "2024-08-04T04:52:10+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5138225867592801626,
+         "label" : "Sublime Text",
+         "time" : "2024-08-04T04:56:21+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7368932023125412882,
+         "label" : "rapidee",
+         "time" : "2024-08-04T04:59:27+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7368932023125412882,
+         "label" : "rapidee",
+         "time" : "2024-08-04T05:11:58+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11126185364963544061,
+         "label" : "http://kisssub.org",
+         "time" : "2024-08-04T05:26:29+0000"
+      },
+      {
+         "action" : null,
+         "item" : 496685123341756346,
+         "label" : "mpv",
+         "time" : "2024-08-04T05:26:58+0000"
+      },
+      {
+         "action" : null,
+         "item" : 496685123341756346,
+         "label" : "mpv",
+         "time" : "2024-08-04T05:28:18+0000"
+      },
+      {
+         "action" : null,
+         "item" : 496685123341756346,
+         "label" : "mpv",
+         "time" : "2024-08-04T05:30:11+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-08-04T05:32:07+0000"
+      },
+      {
+         "action" : null,
+         "item" : 18116127969574596728,
+         "label" : "qBittorrent",
+         "time" : "2024-08-04T05:32:30+0000"
+      },
+      {
+         "action" : null,
+         "item" : 496685123341756346,
+         "label" : "mpv",
+         "time" : "2024-08-04T05:32:57+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-08-04T05:40:18+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14967444363880340544,
+         "label" : "HostsFileEditor.exe",
+         "time" : "2024-08-04T05:40:34+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15654639094933373082,
+         "label" : "alacritty_msys2",
+         "time" : "2024-08-04T05:53:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15654639094933373082,
+         "label" : "alacritty_msys2",
+         "time" : "2024-08-04T06:11:29+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2912397380834358263,
+         "label" : "dnGREP",
+         "time" : "2024-08-04T06:23:10+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-08-04T06:32:09+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-08-04T07:14:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-08-04T07:25:36+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7368932023125412882,
+         "label" : "rapidee",
+         "time" : "2024-08-04T07:39:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7368932023125412882,
+         "label" : "rapidee",
+         "time" : "2024-08-04T07:40:18+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6437383497087328849,
+         "label" : "Cmder",
+         "time" : "2024-08-04T08:02:44+0000"
+      },
+      {
+         "action" : null,
+         "item" : 17865331009635860473,
+         "label" : "Recycle Bin",
+         "time" : "2024-08-04T08:20:43+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2509440346538637672,
+         "label" : "alacritty_cygwin64",
+         "time" : "2024-08-04T08:26:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15654639094933373082,
+         "label" : "alacritty_msys2",
+         "time" : "2024-08-04T08:51:00+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15654639094933373082,
+         "label" : "alacritty_msys2",
+         "time" : "2024-08-04T08:52:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15654639094933373082,
+         "label" : "alacritty_msys2",
+         "time" : "2024-08-04T08:59:26+0000"
+      },
+      {
+         "action" : null,
+         "item" : 17080347163708515527,
+         "label" : "Thunderbird",
+         "time" : "2024-08-04T09:28:22+0000"
+      },
+      {
+         "action" : null,
+         "item" : 262490813395881641,
+         "label" : "GitHub Desktop",
+         "time" : "2024-08-04T09:32:43+0000"
       }
    ],
    "sets" : {
@@ -1295,7 +1535,7 @@
             "label" : "ConEmu: {Bash::Msys2-64}",
             "loop_on_suggest" : false,
             "plugin" : "ConEmu.ConEmu",
-            "short_desc" : "set CHERE_INVOKING=1 & set \"PATH=C:\\msys64\\usr\\bin;%PATH%\" & %ConEmuBaseDirShort%\\conemu-msys2-64.exe -new_console:p C:\\msys64\\usr\\bin\\bash.exe --login -i -new_console:C:\"C:\\msys64\\msys2.ico\"",
+            "short_desc" : "set CHERE_INVOKING=1 & set \"PATH=C:\\msys64\\usr\\bin;%PATH%\" & %ConEmuBaseDirShort%\\conemu-msys2-64.exe -new_console:p C:\\msys64\\usr\\bin\\bash.exe --login -i -new_console:C:\"C:\\Users\\User\\Github\\ASSET-demo\\low-line\\ico\\darkTheme_msys2.ico\"",
             "target" : "C:\\Users\\User\\Opt\\cmder_mini\\vendor\\conemu-maximus5\\ConEmu.exe -run \"{Bash::Msys2-64}\""
          },
          {
@@ -1418,6 +1658,17 @@
             "plugin" : "Apps.Desktop",
             "short_desc" : "Desktop: Desktop",
             "target" : "C:\\Users\\User\\Desktop\\HostsFileEditor.exe.lnk"
+         },
+         {
+            "args_hint" : "forbidden",
+            "category" : "url",
+            "hit_hint" : "noargs",
+            "id" : 11126185364963544061,
+            "label" : "http://kisssub.org",
+            "loop_on_suggest" : false,
+            "plugin" : "URL.URL",
+            "short_desc" : "Launch URL: http://kisssub.org",
+            "target" : "http://kisssub.org"
          },
          {
             "args_hint" : "accepted",
@@ -1775,6 +2026,10 @@
          {
             "items" : [ 3812361562387200703 ],
             "search" : "kill"
+         },
+         {
+            "items" : [ 11126185364963544061 ],
+            "search" : "kisssub.org"
          },
          {
             "items" : [ 15684529855309864928 ],

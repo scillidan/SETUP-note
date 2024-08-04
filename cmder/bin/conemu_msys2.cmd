@@ -1,0 +1,1 @@
+C:\\Users\\User\\Opt\\cmder_mini\\vendor\\conemu-maximus5\\ConEmu64.exe -run {Bash::Msys2-64}
