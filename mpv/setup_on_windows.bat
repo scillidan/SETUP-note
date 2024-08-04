@@ -18,11 +18,11 @@ type "%INCLD%\_osd.conf" "%INCLOD%\uosc.conf" "%INCLD%\_hdr.conf" "%INCLD%\music
 type "%INCLD%\_osd.conf" "%INCLD%\_hdr.conf" "%INCLD%\manga.conf" "%INCLD%\_watch-later.conf" "%INCLOD%\inputevent.conf" > "%CONFIG_DIR_MANGA%\mpv.conf"
 type "%INCLD%\_osd.conf" "%INCLOD%\uosc.conf" "%INCLD%\_hdr.conf" "%INCLD%\video.conf" "%INCLD%\_watch-later.conf" "%INCLD%\_subtitle.conf" "%INCLD%\_screenshot.conf" "%INCLOD%\inputevent.conf" > "%CONFIG_DIR_EDIT%\mpv.conf"
 
-type "%IND%\_global.conf" "%IND%\_test.conf" "%IND%\video.conf" > "%CONFIG_DIR_VIDEO%\input.conf"
-type "%IND%\_global.conf" "%IND%\_test.conf" "%IND%\stream.conf" > "%CONFIG_DIR_STREAM%\input.conf"
-type "%IND%\_global.conf" "%IND%\_test.conf" "%IND%\music.conf" > "%CONFIG_DIR_MUSIC%\input.conf"
-type "%IND%\_global.conf" "%IND%\_test.conf" "%IND%\manga.conf" > "%CONFIG_DIR_MANGA%\input.conf"
-type "%IND%\_global.conf" "%IND%\_test.conf" "%IND%\edit.conf" > "%CONFIG_DIR_EDIT%\input.conf"
+type "%IND%\_global.conf" "%IND%\video.conf" > "%CONFIG_DIR_VIDEO%\input.conf"
+type "%IND%\_global.conf" "%IND%\stream.conf" > "%CONFIG_DIR_STREAM%\input.conf"
+type "%IND%\_global.conf" "%IND%\music.conf" > "%CONFIG_DIR_MUSIC%\input.conf"
+type "%IND%\_global.conf" "%IND%\_metadata.conf" "%IND%\manga.conf" > "%CONFIG_DIR_MANGA%\input.conf"
+type "%IND%\_global.conf" "%IND%\edit.conf" > "%CONFIG_DIR_EDIT%\input.conf"
 
 rmdir /S /Q "%MPV_CONFIG%\real_loudnorm"
 
@@ -40,6 +40,14 @@ for %%d in (%CONFIG_SHADER%) do (
     type "%MPV_SRC%\hdr-toys\hdr-toys.conf" >> "%%d\mpv.conf"
     mklink /J "%%d\shaders" "%MPV_SRC%\hdr-toys\shaders"
 )
+
+rem set "CONFIG_TEST="
+
+rem for %%d in (%CONFIG_TEST%) do (
+rem     mklink "%%d\%SD%\progressbar.lua" "%MPV_DL%\progressbar-2024.06.19.0.lua"
+rem     rem mklink "%%d\%SOD%\torque-progressbar.conf" "%MPV_SRC%\torque-progressbar.conf"
+rem     mklink "%%d\%SOD%\torque-progressbar.conf" "%SSOD%\torque-progressbar.conf"
+rem )
 
 set "CONFIG_VIDEO=%CONFIG_DIR_VIDEO% %CONFIG_DIR_EDIT%"
 
@@ -75,14 +83,13 @@ set "CONFIG_STREAM=%CONFIG_DIR_STREAM%"
 
 for %%d in (%CONFIG_STREAM%) do (
     type "%SSD%\mpv-cheatsheet_01.js" "%SSD%\mpv-cheatsheet_02.js" "%SSD%\mpv-cheatsheet_03_stream.js" "%SSD%\mpv-cheatsheet_04.js" > "%%d\%SD%\mpv-cheatsheet.js"
-    mklink "%%d\%SD%\progressbar.lua" "%MPV_DL%\progressbar-2024.06.19.0.lua"
-    rem mklink "%%d\%SOD%\torque-progressbar.conf" "%MPV_SRC%\torque-progressbar.conf"
-    mklink "%%d\%SOD%\torque-progressbar.conf" "%SSOD%\torque-progressbar.conf"
+    mklink "%%d\%SD%\mpv-Change-OSD-Media-Title.lua" "%MPV_SRC%\mpv-Change-OSD-Media-Title\mpv-Change-OSD-Media-Title.lua"
     mklink "%%d\%SD%\quality-menu-osc.lua" "%MPV_SRC%\mpv-quality-menu\quality-menu-osc.lua"
     mklink "%%d\%SOD%\quality-menu.conf" "%MPV_SRC%\mpv-quality-menu\quality-menu.conf"
     mklink "%%d\%SD%\appendURL.lua" "%MPV_SRC%\mpv-scripts@jonniek\appendURL.lua"
+    mklink "%%d\%SD%\mpv-acestream.lua" "%MPV_SRC%\mpv-acestream\scripts\mpv-acestream.lua"
     mklink "%%d\%SD%\reload.lua" "%MPV_SRC%\mpv-scripts@sibwaf\reload.lua"
-    mklink "%%d\%SD%\webtorrent.js" "%HOME\.local\share\pnpm\webtorrent-mpv-hook\build\webtorrent.js"
+    mklink "%%d\%SD%\webtorrent.js" "%MPV_SRC%\webtorrent-mpv-hook\build\webtorrent.js"
     mklink "%%d\%SOD%\webtorrent.conf" "%SSOD%\webtorrent.conf"
     mklink "%%d\%SD%\navigator.lua" "%SSD%\navigator.lua"
 )
@@ -112,12 +119,18 @@ for %%d in (%CONFIG_MUSIC%) do (
     mklink "%%d\%SD%\average_volume.lua" "%MPV_SRC%\mpv-scripts_stax76\average_volume.lua"
     mklink "%%d\%SD%\dualsubtitles.lua" "%MPV_SRC%\mpv-dualsubtitles\dualsubtitles.lua"
     mklink "%%d\%SOD%\dualsubtitles.conf" "%SSOD%\dualsubtitles.conf"
+    mklink "%%d\%SD%\metadata_osd.lua" "%MPV_SRC%\metadata-osd\scripts\metadata_osd.lua"
+    rem mklink "%%d\%SOD%\metadata_osd.conf" "%MPV_SRC%\metadata-osd\script-opts\metadata_osd.conf"
+    mklink "%%d\%SOD%metadata_osd.conf" "%SSOD%\metadata_osd.conf"
 )
 
 set "CONFIG_MANGA=%CONFIG_DIR_MANGA%"
 
 for %%d in (%CONFIG_MANGA%) do (
     type "%SSD%\mpv-cheatsheet_01.js" "%SSD%\mpv-cheatsheet_02.js" "%SSD%\mpv-cheatsheet_03_manga.js" "%SSD%\mpv-cheatsheet_04.js" > "%%d\%SD%\mpv-cheatsheet.js"
+    mklink /J "%%d\%SD%\file-browser" "%MPV_SRC%\mpv-file-browser"
+    rem mklink "%%d\%SOD%\file-browser.conf" "%MPV_SRC%\mpv-file-browser\docs\file_brower.conf"
+    mklink "%%d\%SOD%\file-browser.conf" "%SSOD%\file_brower.conf"
     mklink "%%d\%SD%\gallery-thumbgen.lua" "%MPV_SRC%\mpv-gallery-view\scripts\gallery-thumbgen.lua"
     mklink "%%d\%SMD%\gallery.lua" "%MPV_SRC%\mpv-gallery-view\script-modules\gallery.lua"
     mklink "%%d\%SD%\playlist-view.lua" "%SSD%\playlist-view.lua"
@@ -138,6 +151,7 @@ set "CONFIG_EDIT=%CONFIG_DIR_EDIT%"
 
 for %%d in (%CONFIG_EDIT%) do (
     type "%SSD%\mpv-cheatsheet_01.js" "%SSD%\mpv-cheatsheet_02.js" "%SSD%\mpv-cheatsheet_03_edit.js" "%SSD%\mpv-cheatsheet_04.js" > "%%d\%SD%\mpv-cheatsheet.js"
+    mklink "%%d\%SD%\mpv_chapters.js" "%MPV_SRC%\mpv-chapters\mpv_chapters.js"
     mklink "%%d\%SD%\chapters.lua" "%MPV_SRC%\chapters_for_mpv\chapters.lua"
     mklink "%%d\%SD%\subtitle-lines.lua" "%MPV_SRC%\mpv-subtitle-lines\subtitle-lines.lua"
     mklink "%%d\%SD%\sub-pause.lua" "%MPV_SRC%\mpv-sub-scripts\sub-pause.lua"
@@ -146,9 +160,9 @@ for %%d in (%CONFIG_EDIT%) do (
 
 rmdir /S /Q "%HOME%\Opt\mpv_stream"
 mkdir %HOME%\Opt\mpv_stream
-mklink /H "%HOME%\Opt\mpv_stream\mpv.exe" "%MPV_OPT%\mpv.exe"
-mklink /H "%HOME%\Opt\mpv_stream\mpv.com" "%MPV_OPT%\mpv.com"
-mklink /H "%HOME%\Opt\mpv_stream\d3dcompiler_43.dll" "%MPV_OPT%\d3dcompiler_43.dll"
+copy "%MPV_OPT%\mpv.exe" "%HOME%\Opt\mpv_stream\mpv.exe"
+copy "%MPV_OPT%\mpv.com" "%HOME%\Opt\mpv_stream\mpv.com"
+copy "%MPV_OPT%\d3dcompiler_43.dll" "%HOME%\Opt\mpv_stream\d3dcompiler_43.dll"
 mklink /J "%HOME%\Opt\mpv_stream\portable_config" "%MPV_SETUP_NOTE%\_config_dir_stream"
 
 pause

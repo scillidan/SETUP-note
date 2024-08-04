@@ -52,7 +52,6 @@ git clone --depth=1 https://github.com/natural-harmonia-gropius/hdr-toys
 git clone --depth=1 https://github.com/natural-harmonia-gropius/input-event
 git clone --depth=1 https://github.com/po5/memo
 git clone --depth=1 https://github.com/mpv-player/mpv
-git clone --depth=1 https://github.com/zxhzxhz/mpv-chapters
 git clone --depth=1 https://github.com/ento/mpv-cheatsheet
 git clone --depth=1 https://github.com/magnum357i/mpv-dualsubtitles
 git clone --depth=1 https://github.com/jonniek/mpv-filenavigator
@@ -77,6 +76,17 @@ git clone --depth=1 https://github.com/po5/thumbfast
 git clone --depth=1 https://github.com/jonniek/unseen-playlistmaker
 git clone --depth=1 https://github.com/directorscut82/find_subtitles
 ```
+
+Need test or use:
+
+```sh
+git clone --depth=1 https://github.com/zxhzxhz/mpv-chapters
+git clone --depth=1 https://github.com/vc-01/metadata-osd
+git clone --depth=1 https://github.com/Digitalone1/mpv-acestream
+git clone --depth=1 https://github.com/nmoorthy524/mpv-Change-OSD-Media-Title
+git clone --depth=1 https://github.com/CogentRedTester/mpv-file-browser
+```
+
 
 Test:
 

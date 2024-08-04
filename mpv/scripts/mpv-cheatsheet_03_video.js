@@ -6,6 +6,7 @@
       {keys: 'Right @release', effect: 'evafast - slowdown'},
       {keys: 'p',              effect: 'pip/toggle'},
       {keys: 'H',              effect: 'memo-history'},
+      {keys: 'a',              effect: 'find_subtitles'},
       {keys: 'C-Del',          effect: 'delete_file.lua'},
       // {keys: 'Tab', effect: '@mpv-chapters'},
     ]

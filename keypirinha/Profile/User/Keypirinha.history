@@ -3,7 +3,7 @@
       "creator" : "Keypirinha v2.26 (e037f62)",
       "creator_url" : "http://keypirinha.com/",
       "format" : 102,
-      "modified" : "2024-08-04T09:32:43+0000",
+      "modified" : "2024-08-04T12:18:39+0000",
       "type" : "history"
    },
    "history" : [
@@ -1434,6 +1434,60 @@
          "item" : 262490813395881641,
          "label" : "GitHub Desktop",
          "time" : "2024-08-04T09:32:43+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2441091720965652288,
+         "label" : "WinMerge",
+         "time" : "2024-08-04T09:38:22+0000"
+      },
+      {
+         "action" : null,
+         "item" : 345642597631117130,
+         "label" : "MTG Arena",
+         "time" : "2024-08-04T10:48:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15654639094933373082,
+         "label" : "alacritty_msys2",
+         "time" : "2024-08-04T10:59:29+0000"
+      },
+      {
+         "action" : null,
+         "item" : 345642597631117130,
+         "label" : "MTG Arena",
+         "time" : "2024-08-04T11:11:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 17964616082456939227,
+         "label" : "Empty Recycle Bin",
+         "time" : "2024-08-04T11:31:00+0000"
+      },
+      {
+         "action" : null,
+         "item" : 345642597631117130,
+         "label" : "MTG Arena",
+         "time" : "2024-08-04T11:31:33+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6919389390567151296,
+         "label" : "微信",
+         "time" : "2024-08-04T12:01:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16689485404022444142,
+         "label" : "JackettTray",
+         "time" : "2024-08-04T12:15:32+0000"
+      },
+      {
+         "action" : null,
+         "item" : 17080347163708515527,
+         "label" : "Thunderbird",
+         "time" : "2024-08-04T12:18:39+0000"
       }
    ],
    "sets" : {
@@ -1603,6 +1657,17 @@
             "plugin" : "Apps.Desktop",
             "short_desc" : "Desktop: Desktop",
             "target" : "C:\\Users\\User\\Desktop\\dnGREP.lnk"
+         },
+         {
+            "args_hint" : "forbidden",
+            "category" : "keyword",
+            "hit_hint" : "noargs",
+            "id" : 17964616082456939227,
+            "label" : "Empty Recycle Bin",
+            "loop_on_suggest" : false,
+            "plugin" : "WinSys.WinSys",
+            "short_desc" : "Empty the Recycle Bin",
+            "target" : "Empty Recycle Bin"
          },
          {
             "args_hint" : "accepted",
@@ -1883,6 +1948,17 @@
             "args_hint" : "accepted",
             "category" : "file",
             "hit_hint" : "keepall",
+            "id" : 2441091720965652288,
+            "label" : "WinMerge",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.StartMenu",
+            "short_desc" : "Start Menu: Programs\\WinMerge",
+            "target" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\WinMerge\\WinMerge.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
             "id" : 15637902816651030429,
             "label" : "WinSSHTerm",
             "loop_on_suggest" : false,
@@ -1916,7 +1992,7 @@
             "search" : "aspell"
          },
          {
-            "items" : [ 17865331009635860473 ],
+            "items" : [ 17964616082456939227, 17865331009635860473 ],
             "search" : "bin"
          },
          {
@@ -2114,6 +2190,10 @@
          {
             "items" : [ 13386213223189745850 ],
             "search" : "vsi"
+         },
+         {
+            "items" : [ 2441091720965652288 ],
+            "search" : "win"
          },
          {
             "items" : [ 6919389390567151296 ],
