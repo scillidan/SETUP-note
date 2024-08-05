@@ -1,6 +1,10 @@
 [Ditto]
 DBPath3=C:\Users\User\Opt\Ditto\Ditto.db
+<<<<<<< Updated upstream
 MainhWnd=66484
+=======
+MainhWnd=262240
+>>>>>>> Stashed changes
 (2560x1440)_QuickPasteCX=267
 (2560x1440)_QuickPasteCY=722
 (2560x1440)_QuickPasteX=1706
@@ -15,22 +19,22 @@ LanguageFile=Chinese Simplified
 ShowQuickPastePosition=1
 Theme2=DarkerDitto
 PastSearchXml=<PastSearches />
-SendPasteOnFirstTenHotKeys=0
+SendPasteOnFirstTenHotKeys=1
 MoveClipsOnGlobal10=1
-UseUISelectedGroupForLastTenCopies=0
+UseUISelectedGroupForLastTenCopies=1
 DittoHotKey=1092
 DittoHotKey2=0
 DittoHotKey3=0
-Position1=0
-Position2=0
-Position3=0
-Position4=0
-Position5=0
-Position6=0
-Position7=0
-Position8=0
-Position9=0
-Position10=0
+Position1=561
+Position2=562
+Position3=563
+Position4=564
+Position5=565
+Position6=566
+Position7=567
+Position8=568
+Position9=569
+Position10=560
 CopyBufferCopyHotKey_0=0
 CopyBufferPasteHotKey_0=0
 CopyBufferCutHotKey_0=0
@@ -98,17 +102,25 @@ ListToPutOnClipboard=
 NetworkExtraPassword=
 RequestFilesUsingIP=0
 TripDate=1702493595
-TripCopies=54245
+<<<<<<< Updated upstream
+TripCopies=54424
 TotalDate=1702493595
-TotalCopies=54245
-TripPastes=1737
-TotalPastes=1737
+TotalCopies=54424
+TripPastes=1744
+TotalPastes=1744
+=======
+TripCopies=54076
+TotalDate=1702493595
+TotalCopies=54076
+TripPastes=1707
+TotalPastes=1707
+>>>>>>> Stashed changes
 ShowStartupMessage=0
 LinesPerRow=1
 (3840x1083)_QuickPasteCX=300
 (3840x1083)_QuickPasteCY=300
-(3840x1083)_QuickPasteX=882
-(3840x1083)_QuickPasteY=437
+(3840x1083)_QuickPasteX=841
+(3840x1083)_QuickPasteY=390
 [DisplayFont6]
 Height=-13
 Width=0
