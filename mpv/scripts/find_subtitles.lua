@@ -56,4 +56,4 @@ function find_subtitles()
 end
 
 mp.add_key_binding("a", "subtitles", find_subtitles)
-mp.register_event("start-file", find_subtitles)
+-- mp.register_event("start-file", find_subtitles)
