@@ -17,4 +17,5 @@ git clone --depth=1 https://github.com/ArturTkaczuk/toggle-screen-autohotkey
 git clone --depth=1 https://github.com/RichKMLS/ShortScript
 git clone --depth=1 https://github.com/VimWei/GoldenDictOCR
 git clone --depth=1 https://github.com/Tran1595/autohokey-copypaste-for-data-entry
+git clone --depth=1 https://github.com/fenchai23/QuickSwitch
 ```
