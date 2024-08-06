@@ -21,9 +21,11 @@ SET PATH=^
 %    =%%HOME%\Bin\xsv;^
 %    =%%HOME%\Bin\alass;^
 %    =%%HOME%\Bin\sub-batch;^
+%    =%%HOME%\Bin\sub_renamer;^
 %    =%%HOME%\Bin\postgresql\pgsql\bin;^
 %    =%%HOME%\Bin\paletter;^
 %    =%%HOME%\Bin\pastel;^
+%    =%%HOME%\Bin\PowerSession;^
 %    =%%HOME%\Lib\lua53\bin;^
 %    =%%HOME%\Lib\lua53\lib;^
 %    =%%HOME%\Lib\make-bin\bin;^
@@ -51,7 +53,7 @@ rem %    =%CUDNN\v8.6.0\bin;^
 rem %    =%MiKTeX\miktex\bin\x64;^
 
 rem Windows User variables
-rem C:\Users\User\.local\bin;C:\Users\User\Bin\Git\cmd;C:\Users\User\Bin\curl\bin;C:\Users\User\Bin\yt-dlp;C:\Users\User\Lib\ffmpeg\bin;C:\Users\User\Lib\ImageMagick;C:\Users\User\Opt\mpv;C:\Users\User\AppData\Roaming\pnpm\nodejs\20.9.0C:\Users\User\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\User\AppData\Local\Programs\Python\Python39;C:\Users\User\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\User\AppData\Local\Programs\Python\Python310
+rem C:\Users\User\Bin\PowerShell;C:\Users\User\.local\bin;C:\Users\User\Bin\Git\cmd;C:\Users\User\Bin\curl\bin;C:\Users\User\Bin\yt-dlp;C:\Users\User\Lib\ffmpeg\bin;C:\Users\User\Lib\ImageMagick;C:\Users\User\Opt\mpv;C:\Users\User\AppData\Roaming\pnpm\nodejs\20.9.0C:\Users\User\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\User\AppData\Local\Programs\Python\Python39;C:\Users\User\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\User\AppData\Local\Programs\Python\Python310
 rem rem C:\Program Files (x86)\ZeroTier\One;C:\Program Files\Sublime Text\;C:\Program Files\WinMerge;C:\Program Files\darktable\bin;C:\Program Files (x86)\Aspell-0.60\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin
 
 rem Windows System variables
