@@ -26,6 +26,7 @@ SET PATH=^
 %    =%%HOME%\Bin\paletter;^
 %    =%%HOME%\Bin\pastel;^
 %    =%%HOME%\Bin\PowerSession;^
+%    =%%HOME%\Bin\silicon;^
 %    =%%HOME%\Lib\lua53\bin;^
 %    =%%HOME%\Lib\lua53\lib;^
 %    =%%HOME%\Lib\make-bin\bin;^
