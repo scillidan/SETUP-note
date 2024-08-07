@@ -45,6 +45,10 @@ ImageMagick
 
 	``magick mogrify -format png $1``
 
+.. option:: to pdf
+
+	``magick convert "*.{png,jpeg}" -quality 100 _.pdf``
+
 .. option:: annotate
 
 	::
